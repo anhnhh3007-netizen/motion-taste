@@ -1,0 +1,832 @@
+{
+  "round": 1,
+  "date": "2026-11-20",
+  "focus": "khám phá",
+  "hard_rules": [
+    "Không làm video trừu tượng tối: nền gần như đen, hình mờ trôi chậm, chữ rất nhỏ, gần như không có nội dung để đọc (r1s2, chọn Không bao giờ)",
+    "Không làm UI/app promo kiểu điện thoại 3D xoay trên nền gradient xanh lạnh, đi lần lượt từng màn hình rồi kết bằng nút store (r1s4, chọn Không bao giờ)"
+  ],
+  "samples": [
+    {
+      "id": "r1s1",
+      "title": "Adobe: Creativity Explained — Type",
+      "url": "https://vimeo.com/639547980",
+      "source": "Vimeo",
+      "creator": "Ben Hill × Oddfellows",
+      "duration_s": 135,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "kinetic_type",
+            "flat_vector"
+          ],
+          "note": "chữ là chủ thể, biến hình qua nhiều font; đồ vật vector phẳng hỗ trợ"
+        },
+        "khong_khi": {
+          "tags": [
+            "vui_tuoi",
+            "sach_gon"
+          ],
+          "note": "tươi, rõ ràng, có tính giải thích"
+        },
+        "hook": {
+          "tags": [
+            "chu_to",
+            "chuyen_dong_manh"
+          ],
+          "note": "0 s: một chữ A serif đen to giữa thẻ nền xanh; 2 s chữ biến hình liên tục qua nhiều font (A serif → A slab đậm), đếm số ở góc"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đổi cảnh ~3 s một lần (đo 20-32 s: cắt ở 20,4 / 23,3 / 26,7 / 29,5 s), giữa các cảnh vật thể vẫn chuyển động liên tục (đổi cảnh >2 s nhưng chuyển động liên tục trong cảnh)"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph",
+            "push"
+          ],
+          "note": "chữ biến hình sang chữ khác; vật thể trượt vào đẩy cảnh cũ ra"
+        },
+        "chu": {
+          "tags": [
+            "serif",
+            "sans_grotesk",
+            "chu_to_full"
+          ],
+          "note": "nhiều họ font cạnh nhau (serif, slab, grotesk, neon script) vì chủ đề là typography; chữ to chiếm khung"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot",
+            "lo_xo_nay"
+          ],
+          "note": "vật thể bật vào gọn, có chút nảy; dropdown, toolbar UI trượt mượt"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "tuong_phan_cao"
+          ],
+          "note": "nền kem #F7F0E3 / xám nhạt; nhấn cam #F26B4F, xanh #2D6CDF, vàng #F5C342, xanh lá; chữ đen đặc"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "nhieu_lop",
+            "luoi_swiss"
+          ],
+          "note": "nhiều vật thể xếp lớp nhưng căn theo lưới; cảnh cuối là bảng collage nhiều ô font"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "texture_hat",
+            "collage"
+          ],
+          "note": "vector phẳng + hạt giấy/halftone nhẹ + ảnh cắt dán (giày, hộp sữa, báo)"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "tren_60s",
+            "ke_chuyen"
+          ],
+          "note": "phim giải thích 2 phút 15, kể theo chương"
+        }
+      },
+      "rating": {
+        "overall": 5,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null,
+      "family": "Kinetic type · explainer",
+      "summary": "Phim giải thích về chữ: một chữ cái biến hình liên tục qua nhiều font, vật thể vector phẳng có hạt giấy bật vào theo nhịp, màu nhấn cam, xanh, vàng trên nền kem."
+    },
+    {
+      "id": "r1s2",
+      "title": "Bouriana - Act Like There's Nobody There When Someone's There",
+      "url": "https://vimeo.com/769825403",
+      "source": "Vimeo",
+      "creator": "Steffen Knøsgaard",
+      "duration_s": 52,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "abstract"
+          ],
+          "note": "hình mờ, ánh sáng trôi, không kể chuyện cụ thể"
+        },
+        "khong_khi": {
+          "tags": [
+            "toi_bi_an",
+            "tram_lang"
+          ],
+          "note": "tối, lặng, hơi bí ẩn"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "mở bằng màn gần như đen, ánh sáng mờ trôi vào, tên ban nhạc chữ rất nhỏ ở giữa ở 2,5 s"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "15 s đầu chỉ 1 cú cắt (7,9 s); 82% khung gần như đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "hoa_tan"
+          ],
+          "note": "chuyển bằng ánh sáng và mờ dần, không cắt cứng"
+        },
+        "chu": {
+          "tags": [
+            "condensed",
+            "chu_nho_tinh"
+          ],
+          "note": "condensed chữ hoa, rất nhỏ (~2% chiều cao khung), đặt lệch phải, xuất hiện theo lời bài hát"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "cham_chill",
+            "motion_blur"
+          ],
+          "note": "hình khối mờ, nhoè chuyển động chậm"
+        },
+        "mau": {
+          "tags": [
+            "nen_toi",
+            "lanh",
+            "don_sac"
+          ],
+          "note": "đen #050708 chủ đạo, teal #0E5A66 / cyan #19C2D6, chút hồng da"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "nhieu_khoang_trong",
+            "bat_doi_xung"
+          ],
+          "note": "phần lớn khung tối, chủ thể lệch một bên"
+        },
+        "hinh": {
+          "tags": [
+            "footage_that",
+            "texture_hat"
+          ],
+          "note": "cận cảnh mờ, ánh sáng loé, scanline mảnh; trừu tượng hơn là kể chuyện"
+        },
+        "phu_de": {
+          "tags": [
+            "gian_don"
+          ],
+          "note": "lời bài hát hiện thành một dòng nhỏ"
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s"
+          ],
+          "note": "lyric video ngắn 52 s, một không khí xuyên suốt"
+        }
+      },
+      "rating": {
+        "overall": 1,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null,
+      "family": "Lyric video · trừu tượng tối",
+      "summary": "Hình mờ và ánh sáng teal trôi chậm trên nền gần như đen; chữ condensed rất nhỏ đặt lệch, gần như không cắt cảnh."
+    },
+    {
+      "id": "r1s3",
+      "title": "Mamos Beer - Collage Animation Campaign",
+      "url": "https://vimeo.com/341318697",
+      "source": "Vimeo",
+      "creator": "Tigrelab Studio (Carlos Arandia)",
+      "duration_s": 97,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "collage"
+          ],
+          "note": "ảnh cổ cắt dán, cử động kiểu rối giấy, nhiều lớp"
+        },
+        "khong_khi": {
+          "tags": [
+            "hoai_co",
+            "vui_tuoi"
+          ],
+          "note": "vintage, dí dỏm"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "mở bằng nền bảng đen phấn, logo studio nhỏ, ~10 s mới vào câu chuyện"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 10-25 s: 3 cú cắt, ~3-4 s/cảnh; luôn có chuyển động nhẹ (không khung nào đứng yên) (đổi cảnh >2 s nhưng chuyển động liên tục trong cảnh)"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "push",
+            "mask_reveal"
+          ],
+          "note": "lớp giấy cắt trượt vào/ra; lộ cảnh qua mép giấy"
+        },
+        "chu": {
+          "tags": [
+            "condensed"
+          ],
+          "note": "chữ ít, chỉ tên địa danh kiểu bảng hiệu (\"PATRAI\") trong khung tròn"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "parallax",
+            "ease_muot",
+            "camera_dong"
+          ],
+          "note": "các lớp ảnh cắt chạy khác tốc độ, nhân vật cử động khớp kiểu rối giấy"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "trung_tinh",
+            "film_grade"
+          ],
+          "note": "giấy cũ be #E9DCC0, đỏ đô #7A1E1E, xanh cổ vịt #1E4A5A; ảnh đen trắng phối màu nhạt"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua",
+            "nhieu_lop"
+          ],
+          "note": "nhân vật vintage đặt giữa, mây/biển/thuyền xếp lớp quanh"
+        },
+        "hinh": {
+          "tags": [
+            "collage",
+            "texture_hat"
+          ],
+          "note": "ảnh cổ cắt dán (người đàn ông thế kỷ 19, hải đăng, tàu) + giấy cũ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "tren_60s",
+            "ke_chuyen"
+          ],
+          "note": "quảng cáo kể chuyện 1 phút 37 về hành trình nhân vật"
+        }
+      },
+      "rating": {
+        "overall": 5,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null,
+      "family": "Collage · quảng cáo kể chuyện",
+      "summary": "Ảnh cổ cắt dán cử động kiểu rối giấy, nhiều lớp chạy parallax trên nền giấy cũ màu be và đỏ đô."
+    },
+    {
+      "id": "r1s4",
+      "title": "App Promo 3D UI",
+      "url": "https://vimeo.com/897897817",
+      "source": "Vimeo",
+      "creator": "Alexander Skalyha",
+      "duration_s": 37,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "ui_promo",
+            "product_3d"
+          ],
+          "note": "mockup điện thoại 3D, UI app chuyển động"
+        },
+        "khong_khi": {
+          "tags": [
+            "sach_gon",
+            "cong_nghe"
+          ],
+          "note": "gọn, thương mại, công nghệ"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0,5 s: dòng \"Online Bike\" sans hình học xám, gạch ngang trên đầu, nền gradient xanh"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "20 s đầu không có cú cắt nào: một cú máy liên tục quanh điện thoại"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "zoom_xuyen",
+            "push"
+          ],
+          "note": "camera bay vào màn hình rồi lùi ra để đổi màn app"
+        },
+        "chu": {
+          "tags": [
+            "sans_hinh_hoc"
+          ],
+          "note": "Poppins-like; CTA cuối \"Download now\" đậm đen, \"Mobile APP\" mảnh"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "ease_muot"
+          ],
+          "note": "điện thoại 3D xoay nghiêng, camera trôi mượt, ease chậm"
+        },
+        "mau": {
+          "tags": [
+            "lanh",
+            "nen_sang"
+          ],
+          "note": "nền gradient #6FA9C2 → trắng; UI app nền navy #1E2533, nhấn xanh #2F80ED"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua"
+          ],
+          "note": "điện thoại luôn ở giữa; cảnh cuối chia đôi: máy trái, chữ + nút store phải"
+        },
+        "hinh": {
+          "tags": [
+            "3d_render",
+            "ui_san_pham"
+          ],
+          "note": "mockup iPhone 3D, UI app bán xe đạp, bóng mềm"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "liet_ke",
+            "cta_ro"
+          ],
+          "note": "đi lần lượt các màn: chọn xe → danh mục → giỏ hàng → kết bằng nút App Store / Google Play"
+        }
+      },
+      "rating": {
+        "overall": 1,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null,
+      "family": "UI / app promo 3D",
+      "summary": "Một cú máy liền quanh điện thoại 3D, bay vào từng màn hình app rồi kết bằng nút tải trên store; tông xanh lạnh, chữ sans hình học."
+    },
+    {
+      "id": "r1s5",
+      "title": "Balconada",
+      "url": "https://vimeo.com/1179947837",
+      "source": "Vimeo",
+      "creator": "Compote Collective (Iva Tokmakchieva)",
+      "duration_s": 491,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "hand_drawn",
+            "character_2d"
+          ],
+          "note": "nét bút chì vẽ tay, nhân vật 2D, ít khung"
+        },
+        "khong_khi": {
+          "tags": [
+            "tram_lang",
+            "nghe_thuat"
+          ],
+          "note": "trầm, chiêm nghệm, nghệ thuật"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "mở bằng màn đen, logo studio vẽ tay; ~25 s mới vào cận mặt nhân vật"
+        },
+        "nhip": {
+          "tags": [
+            "cham",
+            "co_khoang_lang"
+          ],
+          "note": "đo 30-50 s: 2 cú cắt / 20 s; 86% khung gần như đứng yên, nhân vật chuyển động ít, giữ hình lâu"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "morph"
+          ],
+          "note": "cắt cứng giữa các cảnh ban công; đoạn mơ chuyển màu cả khung (xanh → hồng)"
+        },
+        "chu": {
+          "tags": [
+            "viet_tay"
+          ],
+          "note": "chữ credit vẽ tay, chữ hoa xếp dọc"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "cham_chill",
+            "tinh"
+          ],
+          "note": "chuyển động tiết chế, ít khung hình, kiểu animation 2D tay"
+        },
+        "mau": {
+          "tags": [
+            "don_sac",
+            "lanh",
+            "pastel"
+          ],
+          "note": "mỗi cảnh một màu chủ đạo: xanh lam xám #8FA8D6, trắng lạnh; cảnh mơ hồng #F06BA8, đêm tím than + chấm hồng"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "bat_doi_xung",
+            "nhieu_khoang_trong"
+          ],
+          "note": "nhân vật đặt lệch, cận mặt cắt khung, nhiều mảng phẳng"
+        },
+        "hinh": {
+          "tags": [
+            "minh_hoa",
+            "2d_phang",
+            "texture_hat"
+          ],
+          "note": "nét bút chì đen, tô phẳng có vân bút chì/giấy"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "tren_60s",
+            "ke_chuyen"
+          ],
+          "note": "phim ngắn 8 phút về áp lực trong mùa nóng"
+        }
+      },
+      "rating": {
+        "overall": 5,
+        "categories": {
+          "hinh": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null,
+      "family": "2D vẽ tay · phim ngắn",
+      "summary": "Nét bút chì đen trên mảng màu phẳng, mỗi cảnh một tông màu; nhân vật ít cử động, giữ hình lâu, nhịp rất chậm."
+    },
+    {
+      "id": "r1s6",
+      "title": "Reflection - 3D animated short film",
+      "url": "https://vimeo.com/686758601",
+      "source": "Vimeo",
+      "creator": "Regina Roll",
+      "duration_s": 261,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "cg_realistic"
+          ],
+          "note": "render Blender hướng hiện thực, ánh sáng điện ảnh"
+        },
+        "khong_khi": {
+          "tags": [
+            "dien_anh",
+            "ky_ao"
+          ],
+          "note": "điện ảnh, kỳ ảo"
+        },
+        "hook": {
+          "tags": [
+            "hinh_gay_soc"
+          ],
+          "note": "mở bằng toàn cảnh núi rừng 3D, tiêu đề serif nghiêng ở giữa"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 40-60 s: 2 cú cắt / 20 s; camera trôi liên tục trong mỗi shot"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "hoa_tan"
+          ],
+          "note": "cắt thẳng kiểu phim, hoà tan ở mở/kết"
+        },
+        "chu": {
+          "tags": [
+            "serif"
+          ],
+          "note": "tiêu đề serif nghiêng xám có gạch dưới"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "ease_muot",
+            "cham_chill"
+          ],
+          "note": "camera dolly chậm, nhân vật cây di chuyển chậm và nặng"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "film_grade"
+          ],
+          "note": "rừng xanh rêu, nâu gỗ, nắng vàng; cảnh tối xám lạnh; điểm hoa hồng"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua"
+          ],
+          "note": "nhân vật ở giữa hoặc 1/3, chiều sâu trường ảnh nông"
+        },
+        "hinh": {
+          "tags": [
+            "3d_render"
+          ],
+          "note": "Blender, hướng hiện thực, ánh sáng xuyên lá, nhân vật người-cây"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "tren_60s",
+            "ke_chuyen"
+          ],
+          "note": "phim tốt nghiệp 4 phút 21, có tiêu đề mở đầu"
+        }
+      },
+      "rating": {
+        "overall": 3,
+        "categories": {},
+        "note": "Tôi chưa có nhu cầu 3d"
+      },
+      "repeat_of": null,
+      "family": "3D CG · phim ngắn",
+      "summary": "Phim 3D làm bằng Blender theo hướng hiện thực: rừng nắng xuyên lá, nhân vật người-cây, camera trôi chậm, cắt thưa kiểu điện ảnh."
+    },
+    {
+      "id": "r1s7",
+      "title": "Health",
+      "url": "https://vimeo.com/17644530",
+      "source": "Vimeo",
+      "creator": "Hayley Morris (Shape & Shadow)",
+      "duration_s": 57,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "stop_motion",
+            "collage"
+          ],
+          "note": "đất sét + giấy cắt chụp từng khung"
+        },
+        "khong_khi": {
+          "tags": [
+            "thu_cong",
+            "nghe_thuat"
+          ],
+          "note": "thủ công, ấm, thể nghiệm"
+        },
+        "hook": {
+          "tags": [
+            "hinh_gay_soc"
+          ],
+          "note": "0-5 s: texture tế bào xanh lam rung rinh full khung trước khi lộ nhân vật"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 5-25 s: không có cú cắt; cảnh biến đổi ngay trong khung"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph",
+            "mask_reveal"
+          ],
+          "note": "nền giấy cắt thay lớp quanh hai đầu người; cảnh chuyển bằng thay vật trong khung"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "giat_nhanh",
+            "tinh"
+          ],
+          "note": "stop-motion ~12 hình/giây, rung nhẹ tự nhiên của đất sét"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "pastel",
+            "trung_tinh"
+          ],
+          "note": "da đất sét be #E8D3B0, hồng má #F0A3A3, nền giấy xanh mint, hồng đào, vàng mù tạt"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "bat_doi_xung"
+          ],
+          "note": "hai đầu người đối diện hai bên khung, khoảng giữa là cảnh thay đổi"
+        },
+        "hinh": {
+          "tags": [
+            "collage",
+            "texture_hat"
+          ],
+          "note": "đất sét + giấy cắt + vật thật trên kính, thấy rõ vân tay, vân giấy"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s"
+          ],
+          "note": "intro 57 s cho lễ trao giải, kết màn tối"
+        }
+      },
+      "rating": {
+        "overall": 2,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null,
+      "family": "Stop-motion · đất sét và giấy",
+      "summary": "Hai đầu người bằng đất sét đối diện nhau, nền giấy cắt thay đổi ngay trong khung; rung tự nhiên của stop-motion, màu pastel ấm."
+    },
+    {
+      "id": "r1s8",
+      "title": "Isometric coffee production (animated infographic)",
+      "url": "https://vimeo.com/471686451",
+      "source": "Vimeo",
+      "creator": "Ali Cetin",
+      "duration_s": 30,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "isometric",
+            "infographic"
+          ],
+          "note": "bản đồ isometric giải thích quy trình"
+        },
+        "khong_khi": {
+          "tags": [
+            "sach_gon"
+          ],
+          "note": "gọn, thông tin"
+        },
+        "hook": {
+          "tags": [
+            "ket_qua_truoc"
+          ],
+          "note": "0 s: cả bản đồ isometric hiện sẵn, các khu được làm sáng lần lượt"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "không có cú cắt: một khung cố định 30 s, vòng lặp"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph"
+          ],
+          "note": "không chuyển cảnh; từng khu đổi trạng thái (cây lớn, hạt chín, xe tải chạy vào)"
+        },
+        "chu": {
+          "tags": [
+            "condensed",
+            "chu_nho_tinh"
+          ],
+          "note": "nhãn chữ hoa nhỏ chạy chéo theo trục isometric; nhãn đang nói tới đậm lên, nhãn khác mờ"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot",
+            "tinh"
+          ],
+          "note": "chuyển động nhỏ, cục bộ; khung đứng yên"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "trung_tinh"
+          ],
+          "note": "nền xanh xám nhạt #DDE3D6, ô cỏ #C8D5A0, nước xanh #2F7FD0, nhấn teal"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "luoi_swiss",
+            "nhieu_lop"
+          ],
+          "note": "lưới isometric chéo, đọc từ trên trái xuống dưới phải"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa"
+          ],
+          "note": "isometric vẽ Photoshop/Flash, bóng mềm"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "15_30s",
+            "liet_ke",
+            "loop"
+          ],
+          "note": "đi qua từng công đoạn sản xuất cà phê, lặp lại"
+        }
+      },
+      "rating": {
+        "overall": 2,
+        "categories": {
+          "chu": 1,
+          "chuyen_canh": 1,
+          "nhip": 1,
+          "style": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null,
+      "family": "Isometric · infographic loop",
+      "summary": "Bản đồ isometric đứng yên, từng khu sáng lên và đổi trạng thái theo công đoạn; nhãn chữ nhỏ chạy chéo, vòng lặp 30 giây."
+    }
+  ]
+}

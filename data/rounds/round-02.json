@@ -1,0 +1,852 @@
+{
+  "round": 2,
+  "date": "2026-11-20",
+  "focus": "thu hẹp · chỉ 2D, ≤ 90 s",
+  "hard_rules": [
+    "Không làm explainer chỉ có chữ kiểu slide: câu sans căn giữa trên nền trắng, chen ảnh stock, gần như không chuyển động (r2s1, chọn Không bao giờ)"
+  ],
+  "samples": [
+    {
+      "id": "r2s1",
+      "title": "Content Works - Explainer - Kinetic Typography",
+      "url": "https://vimeo.com/766578848",
+      "source": "Vimeo",
+      "creator": "Puto Studio",
+      "duration_s": 78,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Swiss tối giản · kinetic type explainer",
+      "summary": "Chữ sans đậm căn giữa trên nền trắng, từng câu ngắn hiện ra như slide; một từ khoá được khoanh đỏ, xen vài ảnh full khung có chữ to.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "swiss_minimal",
+            "kinetic_type"
+          ],
+          "note": "chữ là nội dung chính, nền trắng, một màu nhấn xanh/đỏ"
+        },
+        "khong_khi": {
+          "tags": [
+            "sach_gon"
+          ],
+          "note": "gọn, doanh nghiệp, rõ ý"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0-2 s: logo hiện dần trên nền xám nhạt, câu 'Activate your brand' mờ"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 16-31 s: 1 cú cắt, 75% khung gần như đứng yên; mỗi câu giữ 5-8 s"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "hoa_tan"
+          ],
+          "note": "câu mới thay câu cũ tại chỗ, thỉnh thoảng cắt sang ảnh full khung"
+        },
+        "chu": {
+          "tags": [
+            "sans_grotesk"
+          ],
+          "note": "grotesk đậm, chữ thường, căn giữa, cỡ ~8% chiều cao; từ khoá 'powerful' khoanh viền đỏ; 'AGRICULTURE' chữ hoa to trên ảnh"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot",
+            "tinh"
+          ],
+          "note": "chữ vào nhẹ, gần như không có chuyển động phụ"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "trung_tinh"
+          ],
+          "note": "trắng/xám nhạt, chữ xám đậm, nhấn xanh #3B6FD8 và đỏ #E8424B; một cảnh nền xanh đậm #2D5AA8"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua",
+            "nhieu_khoang_trong"
+          ],
+          "note": "mọi câu căn giữa, rất nhiều khoảng trắng"
+        },
+        "hinh": {
+          "tags": [
+            "typography_only"
+          ],
+          "note": "chủ yếu chữ; vài ảnh stock full khung"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "liet_ke",
+            "cta_ro"
+          ],
+          "note": "chuỗi câu khẳng định → lời khen khách hàng → logo + website"
+        }
+      },
+      "rating": {
+        "overall": 1,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r2s2",
+      "title": "Sitenna - Isometric Explainer Video",
+      "url": "https://vimeo.com/934696276",
+      "source": "Vimeo",
+      "creator": "Kasra Design",
+      "duration_s": 58,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Isometric · explainer công nghệ",
+      "summary": "Thành phố isometric trắng trên nền navy, camera trượt chậm qua từng khu, các điểm đỏ sáng lên để chỉ dữ liệu; kết bằng logo trên nền trắng.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "isometric"
+          ],
+          "note": "thành phố thu nhỏ góc 30°, khối trắng"
+        },
+        "khong_khi": {
+          "tags": [
+            "cong_nghe",
+            "sach_gon"
+          ],
+          "note": "công nghệ, gọn, hơi lạnh"
+        },
+        "hook": {
+          "tags": [
+            "hinh_gay_soc"
+          ],
+          "note": "0 s: cả cụm toà nhà isometric và drone đã có sẵn, chưa có chữ"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 12-27 s: 1 cú cắt; camera trượt liên tục, 41% khung gần như đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "push",
+            "zoom_xuyen"
+          ],
+          "note": "camera trượt/zoom sang khu khác; cắt sang logo trên nền trắng"
+        },
+        "chu": {
+          "tags": [
+            "sans_hinh_hoc",
+            "chu_nho_tinh"
+          ],
+          "note": "nhãn chữ nhỏ dọc đường line đỏ; logo SITENNA sans hình học"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "ease_muot"
+          ],
+          "note": "camera trôi mượt, toà nhà mọc lên, drone bay"
+        },
+        "mau": {
+          "tags": [
+            "nen_toi",
+            "lanh",
+            "don_sac"
+          ],
+          "note": "nền navy #23243A, khối trắng/xám, nhấn đỏ san hô #E8475A"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "luoi_swiss",
+            "nhieu_lop"
+          ],
+          "note": "lưới isometric, cụm nhà ở giữa, đường line đỏ nối các khu"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa"
+          ],
+          "note": "isometric vector bóng mềm"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen",
+            "cta_ro"
+          ],
+          "note": "vấn đề → nền tảng hoạt động thế nào → logo + slogan"
+        }
+      },
+      "rating": {
+        "overall": 4,
+        "categories": {
+          "chuyen_dong": 5,
+          "khong_khi": 5,
+          "nhip": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r2s3",
+      "title": "Starbucks - Faux Paper Cut Out Animation",
+      "url": "https://vimeo.com/31278912",
+      "source": "Vimeo",
+      "creator": "Reza Rasoli · Three Legged Legs",
+      "duration_s": 30,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "Collage giấy cắt · quảng cáo nhân vật",
+      "summary": "Thế giới làm bằng giấy cắt kỹ thuật số: thuyền buồm, thành phố tím, mặt trời đỏ, nhân vật 2D vui nhộn; kết bằng ly cà phê và giá tiền to.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "collage",
+            "character_2d"
+          ],
+          "note": "giấy cắt giả bằng 2D, có vân giấy, nhân vật cartoon"
+        },
+        "khong_khi": {
+          "tags": [
+            "vui_tuoi",
+            "hoai_co"
+          ],
+          "note": "vui, ấm, hơi cổ tích"
+        },
+        "hook": {
+          "tags": [
+            "hinh_gay_soc"
+          ],
+          "note": "0 s: biển giấy xanh có thuyền buồm và đảo, mây giấy"
+        },
+        "nhip": {
+          "tags": [
+            "vua"
+          ],
+          "note": "đo 6-18 s: 5 cú cắt, ~2,4 s/cảnh; 30% khung gần đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "push"
+          ],
+          "note": "cắt thẳng giữa các thế giới; vật thể trượt vào khung"
+        },
+        "chu": {
+          "tags": [
+            "viet_tay",
+            "chu_to_full"
+          ],
+          "note": "chữ vẽ tay đậm kiểu cắt giấy 'GRANDE ICED COFFEE $1.95' chiếm nửa khung"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "lo_xo_nay",
+            "parallax"
+          ],
+          "note": "nhân vật nhún nhảy, lớp giấy chạy parallax"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "pastel",
+            "film_grade"
+          ],
+          "note": "xanh ngọc #6FC3B2, tím #6B3F78, đỏ cam #E2552C, vàng kem; grade giấy cũ"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "nhieu_lop",
+            "chinh_giua"
+          ],
+          "note": "nhiều lớp giấy chồng tạo chiều sâu"
+        },
+        "hinh": {
+          "tags": [
+            "collage",
+            "texture_hat",
+            "minh_hoa"
+          ],
+          "note": "vân giấy rõ, viền cắt, bóng đổ mềm giữa các lớp"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "15_30s",
+            "ke_chuyen",
+            "cta_ro"
+          ],
+          "note": "hành trình qua nhiều thế giới → quán Starbucks → ly cà phê + giá"
+        }
+      },
+      "rating": {
+        "overall": 5,
+        "categories": {
+          "bo_cuc": 5,
+          "chuyen_canh": 5,
+          "chuyen_dong": 5,
+          "hinh": 5,
+          "khong_khi": 5,
+          "nhip": 5,
+          "style": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r2s4",
+      "title": "Dancing on Osees",
+      "url": "https://vimeo.com/1236237071",
+      "source": "Vimeo",
+      "creator": "Catherine Lepage",
+      "duration_s": 90,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D vẽ tay · trên giấy kẻ",
+      "summary": "Nhân vật vẽ bằng bút sáp đỏ, xanh trên giấy kẻ ô và giấy màu, nhảy múa liên tục theo nhạc; nền giấy thay đổi, nét vẽ rung kiểu frame-by-frame.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "hand_drawn",
+            "character_2d"
+          ],
+          "note": "vẽ tay từng khung trên giấy thật"
+        },
+        "khong_khi": {
+          "tags": [
+            "vui_tuoi",
+            "nghe_thuat",
+            "thu_cong"
+          ],
+          "note": "vui, nghịch, thủ công"
+        },
+        "hook": {
+          "tags": [
+            "chuyen_dong_manh"
+          ],
+          "note": "0 s: nhân vật đỏ đã nhảy, nền giấy đổi liên tục"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 18-33 s: chỉ 2 cú cắt nhưng chuyển động rất dày (độ thay đổi khung 24, 2% đứng yên); nhân vật biến hình liên tục"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph"
+          ],
+          "note": "nhân vật biến hình sang nhân vật khác, nền giấy thay theo"
+        },
+        "chu": {
+          "tags": [
+            "viet_tay"
+          ],
+          "note": "chữ viết tay nhỏ ở cuối"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "giat_nhanh",
+            "lo_xo_nay"
+          ],
+          "note": "frame-by-frame 12 hình/giây, nét sôi, chuyển động nhún theo nhịp"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "am",
+            "tuong_phan_cao"
+          ],
+          "note": "giấy kem/kẻ ô, bút đỏ #E8402A, hồng #F25C9B, xanh #2E6FD0, vàng chanh"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua",
+            "nhieu_khoang_trong"
+          ],
+          "note": "một nhân vật giữa khung, nền giấy phẳng"
+        },
+        "hinh": {
+          "tags": [
+            "minh_hoa",
+            "texture_hat",
+            "collage"
+          ],
+          "note": "bút sáp, màu nước, giấy kẻ, giấy màu cắt dán"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "loop"
+          ],
+          "note": "90 s nhảy theo một bài nhạc, không kể chuyện"
+        }
+      },
+      "rating": {
+        "overall": 3,
+        "categories": {
+          "mau": 5,
+          "nhip": 5,
+          "style": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r2s5",
+      "title": "The Flat: 2D Animated Short",
+      "url": "https://vimeo.com/486794504",
+      "source": "Vimeo",
+      "creator": "Simpals",
+      "duration_s": 84,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D nhân vật · phim ngắn thông điệp",
+      "summary": "Phim 2D về rác thải: xe rác đi từ thành phố qua băng tuyết tới núi rác, kết bằng Trái Đất phẳng trên lưng voi; màu dịu, đổ bóng mềm.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d",
+            "flat_vector"
+          ],
+          "note": "2D vector có shading mềm, nhân vật đơn giản"
+        },
+        "khong_khi": {
+          "tags": [
+            "tram_lang",
+            "dien_anh"
+          ],
+          "note": "trầm, có tính thông điệp"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "0-2 s: màn đen, tiêu đề 'THE FLAT' nhỏ trên nền sao"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "mỗi cảnh ~9 s, camera theo xe rác"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang"
+          ],
+          "note": "cắt thẳng giữa các bối cảnh"
+        },
+        "chu": {
+          "tags": [
+            "chu_nho_tinh",
+            "sans_grotesk"
+          ],
+          "note": "tiêu đề mảnh nhỏ, credit cuối"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot",
+            "camera_dong"
+          ],
+          "note": "xe chạy, camera lia theo"
+        },
+        "mau": {
+          "tags": [
+            "trung_tinh",
+            "lanh",
+            "nen_toi"
+          ],
+          "note": "mở/kết trên nền đêm xanh đen; giữa phim màu be, xanh băng, xám rác"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "bat_doi_xung"
+          ],
+          "note": "đường chân trời thấp, vật thể lệch một bên"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa"
+          ],
+          "note": "vector shading mềm, texture nhẹ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "84 s: hành trình của rác → hậu quả → hình ảnh ẩn dụ, kết credit"
+        }
+      },
+      "rating": {
+        "overall": 4,
+        "categories": {
+          "hinh": 5,
+          "style": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r2s6",
+      "title": "A-Trak Kinetic Typography",
+      "url": "https://vimeo.com/230709180",
+      "source": "Vimeo",
+      "creator": "DIA",
+      "duration_s": 33,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Kinetic type · brutalist trắng đen",
+      "summary": "Chữ trắng trên nền đen biến dạng liên tục theo beat: kéo giãn, lặp, xoắn, vỡ thành chấm; chữ siêu to chiếm cả khung, cắt rất nhanh.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "kinetic_type",
+            "brutalist"
+          ],
+          "note": "chữ là tất cả, trắng đen, biến dạng mạnh"
+        },
+        "khong_khi": {
+          "tags": [
+            "nang_dong"
+          ],
+          "note": "mạnh, sân khấu, club"
+        },
+        "hook": {
+          "tags": [
+            "chu_to",
+            "chuyen_dong_manh"
+          ],
+          "note": "0 s: chữ A-TRAK kéo giãn thành sọc, đổi kiểu mỗi ~0,5 s"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh",
+            "khop_beat"
+          ],
+          "note": "đo 4-16 s: 8 cú cắt, ~1,5 s/cảnh; chuyển động dày (46)"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "morph"
+          ],
+          "note": "cắt cứng theo beat; chữ biến dạng thành kiểu khác"
+        },
+        "chu": {
+          "tags": [
+            "sans_grotesk",
+            "condensed",
+            "chu_to_full",
+            "kinetic_tung_tu"
+          ],
+          "note": "grotesk/condensed đậm, chữ hoa, lặp thành mảng tràn khung ('HANDS UP', 'NO REQUESTS')"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "giat_nhanh"
+          ],
+          "note": "biến dạng giật theo beat, không ease"
+        },
+        "mau": {
+          "tags": [
+            "tuong_phan_cao",
+            "nen_toi",
+            "don_sac"
+          ],
+          "note": "chỉ trắng #FFFFFF trên đen #000000"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "full_bleed",
+            "chinh_giua"
+          ],
+          "note": "chữ tràn khung hoặc lặp theo lưới"
+        },
+        "hinh": {
+          "tags": [
+            "typography_only"
+          ],
+          "note": "chỉ chữ và hình khối từ chữ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "15_30s",
+            "loop"
+          ],
+          "note": "bộ hiệu ứng chữ cho show diễn, không kể chuyện"
+        }
+      },
+      "rating": {
+        "overall": 2,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r2s7",
+      "title": "Minimal Explainer Video / Motion graphics",
+      "url": "https://vimeo.com/517871061",
+      "source": "Vimeo",
+      "creator": "Kristina (Explainers)",
+      "duration_s": 65,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Flat vector · explainer tối giản",
+      "summary": "Icon và bảng biểu nét mảnh màu xanh ngọc trên nền trắng, biến hình từ quả táo sang bảng, tem 'QA', điện thoại; rất nhiều khoảng trắng, màu nhạt.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "flat_vector",
+            "infographic"
+          ],
+          "note": "icon nét mảnh, explainer SaaS"
+        },
+        "khong_khi": {
+          "tags": [
+            "sach_gon"
+          ],
+          "note": "sạch, nhẹ, hơi nhạt"
+        },
+        "hook": {
+          "tags": [
+            "hinh_gay_soc"
+          ],
+          "note": "0 s: quả táo xanh ngọc giữa khung, đồng hồ hiện lên"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 13-28 s: không có cú cắt, 92% khung gần như đứng yên; cảnh đổi bằng biến hình"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph"
+          ],
+          "note": "icon biến hình sang icon khác tại chỗ"
+        },
+        "chu": {
+          "tags": [
+            "sans_hinh_hoc",
+            "chu_nho_tinh"
+          ],
+          "note": "chữ tròn mảnh, ít ('Risk', 'sort & filter'), logo cuối"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot"
+          ],
+          "note": "vẽ nét dần, biến hình mượt"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "pastel"
+          ],
+          "note": "trắng, xanh ngọc #34B6C6, nhấn cam #F2994A"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua",
+            "nhieu_khoang_trong"
+          ],
+          "note": "một icon giữa khung, chấm trang trí rải quanh"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang"
+          ],
+          "note": "vector nét mảnh, không texture"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "liet_ke",
+            "cta_ro"
+          ],
+          "note": "liệt kê tính năng → logo revistory"
+        }
+      },
+      "rating": {
+        "overall": 2,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r2s8",
+      "title": "Enigma - Animated Typeface",
+      "url": "https://vimeo.com/373858773",
+      "source": "Vimeo",
+      "creator": "Animography",
+      "duration_s": 44,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Pixel art · font chuyển động",
+      "summary": "Giới thiệu một font pixel: chữ trắng dạng chấm trên nền đen, hiệu ứng in/out kiểu màn hình máy tính cũ, giao diện chỉnh tham số, hành tinh và vòng xoáy chấm.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "pixel_art",
+            "kinetic_type"
+          ],
+          "note": "chữ pixel, giao diện kiểu máy tính"
+        },
+        "khong_khi": {
+          "tags": [
+            "cong_nghe",
+            "toi_bi_an"
+          ],
+          "note": "công nghệ retro, hơi lạnh"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "0-2 s: chỉ vài chấm đỏ trên lưới chấm đen, 6 s mới có chữ ENIGMA"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 9-21 s: 1 cú cắt; 60% khung gần như đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "glitch"
+          ],
+          "note": "cắt cứng, chữ hiện bằng nhiễu chấm"
+        },
+        "chu": {
+          "tags": [
+            "mono",
+            "chu_to_full"
+          ],
+          "note": "pixel/mono chữ hoa, có cảnh chữ to giữa khung ('CUSTOMIZE')"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "giat_nhanh"
+          ],
+          "note": "in/out theo bước pixel"
+        },
+        "mau": {
+          "tags": [
+            "nen_toi",
+            "tuong_phan_cao"
+          ],
+          "note": "đen, chữ trắng, nhấn cam #F2542D"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "luoi_swiss"
+          ],
+          "note": "lưới chấm, UI chỉnh tham số kiểu bảng điều khiển"
+        },
+        "hinh": {
+          "tags": [
+            "typography_only",
+            "texture_hat"
+          ],
+          "note": "chấm pixel, ảnh đen trắng chồng chữ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "liet_ke"
+          ],
+          "note": "giới thiệu font: tên → tuỳ chỉnh → bảng chữ → ví dụ dùng → logo"
+        }
+      },
+      "rating": {
+        "overall": 2,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    }
+  ]
+}
