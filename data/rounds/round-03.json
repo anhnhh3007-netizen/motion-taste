@@ -1,0 +1,798 @@
+{
+  "round": 3,
+  "date": "2026-11-21",
+  "focus": "2D nhân vật, hook, nhịp nhanh · ≤ 90 s",
+  "hard_rules": [],
+  "samples": [
+    {
+      "id": "r3s1",
+      "title": "Bittrex - Trade On",
+      "url": "https://vimeo.com/771957784",
+      "source": "Vimeo",
+      "creator": "Airplan Studio · Savants · Not To Scale",
+      "duration_s": 30,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D nhân vật · retro game đua xe",
+      "summary": "Thế giới crypto thành game đua mô tô kiểu thập niên 80: màn chọn tay đua, cận mặt nạ, xe lao qua vách đá và vụ nổ; màu hồng tím cam rực, cắt nhanh.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d",
+            "retro"
+          ],
+          "note": "2D cel shading, nhân vật tay đua, gợi game arcade 8-bit và hoạt hình 80s"
+        },
+        "khong_khi": {
+          "tags": [
+            "nang_dong",
+            "vui_tuoi"
+          ],
+          "note": "hào hứng, tốc độ, game"
+        },
+        "hook": {
+          "tags": [
+            "chu_to",
+            "chuyen_dong_manh"
+          ],
+          "note": "0 s: màn 'CHOOSE YOUR RACER!' chữ vàng to, các tay đua đổi liên tục như game"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 3-13 s: 5 cú cắt, ~2 s/cảnh; chỉ 9% khung đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "whip_pan"
+          ],
+          "note": "cắt cứng giữa góc máy, lia nhanh theo xe"
+        },
+        "chu": {
+          "tags": [
+            "chu_to_full",
+            "condensed"
+          ],
+          "note": "chữ game đậm vàng cam viền, logo BITTREX cuối"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "motion_blur",
+            "lo_xo_nay"
+          ],
+          "note": "camera bám xe, vệt tốc độ, nhân vật bật"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "tuong_phan_cao"
+          ],
+          "note": "tím than #2B1B4E, hồng #E8508A, cam #F59A3C, xanh #3C7BE8; hoàng hôn rực"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "bat_doi_xung",
+            "full_bleed"
+          ],
+          "note": "góc máy nghiêng, cận mặt nạ tràn khung"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa",
+            "texture_hat"
+          ],
+          "note": "2D cel có shading phẳng, hạt nhẹ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "15_30s",
+            "ke_chuyen",
+            "cta_ro"
+          ],
+          "note": "chọn tay đua → đua → vượt chướng ngại → về đích + logo"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    },
+    {
+      "id": "r3s2",
+      "title": "Mirinda - Orange",
+      "url": "https://vimeo.com/177214236",
+      "source": "Vimeo",
+      "creator": "Golden Wolf",
+      "duration_s": 30,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D cel · cartoon ảo giác",
+      "summary": "Lon Mirinda đi qua thế giới cartoon điên rồ: xúc tu tím, cam nổ tung, mắt và môi khổng lồ, cây cam có mặt; màu vàng cam tím chói, chữ vẽ tay ngộ nghĩnh.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d",
+            "hand_drawn"
+          ],
+          "note": "cel 2D vẽ tay, nhân vật cartoon kỳ quái"
+        },
+        "khong_khi": {
+          "tags": [
+            "vui_tuoi",
+            "nang_dong"
+          ],
+          "note": "nghịch, điên, hài"
+        },
+        "hook": {
+          "tags": [
+            "hinh_gay_soc",
+            "chuyen_dong_manh"
+          ],
+          "note": "0 s: lon Mirinda bị xúc tu tím ôm giữa nền vàng"
+        },
+        "nhip": {
+          "tags": [
+            "vua",
+            "tang_dan"
+          ],
+          "note": "đo 3-13 s: 2 cú cắt nhưng chuyển động rất dày; cảnh nối liền bằng biến hình"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph",
+            "zoom_xuyen"
+          ],
+          "note": "vật thể biến hình sang cảnh sau, zoom xuyên vào lon"
+        },
+        "chu": {
+          "tags": [
+            "viet_tay",
+            "chu_to_full"
+          ],
+          "note": "chữ vẽ tay méo mó 'Mess with your senses' to nửa khung, cam viền"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "lo_xo_nay",
+            "giat_nhanh"
+          ],
+          "note": "squash & stretch mạnh, bắn tung toé"
+        },
+        "mau": {
+          "tags": [
+            "tuong_phan_cao",
+            "am",
+            "nen_sang"
+          ],
+          "note": "vàng #FFE23A, cam #F47A1F, tím #8A4FD6, hồng #F25CA8, xanh chanh"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "nhieu_lop",
+            "full_bleed"
+          ],
+          "note": "khung dày đặc chi tiết, tràn viền"
+        },
+        "hinh": {
+          "tags": [
+            "minh_hoa",
+            "2d_phang"
+          ],
+          "note": "cel vẽ tay, nét đen dày, bóng phẳng"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "15_30s",
+            "ke_chuyen",
+            "cta_ro"
+          ],
+          "note": "hành trình cảm giác → lon + slogan"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    },
+    {
+      "id": "r3s3",
+      "title": "Sparkol Studio: 2D Animation Style",
+      "url": "https://vimeo.com/503100145",
+      "source": "Vimeo",
+      "creator": "Sparkol",
+      "duration_s": 46,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D nhân vật · minh hoạ có texture",
+      "summary": "Minh hoạ 2D có hạt và texture giấy: nhân vật cận mặt, bố cục chia ô, Trái Đất, tên lửa, bàn tay cầm điện thoại; màu tươi trên nền sáng.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d",
+            "flat_vector"
+          ],
+          "note": "nhân vật 2D đơn giản, minh hoạ phẳng có texture"
+        },
+        "khong_khi": {
+          "tags": [
+            "vui_tuoi",
+            "sach_gon"
+          ],
+          "note": "thân thiện, rõ ràng"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0-2 s: logo Sparkol Studio ráp từ mảnh trên nền trắng"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 9-19 s: 3 cú cắt, ~3,3 s/cảnh; 80% khung gần đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "push"
+          ],
+          "note": "cắt thẳng; có cảnh chia 4 ô"
+        },
+        "chu": {
+          "tags": [
+            "sans_grotesk"
+          ],
+          "note": "logo đậm, gần như không có chữ trên hình"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot"
+          ],
+          "note": "vật thể trượt, xoay nhẹ"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "am"
+          ],
+          "note": "trắng/kem, tím #7A4FD0, xanh #2F5FD8, cam #F28A2E, hồng"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua",
+            "nhieu_khoang_trong"
+          ],
+          "note": "vật thể giữa khung, nền phẳng"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "texture_hat",
+            "minh_hoa"
+          ],
+          "note": "hạt/noise rõ, viền mềm"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "liet_ke"
+          ],
+          "note": "showreel style: chuỗi cảnh minh hoạ rời nhau → logo"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    },
+    {
+      "id": "r3s4",
+      "title": "Pipedrive",
+      "url": "https://vimeo.com/314733601",
+      "source": "Vimeo",
+      "creator": "Explain Ninja",
+      "duration_s": 48,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Flat vector nhân vật · explainer SaaS",
+      "summary": "Explainer cho phần mềm bán hàng: nhân vật flat vector dáng dài, tay người cầm UI, lịch tuần với icon 3D nhỏ; nền trắng, nhấn xanh lá và vàng.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "flat_vector",
+            "character_2d",
+            "ui_promo"
+          ],
+          "note": "nhân vật flat hiện đại kèm màn hình sản phẩm"
+        },
+        "khong_khi": {
+          "tags": [
+            "sach_gon"
+          ],
+          "note": "gọn, doanh nghiệp"
+        },
+        "hook": {
+          "tags": [
+            "chu_to",
+            "tinh_roi_bung"
+          ],
+          "note": "0-2 s: logo pipedrive đứng yên rồi vỡ ra"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 10-22 s: không có cú cắt, 41% khung đứng yên; biến hình tại chỗ"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph",
+            "push"
+          ],
+          "note": "hình khối biến thành cảnh sau, UI trượt vào"
+        },
+        "chu": {
+          "tags": [
+            "sans_hinh_hoc"
+          ],
+          "note": "logo, chữ nhỏ trong UI"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot",
+            "lo_xo_nay"
+          ],
+          "note": "nhân vật đi, vật bật nhẹ"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "trung_tinh"
+          ],
+          "note": "trắng, xanh lá #1E9E4A, vàng #F7C21B, da nâu"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "nhieu_khoang_trong"
+          ],
+          "note": "nhiều khoảng trắng, nhân vật nhỏ"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "ui_san_pham"
+          ],
+          "note": "vector phẳng không texture + UI"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "liet_ke",
+            "cta_ro"
+          ],
+          "note": "vấn đề → tính năng → logo"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    },
+    {
+      "title": "The Flat: 2D Animated Short",
+      "url": "https://vimeo.com/486794504",
+      "source": "Vimeo",
+      "creator": "Simpals",
+      "duration_s": 84,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D nhân vật · phim ngắn thông điệp",
+      "summary": "Phim 2D về rác thải: xe rác đi từ thành phố qua băng tuyết tới núi rác, kết bằng Trái Đất phẳng trên lưng voi; màu dịu, đổ bóng mềm.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d",
+            "flat_vector"
+          ],
+          "note": "2D vector có shading mềm, nhân vật đơn giản"
+        },
+        "khong_khi": {
+          "tags": [
+            "tram_lang",
+            "dien_anh"
+          ],
+          "note": "trầm, có tính thông điệp"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "0-2 s: màn đen, tiêu đề 'THE FLAT' nhỏ trên nền sao"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "mỗi cảnh ~9 s, camera theo xe rác"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang"
+          ],
+          "note": "cắt thẳng giữa các bối cảnh"
+        },
+        "chu": {
+          "tags": [
+            "chu_nho_tinh",
+            "sans_grotesk"
+          ],
+          "note": "tiêu đề mảnh nhỏ, credit cuối"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot",
+            "camera_dong"
+          ],
+          "note": "xe chạy, camera lia theo"
+        },
+        "mau": {
+          "tags": [
+            "trung_tinh",
+            "lanh",
+            "nen_toi"
+          ],
+          "note": "mở/kết trên nền đêm xanh đen; giữa phim màu be, xanh băng, xám rác"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "bat_doi_xung"
+          ],
+          "note": "đường chân trời thấp, vật thể lệch một bên"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa"
+          ],
+          "note": "vector shading mềm, texture nhẹ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "84 s: hành trình của rác → hậu quả → hình ảnh ẩn dụ, kết credit"
+        }
+      },
+      "id": "r3s8",
+      "rating": null,
+      "repeat_of": "r2s5"
+    },
+    {
+      "id": "r3s5",
+      "title": "Mickey Mouse is in the Public Domain!",
+      "url": "https://vimeo.com/907529688",
+      "source": "Vimeo",
+      "creator": "Alec Longstreth",
+      "duration_s": 38,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "Rubber hose · cartoon 1928",
+      "summary": "Hoạt hình vẽ tay đen trắng kiểu 1928: Mickey và Minnie trên tàu hơi nước, cử động dẻo kiểu ống cao su; nền xám, nét mực, chữ tiêu đề vẽ tay.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d",
+            "hand_drawn",
+            "retro"
+          ],
+          "note": "rubber hose 1920s, vẽ tay từng khung"
+        },
+        "khong_khi": {
+          "tags": [
+            "hoai_co",
+            "vui_tuoi"
+          ],
+          "note": "cổ điển, vui"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0-2 s: thẻ tiêu đề chữ vẽ tay đứng yên"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 8-20 s: 1 cú cắt; nhân vật cử động liên tục"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang"
+          ],
+          "note": "cắt từ thẻ tiêu đề vào cảnh, rồi thẻ THE END"
+        },
+        "chu": {
+          "tags": [
+            "viet_tay",
+            "chu_to_full"
+          ],
+          "note": "chữ hoa vẽ tay đậm, kiểu thẻ phim câm"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "lo_xo_nay"
+          ],
+          "note": "dẻo, nhún, vòng cung kiểu rubber hose"
+        },
+        "mau": {
+          "tags": [
+            "don_sac",
+            "trung_tinh",
+            "film_grade"
+          ],
+          "note": "đen trắng xám, grade phim cũ"
+        },
+        "bo_cuc": {
+          "tags": [
+            "vuong",
+            "chinh_giua"
+          ],
+          "note": "khổ 5:4, nhân vật giữa"
+        },
+        "hinh": {
+          "tags": [
+            "minh_hoa",
+            "texture_hat"
+          ],
+          "note": "nét mực, vân giấy"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "tiêu đề → cảnh hài ngắn → THE END"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    },
+    {
+      "id": "r3s6",
+      "title": "Affinity ~ Creative Freedom",
+      "url": "https://vimeo.com/1132555160",
+      "source": "Vimeo",
+      "creator": "ManvsMachine",
+      "duration_s": 50,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Kinetic type + nét vẽ tay · hype film",
+      "summary": "Mở bằng chữ serif đen khổng lồ 'BURN', 'SUBSCRIPTION' trên nền trắng rồi chuyển sang nền đen với nét vẽ tay xanh chanh, chữ cách điệu, mô hình và giao diện phần mềm.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "kinetic_type",
+            "hand_drawn"
+          ],
+          "note": "chữ to + nét vẽ tay, xen 3D wireframe và UI"
+        },
+        "khong_khi": {
+          "tags": [
+            "nang_dong",
+            "nghe_thuat"
+          ],
+          "note": "táo bạo, sáng tạo"
+        },
+        "hook": {
+          "tags": [
+            "chu_to",
+            "chuyen_dong_manh"
+          ],
+          "note": "0-1 s: chữ serif đen 'BURN' chiếm cả khung, đổi chữ mỗi ~0,5 s"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 10-22 s: 4 cú cắt, ~3 s/cảnh nhưng chuyển động dày (21); đầu video đổi chữ rất nhanh"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "morph"
+          ],
+          "note": "cắt cứng; nét vẽ biến thành chữ"
+        },
+        "chu": {
+          "tags": [
+            "serif",
+            "chu_to_full",
+            "viet_tay"
+          ],
+          "note": "serif đậm tràn khung, chữ script cách điệu 'Change them', 'Forever'"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "giat_nhanh",
+            "camera_dong"
+          ],
+          "note": "nét vẽ tự vẽ ra, camera xoay quanh mô hình"
+        },
+        "mau": {
+          "tags": [
+            "nen_toi",
+            "tuong_phan_cao"
+          ],
+          "note": "đen #1C1A1A, trắng, xanh chanh #9BE15D"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua"
+          ],
+          "note": "chữ giữa khung, nhiều khoảng đen"
+        },
+        "hinh": {
+          "tags": [
+            "typography_only",
+            "minh_hoa"
+          ],
+          "note": "chữ + nét vẽ tay, ít hình khối"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "cta_ro"
+          ],
+          "note": "vấn đề (subscription) → tự do sáng tạo → logo + 'Free forever'"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    },
+    {
+      "id": "r3s7",
+      "title": "AGES",
+      "url": "https://vimeo.com/196729683",
+      "source": "Vimeo",
+      "creator": "Gui Esp",
+      "duration_s": 81,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Flat vector hình học · lịch sử",
+      "summary": "Khối hình học phẳng kể các thời đại: thuyền buồm trên sóng, bản đồ thế giới, đô thị nhìn từ trên, khối hồng xanh đối xứng; nhiều màu, nhịp chậm, mở bằng màn đen.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "flat_vector",
+            "abstract"
+          ],
+          "note": "hình học phẳng, không nhân vật"
+        },
+        "khong_khi": {
+          "tags": [
+            "tram_lang",
+            "nghe_thuat"
+          ],
+          "note": "chiêm nghiệm, có tính ý niệm"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "0-2 s: màn đen, một biểu tượng nhỏ hiện ra ở 2 s"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 16-28 s: 1 cú cắt, 49% khung gần đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph",
+            "cat_thang"
+          ],
+          "note": "hình khối biến đổi sang thời đại sau"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot",
+            "cham_chill"
+          ],
+          "note": "trôi chậm, xoay đều"
+        },
+        "mau": {
+          "tags": [
+            "tuong_phan_cao",
+            "lanh"
+          ],
+          "note": "mỗi cảnh một bảng màu: xanh ngọc, kem, hồng #E8326A, cyan #19C6D6, đen"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "chinh_giua",
+            "luoi_swiss"
+          ],
+          "note": "đối xứng, hình học"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang"
+          ],
+          "note": "vector phẳng, vài texture bản đồ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "chuỗi thời đại → kết màn đen"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    }
+  ]
+}
