@@ -2,7 +2,9 @@
   "round": 3,
   "date": "2026-11-21",
   "focus": "2D nhân vật, hook, nhịp nhanh · ≤ 90 s",
-  "hard_rules": [],
+  "hard_rules": [
+    "Không làm hoạt hình rubber hose đen trắng kiểu 1920s: nét mực, nền xám, nhân vật kiểu Mickey 1928 (r3s5, chọn Không bao giờ)"
+  ],
   "samples": [
     {
       "id": "r3s1",
@@ -104,7 +106,15 @@
           "note": "chọn tay đua → đua → vượt chướng ngại → về đích + logo"
         }
       },
-      "rating": null,
+      "rating": {
+        "overall": 5,
+        "categories": {
+          "chuyen_dong": 5,
+          "hinh": 5,
+          "style": 5
+        },
+        "note": ""
+      },
       "repeat_of": null
     },
     {
@@ -207,7 +217,15 @@
           "note": "hành trình cảm giác → lon + slogan"
         }
       },
-      "rating": null,
+      "rating": {
+        "overall": 4,
+        "categories": {
+          "bo_cuc": 5,
+          "chuyen_canh": 5,
+          "style": 5
+        },
+        "note": ""
+      },
       "repeat_of": null
     },
     {
@@ -305,7 +323,11 @@
           "note": "showreel style: chuỗi cảnh minh hoạ rời nhau → logo"
         }
       },
-      "rating": null,
+      "rating": {
+        "overall": 2,
+        "categories": {},
+        "note": ""
+      },
       "repeat_of": null
     },
     {
@@ -404,7 +426,16 @@
           "note": "vấn đề → tính năng → logo"
         }
       },
-      "rating": null,
+      "rating": {
+        "overall": 4,
+        "categories": {
+          "chuyen_canh": 5,
+          "chuyen_dong": 5,
+          "hinh": 1,
+          "style": 1
+        },
+        "note": ""
+      },
       "repeat_of": null
     },
     {
@@ -502,7 +533,11 @@
         }
       },
       "id": "r3s8",
-      "rating": null,
+      "rating": {
+        "overall": 3,
+        "categories": {},
+        "note": ""
+      },
       "repeat_of": "r2s5"
     },
     {
@@ -600,7 +635,11 @@
           "note": "tiêu đề → cảnh hài ngắn → THE END"
         }
       },
-      "rating": null,
+      "rating": {
+        "overall": 1,
+        "categories": {},
+        "note": ""
+      },
       "repeat_of": null
     },
     {
@@ -700,7 +739,16 @@
           "note": "vấn đề (subscription) → tự do sáng tạo → logo + 'Free forever'"
         }
       },
-      "rating": null,
+      "rating": {
+        "overall": 5,
+        "categories": {
+          "chuyen_canh": 5,
+          "chuyen_dong": 5,
+          "khong_khi": 5,
+          "style": 5
+        },
+        "note": ""
+      },
       "repeat_of": null
     },
     {
@@ -791,7 +839,11 @@
           "note": "chuỗi thời đại → kết màn đen"
         }
       },
-      "rating": null,
+      "rating": {
+        "overall": 3,
+        "categories": {},
+        "note": ""
+      },
       "repeat_of": null
     }
   ]
