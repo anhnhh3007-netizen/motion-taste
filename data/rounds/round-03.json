@@ -33,6 +33,12 @@
           ],
           "note": "hào hứng, tốc độ, game"
         },
+        "muc_dich": {
+          "tags": [
+            "quang_cao"
+          ],
+          "note": "quảng cáo sàn crypto"
+        },
         "hook": {
           "tags": [
             "chu_to",
@@ -143,6 +149,12 @@
             "nang_dong"
           ],
           "note": "nghịch, điên, hài"
+        },
+        "muc_dich": {
+          "tags": [
+            "quang_cao"
+          ],
+          "note": "quảng cáo nước ngọt"
         },
         "hook": {
           "tags": [
@@ -255,6 +267,12 @@
           ],
           "note": "thân thiện, rõ ràng"
         },
+        "muc_dich": {
+          "tags": [
+            "showreel"
+          ],
+          "note": "showreel style của studio"
+        },
         "hook": {
           "tags": [
             "chu_to"
@@ -356,6 +374,13 @@
             "sach_gon"
           ],
           "note": "gọn, doanh nghiệp"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich",
+            "gioi_thieu_san_pham"
+          ],
+          "note": "explainer sản phẩm SaaS"
         },
         "hook": {
           "tags": [
@@ -464,6 +489,12 @@
           ],
           "note": "trầm, có tính thông điệp"
         },
+        "muc_dich": {
+          "tags": [
+            "phim_ngan"
+          ],
+          "note": "phim ngắn thông điệp môi trường"
+        },
         "hook": {
           "tags": [
             "tinh_roi_bung"
@@ -568,6 +599,12 @@
           ],
           "note": "cổ điển, vui"
         },
+        "muc_dich": {
+          "tags": [
+            "phim_ngan"
+          ],
+          "note": "phim hoạt hình ngắn 1928"
+        },
         "hook": {
           "tags": [
             "chu_to"
@@ -668,6 +705,13 @@
             "nghe_thuat"
           ],
           "note": "táo bạo, sáng tạo"
+        },
+        "muc_dich": {
+          "tags": [
+            "phim_thuong_hieu",
+            "gioi_thieu_san_pham"
+          ],
+          "note": "hype film ra mắt bản miễn phí"
         },
         "hook": {
           "tags": [
@@ -777,6 +821,12 @@
             "nghe_thuat"
           ],
           "note": "chiêm nghiệm, có tính ý niệm"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich"
+          ],
+          "note": "giải thích lịch sử các thời đại"
         },
         "hook": {
           "tags": [

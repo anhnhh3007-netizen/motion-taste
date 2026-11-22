@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-22",
-  "rounds": 3,
-  "rated": 24,
+  "rounds": 4,
+  "rated": 28,
   "tags": [
     {
       "category": "style",
@@ -25,56 +25,62 @@
     {
       "category": "style",
       "tag": "hand_drawn",
-      "mean": 4.43,
-      "sd": 1.4,
-      "n": 5,
-      "explicit": 3,
+      "mean": 4.61,
+      "sd": 1.18,
+      "n": 7,
+      "explicit": 5,
       "status": "Nên",
-      "confidence": "thấp",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r1s5",
         "r2s4",
         "r3s2",
         "r3s5",
-        "r3s6"
+        "r3s6",
+        "r4s1",
+        "r4s4"
       ],
       "notes": [
         "r1s5: nét bút chì vẽ tay, nhân vật 2D, ít khung",
         "r2s4: vẽ tay từng khung trên giấy thật",
         "r3s2: cel 2D vẽ tay, nhân vật cartoon kỳ quái",
         "r3s5: rubber hose 1920s, vẽ tay từng khung",
-        "r3s6: chữ to + nét vẽ tay, xen 3D wireframe và UI"
+        "r3s6: chữ to + nét vẽ tay, xen 3D wireframe và UI",
+        "r4s1: 2D vẽ tay phẳng, hình co giãn theo nhịp",
+        "r4s4: minh hoạ phẳng có texture in lụa, hoa văn dân gian"
       ]
     },
     {
       "category": "style",
       "tag": "collage",
-      "mean": 4.18,
-      "sd": 1.34,
-      "n": 3,
-      "explicit": 1,
+      "mean": 4.44,
+      "sd": 1.17,
+      "n": 4,
+      "explicit": 2,
       "status": "Nên",
-      "confidence": "thấp",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r1s3",
         "r1s7",
-        "r2s3"
+        "r2s3",
+        "r4s4"
       ],
       "notes": [
         "r1s3: ảnh cổ cắt dán, cử động kiểu rối giấy, nhiều lớp",
         "r1s7: đất sét + giấy cắt chụp từng khung",
-        "r2s3: giấy cắt giả bằng 2D, có vân giấy, nhân vật cartoon"
+        "r2s3: giấy cắt giả bằng 2D, có vân giấy, nhân vật cartoon",
+        "r4s4: minh hoạ phẳng có texture in lụa, hoa văn dân gian"
       ]
     },
     {
       "category": "style",
       "tag": "character_2d",
-      "mean": 3.95,
-      "sd": 1.69,
-      "n": 9,
-      "explicit": 6,
+      "mean": 4.0,
+      "sd": 1.55,
+      "n": 12,
+      "explicit": 7,
       "status": "Mâu thuẫn",
       "confidence": "thấp",
       "scope": "cả hai",
@@ -87,7 +93,10 @@
         "r3s2",
         "r3s3",
         "r3s4",
-        "r3s5"
+        "r3s5",
+        "r4s1",
+        "r4s3",
+        "r4s5"
       ],
       "notes": [
         "r1s5: nét bút chì vẽ tay, nhân vật 2D, ít khung",
@@ -98,7 +107,10 @@
         "r3s2: cel 2D vẽ tay, nhân vật cartoon kỳ quái",
         "r3s3: nhân vật 2D đơn giản, minh hoạ phẳng có texture",
         "r3s4: nhân vật flat hiện đại kèm màn hình sản phẩm",
-        "r3s5: rubber hose 1920s, vẽ tay từng khung"
+        "r3s5: rubber hose 1920s, vẽ tay từng khung",
+        "r4s1: 2D vẽ tay phẳng, hình co giãn theo nhịp",
+        "r4s3: 2D anime nét mảnh, gợi game platform",
+        "r4s5: hoạt hình cổ điển 1930s, nét viền, mặt người găng tay trắng"
       ]
     },
     {
@@ -124,19 +136,23 @@
       "category": "style",
       "tag": "retro",
       "mean": 3.5,
-      "sd": 1.94,
-      "n": 2,
+      "sd": 1.5,
+      "n": 4,
       "explicit": 1,
       "status": "Mâu thuẫn",
       "confidence": "thấp",
       "scope": "animation",
       "samples": [
         "r3s1",
-        "r3s5"
+        "r3s5",
+        "r4s3",
+        "r4s5"
       ],
       "notes": [
         "r3s1: 2D cel shading, nhân vật tay đua, gợi game arcade 8-bit và hoạt hình 80s",
-        "r3s5: rubber hose 1920s, vẽ tay từng khung"
+        "r3s5: rubber hose 1920s, vẽ tay từng khung",
+        "r4s3: 2D anime nét mảnh, gợi game platform",
+        "r4s5: hoạt hình cổ điển 1930s, nét viền, mặt người găng tay trắng"
       ]
     },
     {
@@ -334,10 +350,10 @@
     {
       "category": "khong_khi",
       "tag": "nang_dong",
-      "mean": 4.14,
-      "sd": 1.19,
-      "n": 4,
-      "explicit": 1,
+      "mean": 4.32,
+      "sd": 1.02,
+      "n": 6,
+      "explicit": 2,
       "status": "Nên",
       "confidence": "vừa",
       "scope": "cả hai",
@@ -345,43 +361,47 @@
         "r2s6",
         "r3s1",
         "r3s2",
-        "r3s6"
+        "r3s6",
+        "r4s1",
+        "r4s3"
       ],
       "notes": [
         "r2s6: mạnh, sân khấu, club",
         "r3s1: hào hứng, tốc độ, game",
         "r3s2: nghịch, điên, hài",
-        "r3s6: táo bạo, sáng tạo"
+        "r3s6: táo bạo, sáng tạo",
+        "r4s1: lễ hội, nhảy múa",
+        "r4s3: phiêu lưu, hài"
       ]
     },
     {
       "category": "khong_khi",
-      "tag": "hoai_co",
-      "mean": 3.91,
-      "sd": 1.78,
+      "tag": "dien_anh",
+      "mean": 4.0,
+      "sd": 0.82,
       "n": 3,
-      "explicit": 1,
-      "status": "Mâu thuẫn",
-      "confidence": "thấp",
-      "scope": "cả hai",
+      "explicit": 0,
+      "status": "Nên",
+      "confidence": "vừa",
+      "scope": "animation",
       "samples": [
-        "r1s3",
-        "r2s3",
-        "r3s5"
+        "r1s6",
+        "r2s5",
+        "r4s4"
       ],
       "notes": [
-        "r1s3: vintage, dí dỏm",
-        "r2s3: vui, ấm, hơi cổ tích",
-        "r3s5: cổ điển, vui"
+        "r1s6: điện ảnh, kỳ ảo",
+        "r2s5: trầm, có tính thông điệp",
+        "r4s4: trang trọng, kể sử thi"
       ]
     },
     {
       "category": "khong_khi",
       "tag": "vui_tuoi",
-      "mean": 3.85,
-      "sd": 1.46,
-      "n": 8,
-      "explicit": 1,
+      "mean": 3.95,
+      "sd": 1.31,
+      "n": 11,
+      "explicit": 2,
       "status": "Đang theo dõi",
       "confidence": "thấp",
       "scope": "cả hai",
@@ -393,7 +413,10 @@
         "r3s1",
         "r3s2",
         "r3s3",
-        "r3s5"
+        "r3s5",
+        "r4s1",
+        "r4s3",
+        "r4s5"
       ],
       "notes": [
         "r1s1: tươi, rõ ràng, có tính giải thích",
@@ -403,7 +426,10 @@
         "r3s1: hào hứng, tốc độ, game",
         "r3s2: nghịch, điên, hài",
         "r3s3: thân thiện, rõ ràng",
-        "r3s5: cổ điển, vui"
+        "r3s5: cổ điển, vui",
+        "r4s1: lễ hội, nhảy múa",
+        "r4s3: phiêu lưu, hài",
+        "r4s5: Giáng sinh, hài nhẹ"
       ]
     },
     {
@@ -433,21 +459,46 @@
     },
     {
       "category": "khong_khi",
-      "tag": "dien_anh",
-      "mean": 3.5,
-      "sd": 0.5,
-      "n": 2,
-      "explicit": 0,
-      "status": "Đang theo dõi",
-      "confidence": "vừa",
-      "scope": "animation",
+      "tag": "hoai_co",
+      "mean": 3.71,
+      "sd": 1.62,
+      "n": 4,
+      "explicit": 1,
+      "status": "Mâu thuẫn",
+      "confidence": "thấp",
+      "scope": "cả hai",
       "samples": [
-        "r1s6",
-        "r2s5"
+        "r1s3",
+        "r2s3",
+        "r3s5",
+        "r4s5"
       ],
       "notes": [
-        "r1s6: điện ảnh, kỳ ảo",
-        "r2s5: trầm, có tính thông điệp"
+        "r1s3: vintage, dí dỏm",
+        "r2s3: vui, ấm, hơi cổ tích",
+        "r3s5: cổ điển, vui",
+        "r4s5: Giáng sinh, hài nhẹ"
+      ]
+    },
+    {
+      "category": "khong_khi",
+      "tag": "thu_cong",
+      "mean": 3.33,
+      "sd": 1.25,
+      "n": 3,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r1s7",
+        "r2s4",
+        "r4s4"
+      ],
+      "notes": [
+        "r1s7: thủ công, ấm, thể nghiệm",
+        "r2s4: vui, nghịch, thủ công",
+        "r4s4: trang trọng, kể sử thi"
       ]
     },
     {
@@ -544,25 +595,6 @@
     },
     {
       "category": "khong_khi",
-      "tag": "thu_cong",
-      "mean": 2.5,
-      "sd": 0.5,
-      "n": 2,
-      "explicit": 0,
-      "status": "Đang theo dõi",
-      "confidence": "vừa",
-      "scope": "animation",
-      "samples": [
-        "r1s7",
-        "r2s4"
-      ],
-      "notes": [
-        "r1s7: thủ công, ấm, thể nghiệm",
-        "r2s4: vui, nghịch, thủ công"
-      ]
-    },
-    {
-      "category": "khong_khi",
       "tag": "toi_bi_an",
       "mean": 1.5,
       "sd": 0.5,
@@ -581,12 +613,222 @@
       ]
     },
     {
-      "category": "hook",
-      "tag": "chuyen_dong_manh",
-      "mean": 4.0,
-      "sd": 1.15,
+      "category": "muc_dich",
+      "tag": "noi_dung_mxh",
+      "mean": 5.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s1"
+      ],
+      "notes": [
+        "r4s1: Google Doodle trên trang chủ"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "phim_thuong_hieu",
+      "mean": 5.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "motion",
+      "samples": [
+        "r3s6"
+      ],
+      "notes": [
+        "r3s6: hype film ra mắt bản miễn phí"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "trailer",
+      "mean": 5.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s4"
+      ],
+      "notes": [
+        "r4s4: trailer cho cuốn sách"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "quang_cao",
+      "mean": 4.33,
+      "sd": 0.75,
       "n": 6,
       "explicit": 0,
+      "status": "Nên",
+      "confidence": "cao",
+      "scope": "cả hai",
+      "samples": [
+        "r1s3",
+        "r2s3",
+        "r3s1",
+        "r3s2",
+        "r4s3",
+        "r4s5"
+      ],
+      "notes": [
+        "r1s3: quảng cáo bia kể chuyện",
+        "r2s3: quảng cáo Starbucks",
+        "r3s1: quảng cáo sàn crypto",
+        "r3s2: quảng cáo nước ngọt",
+        "r4s3: quảng cáo kênh streamer trên Twitch",
+        "r4s5: quảng cáo Giáng sinh của ví điện tử"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "phim_ngan",
+      "mean": 3.25,
+      "sd": 1.48,
+      "n": 4,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r1s5",
+        "r1s6",
+        "r2s5",
+        "r3s5"
+      ],
+      "notes": [
+        "r1s5: phim ngắn nghệ thuật",
+        "r1s6: phim ngắn tốt nghiệp",
+        "r2s5: phim ngắn thông điệp môi trường",
+        "r3s5: phim hoạt hình ngắn 1928"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "giai_thich",
+      "mean": 3.0,
+      "sd": 1.31,
+      "n": 7,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "cả hai",
+      "samples": [
+        "r1s1",
+        "r1s8",
+        "r2s1",
+        "r2s2",
+        "r2s7",
+        "r3s4",
+        "r3s7"
+      ],
+      "notes": [
+        "r1s1: phim giải thích typography của Adobe",
+        "r1s8: infographic quy trình cà phê",
+        "r2s1: explainer dịch vụ agency",
+        "r2s2: explainer nền tảng công nghệ",
+        "r2s7: explainer tính năng SaaS",
+        "r3s4: explainer sản phẩm SaaS",
+        "r3s7: giải thích lịch sử các thời đại"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "gioi_thieu_san_pham",
+      "mean": 3.0,
+      "sd": 1.58,
+      "n": 4,
+      "explicit": 0,
+      "status": "Mâu thuẫn",
+      "confidence": "thấp",
+      "scope": "motion",
+      "samples": [
+        "r1s4",
+        "r2s7",
+        "r3s4",
+        "r3s6"
+      ],
+      "notes": [
+        "r1s4: promo app bán xe đạp",
+        "r2s7: explainer tính năng SaaS",
+        "r3s4: explainer sản phẩm SaaS",
+        "r3s6: hype film ra mắt bản miễn phí"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "ident_intro",
+      "mean": 2.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r1s7"
+      ],
+      "notes": [
+        "r1s7: intro mở màn lễ trao giải"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "showreel",
+      "mean": 2.0,
+      "sd": 0.0,
+      "n": 2,
+      "explicit": 0,
+      "status": "Tránh",
+      "confidence": "vừa",
+      "scope": "cả hai",
+      "samples": [
+        "r2s8",
+        "r3s3"
+      ],
+      "notes": [
+        "r2s8: demo font chuyển động",
+        "r3s3: showreel style của studio"
+      ]
+    },
+    {
+      "category": "muc_dich",
+      "tag": "video_nhac",
+      "mean": 2.0,
+      "sd": 0.82,
+      "n": 3,
+      "explicit": 0,
+      "status": "Tránh",
+      "confidence": "vừa",
+      "scope": "cả hai",
+      "samples": [
+        "r1s2",
+        "r2s4",
+        "r2s6"
+      ],
+      "notes": [
+        "r1s2: lyric video cho bài hát",
+        "r2s4: video cho bài nhạc của Osees",
+        "r2s6: visual cho show DJ"
+      ]
+    },
+    {
+      "category": "hook",
+      "tag": "chuyen_dong_manh",
+      "mean": 4.22,
+      "sd": 1.1,
+      "n": 7,
+      "explicit": 1,
       "status": "Nên",
       "confidence": "vừa",
       "scope": "cả hai",
@@ -596,7 +838,8 @@
         "r2s6",
         "r3s1",
         "r3s2",
-        "r3s6"
+        "r3s6",
+        "r4s1"
       ],
       "notes": [
         "r1s1: 0 s: một chữ A serif đen to giữa thẻ nền xanh; 2 s chữ biến hình liên tục qua nhiều font (A serif → A slab đậm), đếm số ở góc",
@@ -604,7 +847,8 @@
         "r2s6: 0 s: chữ A-TRAK kéo giãn thành sọc, đổi kiểu mỗi ~0,5 s",
         "r3s1: 0 s: màn 'CHOOSE YOUR RACER!' chữ vàng to, các tay đua đổi liên tục như game",
         "r3s2: 0 s: lon Mirinda bị xúc tu tím ôm giữa nền vàng",
-        "r3s6: 0-1 s: chữ serif đen 'BURN' chiếm cả khung, đổi chữ mỗi ~0,5 s"
+        "r3s6: 0-1 s: chữ serif đen 'BURN' chiếm cả khung, đổi chữ mỗi ~0,5 s",
+        "r4s1: 0-2 s: các mảng màu bay vào trên nền đen, thành nhạc cụ"
       ]
     },
     {
@@ -666,9 +910,9 @@
     {
       "category": "hook",
       "tag": "chu_to",
-      "mean": 2.89,
-      "sd": 1.73,
-      "n": 9,
+      "mean": 3.17,
+      "sd": 1.62,
+      "n": 12,
       "explicit": 0,
       "status": "Mâu thuẫn",
       "confidence": "thấp",
@@ -682,7 +926,10 @@
         "r3s3",
         "r3s4",
         "r3s5",
-        "r3s6"
+        "r3s6",
+        "r4s3",
+        "r4s4",
+        "r4s5"
       ],
       "notes": [
         "r1s1: 0 s: một chữ A serif đen to giữa thẻ nền xanh; 2 s chữ biến hình liên tục qua nhiều font (A serif → A slab đậm), đếm số ở góc",
@@ -693,7 +940,10 @@
         "r3s3: 0-2 s: logo Sparkol Studio ráp từ mảnh trên nền trắng",
         "r3s4: 0-2 s: logo pipedrive đứng yên rồi vỡ ra",
         "r3s5: 0-2 s: thẻ tiêu đề chữ vẽ tay đứng yên",
-        "r3s6: 0-1 s: chữ serif đen 'BURN' chiếm cả khung, đổi chữ mỗi ~0,5 s"
+        "r3s6: 0-1 s: chữ serif đen 'BURN' chiếm cả khung, đổi chữ mỗi ~0,5 s",
+        "r4s3: 0,3 s logo Twitch trên nền tím, 1 s màn tiêu đề game",
+        "r4s4: 0-2 s: tiêu đề serif nhiều màu đứng yên trên nền giấy",
+        "r4s5: 0-8 s: thẻ tiêu đề đứng yên"
       ]
     },
     {
@@ -733,43 +983,49 @@
     {
       "category": "nhip",
       "tag": "vua",
-      "mean": 4.62,
-      "sd": 0.48,
-      "n": 2,
-      "explicit": 1,
+      "mean": 4.77,
+      "sd": 0.42,
+      "n": 3,
+      "explicit": 2,
       "status": "Nên",
       "confidence": "vừa",
       "scope": "animation",
       "samples": [
         "r2s3",
-        "r3s2"
+        "r3s2",
+        "r4s1"
       ],
       "notes": [
         "r2s3: đo 6-18 s: 5 cú cắt, ~2,4 s/cảnh; 30% khung gần đứng yên",
-        "r3s2: đo 3-13 s: 2 cú cắt nhưng chuyển động rất dày; cảnh nối liền bằng biến hình"
+        "r3s2: đo 3-13 s: 2 cú cắt nhưng chuyển động rất dày; cảnh nối liền bằng biến hình",
+        "r4s1: đo 10-25 s: 4 cú cắt, ~3,7 s/cảnh nhưng hình biến liên tục, chỉ 7% khung đứng yên"
       ]
     },
     {
       "category": "nhip",
       "tag": "nhanh",
-      "mean": 4.36,
-      "sd": 1.23,
-      "n": 4,
+      "mean": 4.4,
+      "sd": 1.07,
+      "n": 6,
       "explicit": 1,
       "status": "Nên",
-      "confidence": "thấp",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r2s4",
         "r2s6",
         "r3s1",
-        "r3s6"
+        "r3s6",
+        "r4s3",
+        "r4s4"
       ],
       "notes": [
         "r2s4: đo 18-33 s: chỉ 2 cú cắt nhưng chuyển động rất dày (độ thay đổi khung 24, 2% đứng yên); nhân vật biến hình liên tục",
         "r2s6: đo 4-16 s: 8 cú cắt, ~1,5 s/cảnh; chuyển động dày (46)",
         "r3s1: đo 3-13 s: 5 cú cắt, ~2 s/cảnh; chỉ 9% khung đứng yên",
-        "r3s6: đo 10-22 s: 4 cú cắt, ~3 s/cảnh nhưng chuyển động dày (21); đầu video đổi chữ rất nhanh"
+        "r3s6: đo 10-22 s: 4 cú cắt, ~3 s/cảnh nhưng chuyển động dày (21); đầu video đổi chữ rất nhanh",
+        "r4s3: đo 12-27 s: 9 cú cắt, ~1,7 s/cảnh; 8% khung đứng yên",
+        "r4s4: đo 18-33 s: 7 cú cắt, ~2,1 s/cảnh; 6% khung đứng yên"
       ]
     },
     {
@@ -791,10 +1047,29 @@
     },
     {
       "category": "nhip",
+      "tag": "khop_beat",
+      "mean": 3.88,
+      "sd": 1.45,
+      "n": 2,
+      "explicit": 1,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "cả hai",
+      "samples": [
+        "r2s6",
+        "r4s1"
+      ],
+      "notes": [
+        "r2s6: đo 4-16 s: 8 cú cắt, ~1,5 s/cảnh; chuyển động dày (46)",
+        "r4s1: đo 10-25 s: 4 cú cắt, ~3,7 s/cảnh nhưng hình biến liên tục, chỉ 7% khung đứng yên"
+      ]
+    },
+    {
+      "category": "nhip",
       "tag": "cham",
-      "mean": 2.78,
-      "sd": 1.59,
-      "n": 17,
+      "mean": 2.79,
+      "sd": 1.55,
+      "n": 18,
       "explicit": 2,
       "status": "Mâu thuẫn",
       "confidence": "thấp",
@@ -816,7 +1091,8 @@
         "r3s3",
         "r3s4",
         "r3s5",
-        "r3s7"
+        "r3s7",
+        "r4s5"
       ],
       "notes": [
         "r1s1: đổi cảnh ~3 s một lần (đo 20-32 s: cắt ở 20,4 / 23,3 / 26,7 / 29,5 s), giữa các cảnh vật thể vẫn chuyển động liên tục (đổi cảnh >2 s nhưng chuyển động liên tục trong cảnh)",
@@ -835,24 +1111,8 @@
         "r3s3: đo 9-19 s: 3 cú cắt, ~3,3 s/cảnh; 80% khung gần đứng yên",
         "r3s4: đo 10-22 s: không có cú cắt, 41% khung đứng yên; biến hình tại chỗ",
         "r3s5: đo 8-20 s: 1 cú cắt; nhân vật cử động liên tục",
-        "r3s7: đo 16-28 s: 1 cú cắt, 49% khung gần đứng yên"
-      ]
-    },
-    {
-      "category": "nhip",
-      "tag": "khop_beat",
-      "mean": 2.0,
-      "sd": 0.0,
-      "n": 1,
-      "explicit": 0,
-      "status": "Đang theo dõi",
-      "confidence": "thấp",
-      "scope": "motion",
-      "samples": [
-        "r2s6"
-      ],
-      "notes": [
-        "r2s6: đo 4-16 s: 8 cú cắt, ~1,5 s/cảnh; chuyển động dày (46)"
+        "r3s7: đo 16-28 s: 1 cú cắt, 49% khung gần đứng yên",
+        "r4s5: đo 12-27 s: 3 cú cắt, ~5 s/cảnh"
       ]
     },
     {
@@ -903,32 +1163,32 @@
     },
     {
       "category": "chuyen_canh",
-      "tag": "zoom_xuyen",
-      "mean": 3.64,
-      "sd": 1.67,
+      "tag": "mask_reveal",
+      "mean": 4.0,
+      "sd": 1.41,
       "n": 3,
-      "explicit": 1,
-      "status": "Mâu thuẫn",
+      "explicit": 0,
+      "status": "Nên",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
-        "r1s4",
-        "r2s2",
-        "r3s2"
+        "r1s3",
+        "r1s7",
+        "r4s4"
       ],
       "notes": [
-        "r1s4: camera bay vào màn hình rồi lùi ra để đổi màn app",
-        "r2s2: camera trượt/zoom sang khu khác; cắt sang logo trên nền trắng",
-        "r3s2: vật thể biến hình sang cảnh sau, zoom xuyên vào lon"
+        "r1s3: lớp giấy cắt trượt vào/ra; lộ cảnh qua mép giấy",
+        "r1s7: nền giấy cắt thay lớp quanh hai đầu người; cảnh chuyển bằng thay vật trong khung",
+        "r4s4: cắt theo nhạc, mảng hoa văn mở ra"
       ]
     },
     {
       "category": "chuyen_canh",
       "tag": "morph",
-      "mean": 3.56,
-      "sd": 1.56,
-      "n": 11,
-      "explicit": 4,
+      "mean": 3.72,
+      "sd": 1.54,
+      "n": 12,
+      "explicit": 5,
       "status": "Mâu thuẫn",
       "confidence": "thấp",
       "scope": "cả hai",
@@ -943,7 +1203,8 @@
         "r3s2",
         "r3s4",
         "r3s6",
-        "r3s7"
+        "r3s7",
+        "r4s1"
       ],
       "notes": [
         "r1s1: chữ biến hình sang chữ khác; vật thể trượt vào đẩy cảnh cũ ra",
@@ -956,36 +1217,41 @@
         "r3s2: vật thể biến hình sang cảnh sau, zoom xuyên vào lon",
         "r3s4: hình khối biến thành cảnh sau, UI trượt vào",
         "r3s6: cắt cứng; nét vẽ biến thành chữ",
-        "r3s7: hình khối biến đổi sang thời đại sau"
+        "r3s7: hình khối biến đổi sang thời đại sau",
+        "r4s1: hình này biến thành hình sau theo phách"
       ]
     },
     {
       "category": "chuyen_canh",
-      "tag": "mask_reveal",
-      "mean": 3.5,
-      "sd": 1.5,
-      "n": 2,
-      "explicit": 0,
-      "status": "Mâu thuẫn",
+      "tag": "zoom_xuyen",
+      "mean": 3.71,
+      "sd": 1.48,
+      "n": 4,
+      "explicit": 1,
+      "status": "Đang theo dõi",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
-        "r1s3",
-        "r1s7"
+        "r1s4",
+        "r2s2",
+        "r3s2",
+        "r4s3"
       ],
       "notes": [
-        "r1s3: lớp giấy cắt trượt vào/ra; lộ cảnh qua mép giấy",
-        "r1s7: nền giấy cắt thay lớp quanh hai đầu người; cảnh chuyển bằng thay vật trong khung"
+        "r1s4: camera bay vào màn hình rồi lùi ra để đổi màn app",
+        "r2s2: camera trượt/zoom sang khu khác; cắt sang logo trên nền trắng",
+        "r3s2: vật thể biến hình sang cảnh sau, zoom xuyên vào lon",
+        "r4s3: lao vào tia sáng, cắt theo màn chơi"
       ]
     },
     {
       "category": "chuyen_canh",
       "tag": "cat_thang",
-      "mean": 3.35,
-      "sd": 1.54,
-      "n": 12,
+      "mean": 3.47,
+      "sd": 1.46,
+      "n": 15,
       "explicit": 2,
-      "status": "Mâu thuẫn",
+      "status": "Đang theo dõi",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
@@ -1000,7 +1266,10 @@
         "r3s3",
         "r3s5",
         "r3s6",
-        "r3s7"
+        "r3s7",
+        "r4s3",
+        "r4s4",
+        "r4s5"
       ],
       "notes": [
         "r1s5: cắt cứng giữa các cảnh ban công; đoạn mơ chuyển màu cả khung (xanh → hồng)",
@@ -1014,7 +1283,10 @@
         "r3s3: cắt thẳng; có cảnh chia 4 ô",
         "r3s5: cắt từ thẻ tiêu đề vào cảnh, rồi thẻ THE END",
         "r3s6: cắt cứng; nét vẽ biến thành chữ",
-        "r3s7: hình khối biến đổi sang thời đại sau"
+        "r3s7: hình khối biến đổi sang thời đại sau",
+        "r4s3: lao vào tia sáng, cắt theo màn chơi",
+        "r4s4: cắt theo nhạc, mảng hoa văn mở ra",
+        "r4s5: cắt thường, iris tròn ở cuối"
       ]
     },
     {
@@ -1058,22 +1330,26 @@
     {
       "category": "chu",
       "tag": "serif",
-      "mean": 4.33,
-      "sd": 0.94,
-      "n": 3,
+      "mean": 4.2,
+      "sd": 0.98,
+      "n": 5,
       "explicit": 0,
       "status": "Nên",
-      "confidence": "vừa",
+      "confidence": "cao",
       "scope": "cả hai",
       "samples": [
         "r1s1",
         "r1s6",
-        "r3s6"
+        "r3s6",
+        "r4s4",
+        "r4s5"
       ],
       "notes": [
         "r1s1: nhiều họ font cạnh nhau (serif, slab, grotesk, neon script) vì chủ đề là typography; chữ to chiếm khung",
         "r1s6: tiêu đề serif nghiêng xám có gạch dưới",
-        "r3s6: serif đậm tràn khung, chữ script cách điệu 'Change them', 'Forever'"
+        "r3s6: serif đậm tràn khung, chữ script cách điệu 'Change them', 'Forever'",
+        "r4s4: serif hoa văn nhiều màu, chỉ ở đầu và cuối",
+        "r4s5: chữ hoa kiểu thẻ phim câm"
       ]
     },
     {
@@ -1106,11 +1382,11 @@
     {
       "category": "chu",
       "tag": "chu_to_full",
-      "mean": 3.62,
-      "sd": 1.58,
-      "n": 8,
+      "mean": 3.67,
+      "sd": 1.49,
+      "n": 9,
       "explicit": 0,
-      "status": "Mâu thuẫn",
+      "status": "Đang theo dõi",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
@@ -1121,7 +1397,8 @@
         "r3s1",
         "r3s2",
         "r3s5",
-        "r3s6"
+        "r3s6",
+        "r4s3"
       ],
       "notes": [
         "r1s1: nhiều họ font cạnh nhau (serif, slab, grotesk, neon script) vì chủ đề là typography; chữ to chiếm khung",
@@ -1131,7 +1408,8 @@
         "r3s1: chữ game đậm vàng cam viền, logo BITTREX cuối",
         "r3s2: chữ vẽ tay méo mó 'Mess with your senses' to nửa khung, cam viền",
         "r3s5: chữ hoa vẽ tay đậm, kiểu thẻ phim câm",
-        "r3s6: serif đậm tràn khung, chữ script cách điệu 'Change them', 'Forever'"
+        "r3s6: serif đậm tràn khung, chữ script cách điệu 'Change them', 'Forever'",
+        "r4s3: chữ POKE to xen giữa hình ở 46 s"
       ]
     },
     {
@@ -1271,29 +1549,31 @@
       "tag": "parallax",
       "mean": 5.0,
       "sd": 0.0,
-      "n": 2,
+      "n": 3,
       "explicit": 1,
       "status": "Nên",
       "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r1s3",
-        "r2s3"
+        "r2s3",
+        "r4s4"
       ],
       "notes": [
         "r1s3: các lớp ảnh cắt chạy khác tốc độ, nhân vật cử động khớp kiểu rối giấy",
-        "r2s3: nhân vật nhún nhảy, lớp giấy chạy parallax"
+        "r2s3: nhân vật nhún nhảy, lớp giấy chạy parallax",
+        "r4s4: lớp hoa văn trượt, camera đi ngang"
       ]
     },
     {
       "category": "chuyen_dong",
       "tag": "camera_dong",
-      "mean": 4.22,
-      "sd": 1.31,
-      "n": 7,
-      "explicit": 3,
+      "mean": 4.31,
+      "sd": 1.19,
+      "n": 9,
+      "explicit": 4,
       "status": "Nên",
-      "confidence": "thấp",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r1s3",
@@ -1302,7 +1582,9 @@
         "r2s2",
         "r2s5",
         "r3s1",
-        "r3s6"
+        "r3s6",
+        "r4s1",
+        "r4s3"
       ],
       "notes": [
         "r1s3: các lớp ảnh cắt chạy khác tốc độ, nhân vật cử động khớp kiểu rối giấy",
@@ -1311,18 +1593,20 @@
         "r2s2: camera trôi mượt, toà nhà mọc lên, drone bay",
         "r2s5: xe chạy, camera lia theo",
         "r3s1: camera bám xe, vệt tốc độ, nhân vật bật",
-        "r3s6: nét vẽ tự vẽ ra, camera xoay quanh mô hình"
+        "r3s6: nét vẽ tự vẽ ra, camera xoay quanh mô hình",
+        "r4s1: nhân vật xoay, vải váy văng, camera xoáy theo điệu nhảy",
+        "r4s3: nhân vật bật nhảy, tia toả"
       ]
     },
     {
       "category": "chuyen_dong",
       "tag": "lo_xo_nay",
-      "mean": 4.22,
-      "sd": 1.31,
-      "n": 7,
-      "explicit": 3,
+      "mean": 4.21,
+      "sd": 1.2,
+      "n": 10,
+      "explicit": 4,
       "status": "Nên",
-      "confidence": "thấp",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r1s1",
@@ -1331,7 +1615,10 @@
         "r3s1",
         "r3s2",
         "r3s4",
-        "r3s5"
+        "r3s5",
+        "r4s1",
+        "r4s3",
+        "r4s5"
       ],
       "notes": [
         "r1s1: vật thể bật vào gọn, có chút nảy; dropdown, toolbar UI trượt mượt",
@@ -1340,7 +1627,10 @@
         "r3s1: camera bám xe, vệt tốc độ, nhân vật bật",
         "r3s2: squash & stretch mạnh, bắn tung toé",
         "r3s4: nhân vật đi, vật bật nhẹ",
-        "r3s5: dẻo, nhún, vòng cung kiểu rubber hose"
+        "r3s5: dẻo, nhún, vòng cung kiểu rubber hose",
+        "r4s1: nhân vật xoay, vải váy văng, camera xoáy theo điệu nhảy",
+        "r4s3: nhân vật bật nhảy, tia toả",
+        "r4s5: nhân vật nảy kiểu cũ"
       ]
     },
     {
@@ -1477,11 +1767,11 @@
     {
       "category": "mau",
       "tag": "am",
-      "mean": 3.96,
-      "sd": 1.26,
-      "n": 8,
+      "mean": 4.16,
+      "sd": 1.2,
+      "n": 10,
       "explicit": 1,
-      "status": "Đang theo dõi",
+      "status": "Nên",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
@@ -1492,7 +1782,9 @@
         "r2s4",
         "r3s1",
         "r3s2",
-        "r3s3"
+        "r3s3",
+        "r4s1",
+        "r4s4"
       ],
       "notes": [
         "r1s3: giấy cũ be #E9DCC0, đỏ đô #7A1E1E, xanh cổ vịt #1E4A5A; ảnh đen trắng phối màu nhạt",
@@ -1502,18 +1794,20 @@
         "r2s4: giấy kem/kẻ ô, bút đỏ #E8402A, hồng #F25C9B, xanh #2E6FD0, vàng chanh",
         "r3s1: tím than #2B1B4E, hồng #E8508A, cam #F59A3C, xanh #3C7BE8; hoàng hôn rực",
         "r3s2: vàng #FFE23A, cam #F47A1F, tím #8A4FD6, hồng #F25CA8, xanh chanh",
-        "r3s3: trắng/kem, tím #7A4FD0, xanh #2F5FD8, cam #F28A2E, hồng"
+        "r3s3: trắng/kem, tím #7A4FD0, xanh #2F5FD8, cam #F28A2E, hồng",
+        "r4s1: hồng #FB8CA7, đỏ #E23225, vàng #FEE38B, kem #EFE0A0 trên nền đen #101316",
+        "r4s4: giấy #D9D8B7, xanh lá #467D57, đỏ son #A93146, xanh rêu đậm #19372B"
       ]
     },
     {
       "category": "mau",
       "tag": "tuong_phan_cao",
-      "mean": 3.96,
-      "sd": 1.26,
-      "n": 8,
+      "mean": 4.06,
+      "sd": 1.17,
+      "n": 10,
       "explicit": 1,
-      "status": "Đang theo dõi",
-      "confidence": "thấp",
+      "status": "Nên",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r1s1",
@@ -1523,7 +1817,9 @@
         "r3s1",
         "r3s2",
         "r3s6",
-        "r3s7"
+        "r3s7",
+        "r4s1",
+        "r4s3"
       ],
       "notes": [
         "r1s1: nền kem #F7F0E3 / xám nhạt; nhấn cam #F26B4F, xanh #2D6CDF, vàng #F5C342, xanh lá; chữ đen đặc",
@@ -1533,30 +1829,9 @@
         "r3s1: tím than #2B1B4E, hồng #E8508A, cam #F59A3C, xanh #3C7BE8; hoàng hôn rực",
         "r3s2: vàng #FFE23A, cam #F47A1F, tím #8A4FD6, hồng #F25CA8, xanh chanh",
         "r3s6: đen #1C1A1A, trắng, xanh chanh #9BE15D",
-        "r3s7: mỗi cảnh một bảng màu: xanh ngọc, kem, hồng #E8326A, cyan #19C6D6, đen"
-      ]
-    },
-    {
-      "category": "mau",
-      "tag": "film_grade",
-      "mean": 3.5,
-      "sd": 1.66,
-      "n": 4,
-      "explicit": 0,
-      "status": "Mâu thuẫn",
-      "confidence": "thấp",
-      "scope": "cả hai",
-      "samples": [
-        "r1s3",
-        "r1s6",
-        "r2s3",
-        "r3s5"
-      ],
-      "notes": [
-        "r1s3: giấy cũ be #E9DCC0, đỏ đô #7A1E1E, xanh cổ vịt #1E4A5A; ảnh đen trắng phối màu nhạt",
-        "r1s6: rừng xanh rêu, nâu gỗ, nắng vàng; cảnh tối xám lạnh; điểm hoa hồng",
-        "r2s3: xanh ngọc #6FC3B2, tím #6B3F78, đỏ cam #E2552C, vàng kem; grade giấy cũ",
-        "r3s5: đen trắng xám, grade phim cũ"
+        "r3s7: mỗi cảnh một bảng màu: xanh ngọc, kem, hồng #E8326A, cyan #19C6D6, đen",
+        "r4s1: hồng #FB8CA7, đỏ #E23225, vàng #FEE38B, kem #EFE0A0 trên nền đen #101316",
+        "r4s3: kem #F6F5DE, xanh ngọc #33E6E4, tím #804ECE, tím đậm #49267D, hồng"
       ]
     },
     {
@@ -1584,10 +1859,35 @@
     },
     {
       "category": "mau",
+      "tag": "film_grade",
+      "mean": 3.4,
+      "sd": 1.5,
+      "n": 5,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "cả hai",
+      "samples": [
+        "r1s3",
+        "r1s6",
+        "r2s3",
+        "r3s5",
+        "r4s5"
+      ],
+      "notes": [
+        "r1s3: giấy cũ be #E9DCC0, đỏ đô #7A1E1E, xanh cổ vịt #1E4A5A; ảnh đen trắng phối màu nhạt",
+        "r1s6: rừng xanh rêu, nâu gỗ, nắng vàng; cảnh tối xám lạnh; điểm hoa hồng",
+        "r2s3: xanh ngọc #6FC3B2, tím #6B3F78, đỏ cam #E2552C, vàng kem; grade giấy cũ",
+        "r3s5: đen trắng xám, grade phim cũ",
+        "r4s5: xanh mòng két đậm #022325, #174E51, đỏ nâu #4C262D, xám xanh; độ bão hoà thấp, có vân phim"
+      ]
+    },
+    {
+      "category": "mau",
       "tag": "nen_sang",
-      "mean": 3.03,
-      "sd": 1.56,
-      "n": 9,
+      "mean": 3.22,
+      "sd": 1.6,
+      "n": 10,
       "explicit": 1,
       "status": "Mâu thuẫn",
       "confidence": "thấp",
@@ -1601,7 +1901,8 @@
         "r2s7",
         "r3s2",
         "r3s3",
-        "r3s4"
+        "r3s4",
+        "r4s4"
       ],
       "notes": [
         "r1s1: nền kem #F7F0E3 / xám nhạt; nhấn cam #F26B4F, xanh #2D6CDF, vàng #F5C342, xanh lá; chữ đen đặc",
@@ -1612,7 +1913,8 @@
         "r2s7: trắng, xanh ngọc #34B6C6, nhấn cam #F2994A",
         "r3s2: vàng #FFE23A, cam #F47A1F, tím #8A4FD6, hồng #F25CA8, xanh chanh",
         "r3s3: trắng/kem, tím #7A4FD0, xanh #2F5FD8, cam #F28A2E, hồng",
-        "r3s4: trắng, xanh lá #1E9E4A, vàng #F7C21B, da nâu"
+        "r3s4: trắng, xanh lá #1E9E4A, vàng #F7C21B, da nâu",
+        "r4s4: giấy #D9D8B7, xanh lá #467D57, đỏ son #A93146, xanh rêu đậm #19372B"
       ]
     },
     {
@@ -1667,6 +1969,23 @@
         "r2s6: chỉ trắng #FFFFFF trên đen #000000",
         "r2s8: đen, chữ trắng, nhấn cam #F2542D",
         "r3s6: đen #1C1A1A, trắng, xanh chanh #9BE15D"
+      ]
+    },
+    {
+      "category": "mau",
+      "tag": "toi",
+      "mean": 3.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s5"
+      ],
+      "notes": [
+        "r4s5: xanh mòng két đậm #022325, #174E51, đỏ nâu #4C262D, xám xanh; độ bão hoà thấp, có vân phim"
       ]
     },
     {
@@ -1726,12 +2045,12 @@
     {
       "category": "bo_cuc",
       "tag": "nhieu_lop",
-      "mean": 4.45,
-      "sd": 1.03,
-      "n": 6,
+      "mean": 4.57,
+      "sd": 0.94,
+      "n": 8,
       "explicit": 2,
       "status": "Nên",
-      "confidence": "vừa",
+      "confidence": "cao",
       "scope": "cả hai",
       "samples": [
         "r1s1",
@@ -1739,7 +2058,9 @@
         "r1s8",
         "r2s2",
         "r2s3",
-        "r3s2"
+        "r3s2",
+        "r4s1",
+        "r4s4"
       ],
       "notes": [
         "r1s1: nhiều vật thể xếp lớp nhưng căn theo lưới; cảnh cuối là bảng collage nhiều ô font",
@@ -1747,28 +2068,34 @@
         "r1s8: lưới isometric chéo, đọc từ trên trái xuống dưới phải",
         "r2s2: lưới isometric, cụm nhà ở giữa, đường line đỏ nối các khu",
         "r2s3: nhiều lớp giấy chồng tạo chiều sâu",
-        "r3s2: khung dày đặc chi tiết, tràn viền"
+        "r3s2: khung dày đặc chi tiết, tràn viền",
+        "r4s1: cận tay, váy tràn khung",
+        "r4s4: hoa văn kín khung"
       ]
     },
     {
       "category": "bo_cuc",
       "tag": "full_bleed",
-      "mean": 4.18,
-      "sd": 1.34,
-      "n": 3,
+      "mean": 4.47,
+      "sd": 1.14,
+      "n": 5,
       "explicit": 1,
       "status": "Nên",
-      "confidence": "thấp",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r2s6",
         "r3s1",
-        "r3s2"
+        "r3s2",
+        "r4s1",
+        "r4s4"
       ],
       "notes": [
         "r2s6: chữ tràn khung hoặc lặp theo lưới",
         "r3s1: góc máy nghiêng, cận mặt nạ tràn khung",
-        "r3s2: khung dày đặc chi tiết, tràn viền"
+        "r3s2: khung dày đặc chi tiết, tràn viền",
+        "r4s1: cận tay, váy tràn khung",
+        "r4s4: hoa văn kín khung"
       ]
     },
     {
@@ -1883,11 +2210,11 @@
     {
       "category": "bo_cuc",
       "tag": "chinh_giua",
-      "mean": 2.87,
-      "sd": 1.52,
-      "n": 12,
+      "mean": 2.95,
+      "sd": 1.45,
+      "n": 14,
       "explicit": 1,
-      "status": "Mâu thuẫn",
+      "status": "Đang theo dõi",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
@@ -1902,7 +2229,9 @@
         "r3s3",
         "r3s5",
         "r3s6",
-        "r3s7"
+        "r3s7",
+        "r4s3",
+        "r4s5"
       ],
       "notes": [
         "r1s3: nhân vật vintage đặt giữa, mây/biển/thuyền xếp lớp quanh",
@@ -1916,7 +2245,9 @@
         "r3s3: vật thể giữa khung, nền phẳng",
         "r3s5: khổ 5:4, nhân vật giữa",
         "r3s6: chữ giữa khung, nhiều khoảng đen",
-        "r3s7: đối xứng, hình học"
+        "r3s7: đối xứng, hình học",
+        "r4s3: khổ vuông 1:1, nhân vật giữa",
+        "r4s5: sân khấu, camera cố định"
       ]
     },
     {
@@ -1951,18 +2282,63 @@
     {
       "category": "bo_cuc",
       "tag": "vuong",
-      "mean": 1.0,
-      "sd": 0.0,
-      "n": 1,
+      "mean": 2.5,
+      "sd": 1.5,
+      "n": 2,
       "explicit": 0,
-      "status": "Đang theo dõi",
+      "status": "Mâu thuẫn",
       "confidence": "thấp",
       "scope": "animation",
       "samples": [
-        "r3s5"
+        "r3s5",
+        "r4s3"
       ],
       "notes": [
-        "r3s5: khổ 5:4, nhân vật giữa"
+        "r3s5: khổ 5:4, nhân vật giữa",
+        "r4s3: khổ vuông 1:1, nhân vật giữa"
+      ]
+    },
+    {
+      "category": "hinh",
+      "tag": "minh_hoa",
+      "mean": 4.17,
+      "sd": 1.26,
+      "n": 14,
+      "explicit": 6,
+      "status": "Nên",
+      "confidence": "thấp",
+      "scope": "cả hai",
+      "samples": [
+        "r1s5",
+        "r1s8",
+        "r2s2",
+        "r2s3",
+        "r2s4",
+        "r2s5",
+        "r3s1",
+        "r3s2",
+        "r3s3",
+        "r3s5",
+        "r3s6",
+        "r4s1",
+        "r4s3",
+        "r4s4"
+      ],
+      "notes": [
+        "r1s5: nét bút chì đen, tô phẳng có vân bút chì/giấy",
+        "r1s8: isometric vẽ Photoshop/Flash, bóng mềm",
+        "r2s2: isometric vector bóng mềm",
+        "r2s3: vân giấy rõ, viền cắt, bóng đổ mềm giữa các lớp",
+        "r2s4: bút sáp, màu nước, giấy kẻ, giấy màu cắt dán",
+        "r2s5: vector shading mềm, texture nhẹ",
+        "r3s1: 2D cel có shading phẳng, hạt nhẹ",
+        "r3s2: cel vẽ tay, nét đen dày, bóng phẳng",
+        "r3s3: hạt/noise rõ, viền mềm",
+        "r3s5: nét mực, vân giấy",
+        "r3s6: chữ + nét vẽ tay, ít hình khối",
+        "r4s1: mảng phẳng, không viền",
+        "r4s3: anime, đổ bóng phẳng",
+        "r4s4: texture in, mép giấy"
       ]
     },
     {
@@ -1992,49 +2368,12 @@
     },
     {
       "category": "hinh",
-      "tag": "minh_hoa",
-      "mean": 3.98,
-      "sd": 1.37,
-      "n": 11,
-      "explicit": 4,
-      "status": "Đang theo dõi",
-      "confidence": "thấp",
-      "scope": "cả hai",
-      "samples": [
-        "r1s5",
-        "r1s8",
-        "r2s2",
-        "r2s3",
-        "r2s4",
-        "r2s5",
-        "r3s1",
-        "r3s2",
-        "r3s3",
-        "r3s5",
-        "r3s6"
-      ],
-      "notes": [
-        "r1s5: nét bút chì đen, tô phẳng có vân bút chì/giấy",
-        "r1s8: isometric vẽ Photoshop/Flash, bóng mềm",
-        "r2s2: isometric vector bóng mềm",
-        "r2s3: vân giấy rõ, viền cắt, bóng đổ mềm giữa các lớp",
-        "r2s4: bút sáp, màu nước, giấy kẻ, giấy màu cắt dán",
-        "r2s5: vector shading mềm, texture nhẹ",
-        "r3s1: 2D cel có shading phẳng, hạt nhẹ",
-        "r3s2: cel vẽ tay, nét đen dày, bóng phẳng",
-        "r3s3: hạt/noise rõ, viền mềm",
-        "r3s5: nét mực, vân giấy",
-        "r3s6: chữ + nét vẽ tay, ít hình khối"
-      ]
-    },
-    {
-      "category": "hinh",
       "tag": "2d_phang",
-      "mean": 3.56,
-      "sd": 1.51,
-      "n": 11,
-      "explicit": 4,
-      "status": "Mâu thuẫn",
+      "mean": 3.73,
+      "sd": 1.45,
+      "n": 13,
+      "explicit": 5,
+      "status": "Đang theo dõi",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
@@ -2048,7 +2387,9 @@
         "r3s2",
         "r3s3",
         "r3s4",
-        "r3s7"
+        "r3s7",
+        "r4s1",
+        "r4s3"
       ],
       "notes": [
         "r1s1: vector phẳng + hạt giấy/halftone nhẹ + ảnh cắt dán (giày, hộp sữa, báo)",
@@ -2061,16 +2402,18 @@
         "r3s2: cel vẽ tay, nét đen dày, bóng phẳng",
         "r3s3: hạt/noise rõ, viền mềm",
         "r3s4: vector phẳng không texture + UI",
-        "r3s7: vector phẳng, vài texture bản đồ"
+        "r3s7: vector phẳng, vài texture bản đồ",
+        "r4s1: mảng phẳng, không viền",
+        "r4s3: anime, đổ bóng phẳng"
       ]
     },
     {
       "category": "hinh",
       "tag": "texture_hat",
-      "mean": 3.54,
-      "sd": 1.65,
-      "n": 11,
-      "explicit": 3,
+      "mean": 3.66,
+      "sd": 1.57,
+      "n": 13,
+      "explicit": 4,
       "status": "Mâu thuẫn",
       "confidence": "thấp",
       "scope": "cả hai",
@@ -2085,7 +2428,9 @@
         "r2s8",
         "r3s1",
         "r3s3",
-        "r3s5"
+        "r3s5",
+        "r4s4",
+        "r4s5"
       ],
       "notes": [
         "r1s1: vector phẳng + hạt giấy/halftone nhẹ + ảnh cắt dán (giày, hộp sữa, báo)",
@@ -2098,7 +2443,9 @@
         "r2s8: chấm pixel, ảnh đen trắng chồng chữ",
         "r3s1: 2D cel có shading phẳng, hạt nhẹ",
         "r3s3: hạt/noise rõ, viền mềm",
-        "r3s5: nét mực, vân giấy"
+        "r3s5: nét mực, vân giấy",
+        "r4s4: texture in, mép giấy",
+        "r4s5: vân phim, mép ảnh mờ"
       ]
     },
     {
@@ -2180,11 +2527,115 @@
       ]
     },
     {
+      "category": "am_thanh",
+      "tag": "nhac_cinematic",
+      "mean": 5.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s4"
+      ],
+      "notes": [
+        "r4s4: đo: 15 s đầu nhỏ (-37 dB), từ giây 20 lên -14 dB và giữ đều tới cuối, beat rất rõ (độ đều 0,63), ~2,3 tiếng nhấn/s. Chưa chắc có giọng đọc"
+      ]
+    },
+    {
+      "category": "am_thanh",
+      "tag": "nhac_nhay",
+      "mean": 5.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s1"
+      ],
+      "notes": [
+        "r4s1: đo bằng trình duyệt: nhạc liên tục không khoảng lặng, ~3,5 tiếng nhấn/s, tempo đo 100 (có thể là 200, nửa nhịp), dải động 17 dB; credit chỉ có nhạc và sound design, không có giọng đọc"
+      ]
+    },
+    {
+      "category": "am_thanh",
+      "tag": "sfx_it",
+      "mean": 5.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s1"
+      ],
+      "notes": [
+        "r4s1: đo bằng trình duyệt: nhạc liên tục không khoảng lặng, ~3,5 tiếng nhấn/s, tempo đo 100 (có thể là 200, nửa nhịp), dải động 17 dB; credit chỉ có nhạc và sound design, không có giọng đọc"
+      ]
+    },
+    {
+      "category": "am_thanh",
+      "tag": "voice_over",
+      "mean": 4.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s3"
+      ],
+      "notes": [
+        "r4s3: credit có giọng đọc và sound design; đo: âm nén đều (dải động 7 dB), ~3 tiếng nhấn/s suốt bài"
+      ]
+    },
+    {
+      "category": "am_thanh",
+      "tag": "sfx_day",
+      "mean": 3.5,
+      "sd": 0.5,
+      "n": 2,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "vừa",
+      "scope": "animation",
+      "samples": [
+        "r4s3",
+        "r4s5"
+      ],
+      "notes": [
+        "r4s3: credit có giọng đọc và sound design; đo: âm nén đều (dải động 7 dB), ~3 tiếng nhấn/s suốt bài",
+        "r4s5: credit có sound design; đo: không có dải cao trên 6 kHz (lọc như đĩa than cũ), ~3 tiếng nhấn/s, nhịp đều ~119 BPM"
+      ]
+    },
+    {
+      "category": "am_thanh",
+      "tag": "am_thanh_co",
+      "mean": 3.0,
+      "sd": 0.0,
+      "n": 1,
+      "explicit": 0,
+      "status": "Đang theo dõi",
+      "confidence": "thấp",
+      "scope": "animation",
+      "samples": [
+        "r4s5"
+      ],
+      "notes": [
+        "r4s5: credit có sound design; đo: không có dải cao trên 6 kHz (lọc như đĩa than cũ), ~3 tiếng nhấn/s, nhịp đều ~119 BPM"
+      ]
+    },
+    {
       "category": "phu_de",
       "tag": "khong_co",
-      "mean": 3.18,
-      "sd": 1.43,
-      "n": 22,
+      "mean": 3.35,
+      "sd": 1.41,
+      "n": 26,
       "explicit": 0,
       "status": "Đang theo dõi",
       "confidence": "thấp",
@@ -2211,7 +2662,11 @@
         "r3s4",
         "r3s5",
         "r3s6",
-        "r3s7"
+        "r3s7",
+        "r4s1",
+        "r4s3",
+        "r4s4",
+        "r4s5"
       ],
       "notes": []
     },
@@ -2235,9 +2690,9 @@
     {
       "category": "cau_truc",
       "tag": "tren_60s",
-      "mean": 4.5,
-      "sd": 0.87,
-      "n": 4,
+      "mean": 4.6,
+      "sd": 0.8,
+      "n": 5,
       "explicit": 0,
       "status": "Nên",
       "confidence": "cao",
@@ -2246,24 +2701,26 @@
         "r1s1",
         "r1s3",
         "r1s5",
-        "r1s6"
+        "r1s6",
+        "r4s4"
       ],
       "notes": [
         "r1s1: phim giải thích 2 phút 15, kể theo chương",
         "r1s3: quảng cáo kể chuyện 1 phút 37 về hành trình nhân vật",
         "r1s5: phim ngắn 8 phút về áp lực trong mùa nóng",
-        "r1s6: phim tốt nghiệp 4 phút 21, có tiêu đề mở đầu"
+        "r1s6: phim tốt nghiệp 4 phút 21, có tiêu đề mở đầu",
+        "r4s4: tiêu đề → các chương câu chuyện → tiêu đề cuối"
       ]
     },
     {
       "category": "cau_truc",
       "tag": "ke_chuyen",
-      "mean": 4.0,
-      "sd": 1.21,
-      "n": 11,
+      "mean": 4.07,
+      "sd": 1.12,
+      "n": 15,
       "explicit": 0,
       "status": "Nên",
-      "confidence": "thấp",
+      "confidence": "vừa",
       "scope": "cả hai",
       "samples": [
         "r1s1",
@@ -2276,7 +2733,11 @@
         "r3s1",
         "r3s2",
         "r3s5",
-        "r3s7"
+        "r3s7",
+        "r4s1",
+        "r4s3",
+        "r4s4",
+        "r4s5"
       ],
       "notes": [
         "r1s1: phim giải thích 2 phút 15, kể theo chương",
@@ -2289,7 +2750,11 @@
         "r3s1: chọn tay đua → đua → vượt chướng ngại → về đích + logo",
         "r3s2: hành trình cảm giác → lon + slogan",
         "r3s5: tiêu đề → cảnh hài ngắn → THE END",
-        "r3s7: chuỗi thời đại → kết màn đen"
+        "r3s7: chuỗi thời đại → kết màn đen",
+        "r4s1: nhạc cụ → cặp đôi nhảy → cả phố nhảy → logo Google",
+        "r4s3: mở game → các màn → trùm cuối → 'The legend continues' + link",
+        "r4s4: tiêu đề → các chương câu chuyện → tiêu đề cuối",
+        "r4s5: tiêu đề → xưởng → mua quà qua Vipps → Noel cười → CTA"
       ]
     },
     {
@@ -2320,11 +2785,11 @@
     {
       "category": "cau_truc",
       "tag": "cta_ro",
-      "mean": 3.44,
-      "sd": 1.57,
-      "n": 9,
+      "mean": 3.45,
+      "sd": 1.44,
+      "n": 11,
       "explicit": 0,
-      "status": "Mâu thuẫn",
+      "status": "Đang theo dõi",
       "confidence": "thấp",
       "scope": "cả hai",
       "samples": [
@@ -2336,7 +2801,9 @@
         "r3s1",
         "r3s2",
         "r3s4",
-        "r3s6"
+        "r3s6",
+        "r4s3",
+        "r4s5"
       ],
       "notes": [
         "r1s4: đi lần lượt các màn: chọn xe → danh mục → giỏ hàng → kết bằng nút App Store / Google Play",
@@ -2347,15 +2814,17 @@
         "r3s1: chọn tay đua → đua → vượt chướng ngại → về đích + logo",
         "r3s2: hành trình cảm giác → lon + slogan",
         "r3s4: vấn đề → tính năng → logo",
-        "r3s6: vấn đề (subscription) → tự do sáng tạo → logo + 'Free forever'"
+        "r3s6: vấn đề (subscription) → tự do sáng tạo → logo + 'Free forever'",
+        "r4s3: mở game → các màn → trùm cuối → 'The legend continues' + link",
+        "r4s5: tiêu đề → xưởng → mua quà qua Vipps → Noel cười → CTA"
       ]
     },
     {
       "category": "cau_truc",
       "tag": "30_60s",
-      "mean": 2.5,
-      "sd": 1.3,
-      "n": 14,
+      "mean": 2.76,
+      "sd": 1.35,
+      "n": 17,
       "explicit": 0,
       "status": "Đang theo dõi",
       "confidence": "thấp",
@@ -2374,7 +2843,10 @@
         "r3s4",
         "r3s5",
         "r3s6",
-        "r3s7"
+        "r3s7",
+        "r4s1",
+        "r4s3",
+        "r4s5"
       ],
       "notes": [
         "r1s2: lyric video ngắn 52 s, một không khí xuyên suốt",
@@ -2390,7 +2862,10 @@
         "r3s4: vấn đề → tính năng → logo",
         "r3s5: tiêu đề → cảnh hài ngắn → THE END",
         "r3s6: vấn đề (subscription) → tự do sáng tạo → logo + 'Free forever'",
-        "r3s7: chuỗi thời đại → kết màn đen"
+        "r3s7: chuỗi thời đại → kết màn đen",
+        "r4s1: nhạc cụ → cặp đôi nhảy → cả phố nhảy → logo Google",
+        "r4s3: mở game → các màn → trùm cuối → 'The legend continues' + link",
+        "r4s5: tiêu đề → xưởng → mua quà qua Vipps → Noel cười → CTA"
       ]
     },
     {

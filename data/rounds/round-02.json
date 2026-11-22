@@ -32,6 +32,12 @@
           ],
           "note": "gọn, doanh nghiệp, rõ ý"
         },
+        "muc_dich": {
+          "tags": [
+            "giai_thich"
+          ],
+          "note": "explainer dịch vụ agency"
+        },
         "hook": {
           "tags": [
             "chu_to"
@@ -132,6 +138,12 @@
             "sach_gon"
           ],
           "note": "công nghệ, gọn, hơi lạnh"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich"
+          ],
+          "note": "explainer nền tảng công nghệ"
         },
         "hook": {
           "tags": [
@@ -241,6 +253,12 @@
             "hoai_co"
           ],
           "note": "vui, ấm, hơi cổ tích"
+        },
+        "muc_dich": {
+          "tags": [
+            "quang_cao"
+          ],
+          "note": "quảng cáo Starbucks"
         },
         "hook": {
           "tags": [
@@ -357,6 +375,12 @@
           ],
           "note": "vui, nghịch, thủ công"
         },
+        "muc_dich": {
+          "tags": [
+            "video_nhac"
+          ],
+          "note": "video cho bài nhạc của Osees"
+        },
         "hook": {
           "tags": [
             "chuyen_dong_manh"
@@ -464,6 +488,12 @@
           ],
           "note": "trầm, có tính thông điệp"
         },
+        "muc_dich": {
+          "tags": [
+            "phim_ngan"
+          ],
+          "note": "phim ngắn thông điệp môi trường"
+        },
         "hook": {
           "tags": [
             "tinh_roi_bung"
@@ -567,6 +597,12 @@
             "nang_dong"
           ],
           "note": "mạnh, sân khấu, club"
+        },
+        "muc_dich": {
+          "tags": [
+            "video_nhac"
+          ],
+          "note": "visual cho show DJ"
         },
         "hook": {
           "tags": [
@@ -673,6 +709,13 @@
           ],
           "note": "sạch, nhẹ, hơi nhạt"
         },
+        "muc_dich": {
+          "tags": [
+            "giai_thich",
+            "gioi_thieu_san_pham"
+          ],
+          "note": "explainer tính năng SaaS"
+        },
         "hook": {
           "tags": [
             "hinh_gay_soc"
@@ -773,6 +816,12 @@
             "toi_bi_an"
           ],
           "note": "công nghệ retro, hơi lạnh"
+        },
+        "muc_dich": {
+          "tags": [
+            "showreel"
+          ],
+          "note": "demo font chuyển động"
         },
         "hook": {
           "tags": [

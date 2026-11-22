@@ -1,6 +1,6 @@
 ---
 name: motion-taste
-description: Gu motion graphics và animation của người dùng - (1) phỏng vấn gu theo từng vòng: Claude tự tìm 5-10 video mẫu có thật (không sinh mẫu mới), phân loại style (kinetic type, collage, stop-motion, 3D, isometric…) và tách theo 13 category, đưa lên trang chấm điểm Motion Taste (artifact), người dùng chấm từ "Rất thích" đến "Không bao giờ", Claude ghi rule thích/ghét vào motion-taste.md kèm audit; (2) thiết kế theo một style cụ thể: ghép ngữ pháp của style trong thư viện styles.md với gu đã học thành một style brief dựng được. Dùng khi người dùng nói "phỏng vấn gu", "học gu của tôi", "vòng mẫu tiếp theo", "đã chấm xong", "audit gu", "tôi thích style nào", "thiết kế theo style collage", "làm video kiểu stop-motion / kinetic type / isometric…", "style brief", "đúng gu của tôi", kể cả khi không nhắc tên skill.
+description: 'Gu motion graphics và animation của người dùng - (1) phỏng vấn gu theo từng vòng: Claude tự tìm 5-10 video mẫu có thật (không sinh mẫu mới), phân loại style (kinetic type, collage, stop-motion, 3D, isometric…) và tách theo 13 category, đưa lên trang chấm điểm Motion Taste (artifact), người dùng chấm từ "Rất thích" đến "Không bao giờ", Claude ghi rule thích/ghét vào motion-taste.md kèm audit; (2) thiết kế theo một style cụ thể: ghép ngữ pháp của style trong thư viện styles.md với gu đã học thành một style brief dựng được. Dùng khi người dùng nói "phỏng vấn gu", "học gu của tôi", "vòng mẫu tiếp theo", "đã chấm xong", "audit gu", "tôi thích style nào", "thiết kế theo style collage", "làm video kiểu stop-motion / kinetic type / isometric…", "style brief", "đúng gu của tôi", kể cả khi không nhắc tên skill.'
 ---
 
 # Motion taste: học gu motion graphics và animation của người dùng
@@ -25,6 +25,9 @@ Thư mục skill: `$T = ~/.claude/skills/motion-taste`.
 - `data/rounds/round-NN.json` - mẫu, phần tách category và điểm chấm của từng vòng (bằng chứng).
 - `scripts/taste.py` - tính điểm từ mọi vòng, in audit, cập nhật bảng bằng chứng trong `motion-taste.md`.
 - `references/categories.md` - 13 category (gồm `style` và `khong_khi`) và bộ tag chuẩn. **Đọc trước mỗi vòng.**
+- `references/purposes.md` - thư viện mục đích video (giải thích, giới thiệu sản phẩm, quảng cáo, phim thương hiệu,
+  ident, video nhạc, trailer, phim ngắn, mạng xã hội, showreel): mục tiêu, khung 60-90 s, điều bắt buộc, gu của người
+  dùng. **Đọc khi gắn nhãn mục đích và khi thiết kế một video.**
 - `references/styles.md` - thư viện style: nhận diện, ngữ pháp mặc định, cách dựng, lỗi làm rẻ tiền. **Đọc khi
   gắn nhãn style và khi thiết kế theo style.**
 - `references/sourcing.md` - tìm mẫu ở đâu, xem mẫu thế nào, chọn mẫu cho từng vòng. **Đọc trước khi tìm mẫu.**
@@ -52,7 +55,7 @@ từ tiêu đề hay mô tả là rule đoán, và rule đoán làm hỏng cả 
 Ghi `data/rounds/round-NN.json` (khung: `python3 $T/scripts/taste.py new-round` rồi điền). Mỗi mẫu có tag chuẩn
 cho mọi category nhìn thấy được, cộng một ghi chú ngắn bằng giá trị cụ thể (giây, hex, tên kiểu font, kiểu easing).
 Category không xác định được (ví dụ âm thanh khi xem không có tiếng) thì bỏ trống, đừng đoán. Luôn gắn `style`
-(1 tag chính, thêm 1 nếu lai, id theo `references/styles.md`) và `khong_khi`; mẫu không vừa style nào thì thêm style
+(1 tag chính, thêm 1 nếu lai, id theo `references/styles.md`), `khong_khi` và `muc_dich` (id theo `references/purposes.md`); mẫu không vừa style nào thì thêm style
 mới theo hướng dẫn cuối `styles.md`. Mỗi mẫu cũng có `family` (nhãn ngắn hiện trên trang, ví dụ "Stop-motion · đất sét
 và giấy") và `summary` (1-2 câu mô tả phong cách bằng tiếng Việt).
 
@@ -116,27 +119,29 @@ Rồi gửi **báo cáo audit** cho người dùng, theo đúng khung này:
 Kết thúc audit bằng câu hỏi có làm vòng tiếp không. Khi mọi category đã có ít nhất một rule độ tin cậy "vừa" trở lên,
 nói rõ bộ rule đã đủ dùng; người dùng vẫn có thể học tiếp bất cứ lúc nào.
 
-## Thiết kế theo một style
+## Thiết kế theo một style (và mục đích)
 Khi người dùng muốn làm (hoặc lên ý tưởng) một video theo một style cụ thể - "làm intro kiểu collage", "thiết kế theo
 style stop-motion", "video giới thiệu app theo gu của tôi":
 
 1. **Xác định style.** Ánh xạ lời người dùng sang một id trong `references/styles.md`. Lời mơ hồ ("kiểu nghệ thuật",
    "giống Apple") thì đưa 2-3 style gần nhất kèm một dòng mô tả và để người dùng chọn. Không có trong thư viện thì
    thêm style mới vào `styles.md` trước.
-2. **Lấy bằng chứng gu:** `python3 $T/scripts/taste.py style <id>` in ra điểm của người dùng cho style đó, các mẫu
+2. **Lấy bằng chứng gu:** xác định luôn **mục đích** của video (id trong `references/purposes.md`; hỏi người dùng nếu
+   chưa rõ) và chạy `python3 $T/scripts/taste.py purpose <id>` để xem gu bên trong mục đích đó (`purpose` không id xếp
+   hạng mọi mục đích). Rồi `python3 $T/scripts/taste.py style <id>` in ra điểm của người dùng cho style đó, các mẫu
    đã chấm thuộc style, những gì họ thích/ghét bên trong style, luật cứng và rule chung. `python3 $T/scripts/taste.py
    style` (không id) xếp hạng mọi style theo gu - dùng khi người dùng hỏi "tôi hợp style nào".
    Nếu script cảnh báo người dùng đã chấm thấp style này, nói ra và hỏi lại trước khi làm tiếp.
 3. **Đọc** mục style trong `styles.md` và toàn bộ `motion-taste.md`.
-4. **Ghép theo thứ tự ưu tiên:** luật cứng > yêu cầu trực tiếp > gu riêng trong style này > rule chung (Nên/Tránh) > mặc định của style.
+4. **Ghép theo thứ tự ưu tiên:** luật cứng > yêu cầu trực tiếp > điều bắt buộc của mục đích (`purposes.md`) > gu riêng trong style này > rule chung (Nên/Tránh) > mặc định của style.
    Chỗ gu đè lên mặc định của style thì ghi rõ trong brief ("style thường cắt nhanh, nhưng bạn thích nhịp chậm (r1s5)").
 5. **Viết style brief** (file `style-brief-<id>.md` trong thư mục dự án của người dùng, hoặc trong tin nhắn nếu chưa có
    dự án) theo khung dưới. Mọi dòng là giá trị dựng được, không phải tính từ.
 
 ```markdown
 # Style brief: <style> cho <video/chủ đề>
-Style: <id> (+ style phụ nếu có) · Không khí: <tag> · Khổ: <16:9 / 9:16> · Thời lượng: <s>
-Dựa trên: styles.md#<id> + motion-taste.md (vòng 1-N, <số> mẫu) · Độ tin cậy gu trong style này: <cao/vừa/thấp/chưa có>
+Mục đích: <id> · Style: <id> (+ style phụ nếu có) · Không khí: <tag> · Khổ: <16:9 / 9:16> · Thời lượng: <s>
+Dựa trên: purposes.md#<mục đích> + styles.md#<id> + motion-taste.md (vòng 1-N, <số> mẫu) · Độ tin cậy gu trong style này: <cao/vừa/thấp/chưa có>
 
 ## Luật cứng áp dụng
 ## Ngữ pháp

@@ -1,0 +1,567 @@
+{
+  "round": 4,
+  "date": "2026-11-22",
+  "focus": "âm thanh (nhạc, SFX, giọng đọc) và màu · giữ style 2D đã thích · ≤ 90 s",
+  "hard_rules": [],
+  "samples": [
+    {
+      "id": "r4s1",
+      "title": "Google Doodle: Salsa",
+      "url": "https://vimeo.com/1136613177",
+      "source": "Vimeo",
+      "creator": "Ordinary Folk · Google Doodles",
+      "duration_s": 48,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D vẽ tay · nhạc salsa dẫn dắt",
+      "summary": "Nhân vật nhảy salsa, tay chơi piano, đám đông trong phố; hình biến dạng theo nhạc, màu hồng đỏ vàng rực. Không có giọng đọc: nhạc là người kể chuyện.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "hand_drawn",
+            "character_2d"
+          ],
+          "note": "2D vẽ tay phẳng, hình co giãn theo nhịp"
+        },
+        "khong_khi": {
+          "tags": [
+            "nang_dong",
+            "vui_tuoi"
+          ],
+          "note": "lễ hội, nhảy múa"
+        },
+        "muc_dich": {
+          "tags": [
+            "noi_dung_mxh"
+          ],
+          "note": "Google Doodle trên trang chủ"
+        },
+        "hook": {
+          "tags": [
+            "chuyen_dong_manh"
+          ],
+          "note": "0-2 s: các mảng màu bay vào trên nền đen, thành nhạc cụ"
+        },
+        "nhip": {
+          "tags": [
+            "vua",
+            "khop_beat"
+          ],
+          "note": "đo 10-25 s: 4 cú cắt, ~3,7 s/cảnh nhưng hình biến liên tục, chỉ 7% khung đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "morph"
+          ],
+          "note": "hình này biến thành hình sau theo phách"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "lo_xo_nay",
+            "camera_dong"
+          ],
+          "note": "nhân vật xoay, vải váy văng, camera xoáy theo điệu nhảy"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "tuong_phan_cao"
+          ],
+          "note": "hồng #FB8CA7, đỏ #E23225, vàng #FEE38B, kem #EFE0A0 trên nền đen #101316"
+        },
+        "bo_cuc": {
+          "tags": [
+            "full_bleed",
+            "nhieu_lop"
+          ],
+          "note": "cận tay, váy tràn khung"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa"
+          ],
+          "note": "mảng phẳng, không viền"
+        },
+        "am_thanh": {
+          "tags": [
+            "nhac_nhay",
+            "sfx_it"
+          ],
+          "note": "đo bằng trình duyệt: nhạc liên tục không khoảng lặng, ~3,5 tiếng nhấn/s, tempo đo 100 (có thể là 200, nửa nhịp), dải động 17 dB; credit chỉ có nhạc và sound design, không có giọng đọc"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "nhạc cụ → cặp đôi nhảy → cả phố nhảy → logo Google"
+        }
+      },
+      "rating": {
+        "overall": 5,
+        "categories": {
+          "chuyen_canh": 5,
+          "chuyen_dong": 5,
+          "hinh": 5,
+          "hook": 5,
+          "khong_khi": 5,
+          "nhip": 5,
+          "style": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r4s2",
+      "title": "The Bystanders – Kitchen",
+      "url": "https://vimeo.com/859343158",
+      "source": "Vimeo",
+      "creator": "Jelly London",
+      "duration_s": 44,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D cel · góc máy điện ảnh, giọng đọc",
+      "summary": "Góc máy ngước từ dưới phố, ánh hoàng hôn tím hồng, nhân vật siêu anh hùng đời thường; dựng như cảnh phim hành động 2D, có giọng đọc và nhạc dâng dần.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d"
+          ],
+          "note": "2D cel shading có ánh sáng, bối cảnh phố London"
+        },
+        "khong_khi": {
+          "tags": [
+            "dien_anh",
+            "nang_dong"
+          ],
+          "note": "hồi hộp rồi hài"
+        },
+        "muc_dich": {
+          "tags": [
+            "trailer"
+          ],
+          "note": "teaser cho series hoạt hình"
+        },
+        "hook": {
+          "tags": [
+            "chuyen_dong_manh"
+          ],
+          "note": "0-2 s: camera lướt dọc toà nhà ngược sáng"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 9-24 s: 6 cú cắt, ~2,5 s/cảnh"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "whip_pan"
+          ],
+          "note": "cắt góc máy liên tục, lia nhanh"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "parallax"
+          ],
+          "note": "góc máy thấp, camera bay, khói bụi"
+        },
+        "mau": {
+          "tags": [
+            "tuong_phan_cao"
+          ],
+          "note": "tím #3E3379, hồng #DF92A4, kem #F9E3D3, tím than #18072B; ánh hoàng hôn"
+        },
+        "bo_cuc": {
+          "tags": [
+            "bat_doi_xung",
+            "full_bleed"
+          ],
+          "note": "góc nghiêng mạnh"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa",
+            "texture_hat"
+          ],
+          "note": "cel có bóng mềm, hạt nhẹ"
+        },
+        "am_thanh": {
+          "tags": [
+            "voice_over",
+            "nhac_cinematic"
+          ],
+          "note": "credit có giọng đọc; đo: dải động rất rộng 29 dB, mở nhỏ (-39 dB) rồi dâng lên đỉnh (-12 dB) ở giây 30, beat rõ"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "dựng không khí → hành động → nhân vật lộ diện → tên phim"
+        }
+      },
+      "rating": null,
+      "repeat_of": null
+    },
+    {
+      "id": "r4s3",
+      "title": "Twitch – The Legend of Pokimane",
+      "url": "https://vimeo.com/555795201",
+      "source": "Vimeo",
+      "creator": "Giant Ant · Twitch",
+      "duration_s": 60,
+      "format": "1:1",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "2D anime · game, màu xanh hồng rực",
+      "summary": "Streamer thành nhân vật game: phòng stream, phòng thí nghiệm, vượt laser, tia sáng toả; màu xanh ngọc, tím, hồng; cắt nhanh, có giọng kể và nhiều SFX.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "character_2d",
+            "retro"
+          ],
+          "note": "2D anime nét mảnh, gợi game platform"
+        },
+        "khong_khi": {
+          "tags": [
+            "vui_tuoi",
+            "nang_dong"
+          ],
+          "note": "phiêu lưu, hài"
+        },
+        "muc_dich": {
+          "tags": [
+            "quang_cao"
+          ],
+          "note": "quảng cáo kênh streamer trên Twitch"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0,3 s logo Twitch trên nền tím, 1 s màn tiêu đề game"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 12-27 s: 9 cú cắt, ~1,7 s/cảnh; 8% khung đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "zoom_xuyen",
+            "cat_thang"
+          ],
+          "note": "lao vào tia sáng, cắt theo màn chơi"
+        },
+        "chu": {
+          "tags": [
+            "chu_to_full"
+          ],
+          "note": "chữ POKE to xen giữa hình ở 46 s"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "lo_xo_nay"
+          ],
+          "note": "nhân vật bật nhảy, tia toả"
+        },
+        "mau": {
+          "tags": [
+            "tuong_phan_cao"
+          ],
+          "note": "kem #F6F5DE, xanh ngọc #33E6E4, tím #804ECE, tím đậm #49267D, hồng"
+        },
+        "bo_cuc": {
+          "tags": [
+            "vuong",
+            "chinh_giua"
+          ],
+          "note": "khổ vuông 1:1, nhân vật giữa"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa"
+          ],
+          "note": "anime, đổ bóng phẳng"
+        },
+        "am_thanh": {
+          "tags": [
+            "voice_over",
+            "sfx_day"
+          ],
+          "note": "credit có giọng đọc và sound design; đo: âm nén đều (dải động 7 dB), ~3 tiếng nhấn/s suốt bài"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen",
+            "cta_ro"
+          ],
+          "note": "mở game → các màn → trùm cuối → 'The legend continues' + link"
+        }
+      },
+      "rating": {
+        "overall": 4,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r4s4",
+      "title": "Crossway – The Biggest Story (Montage)",
+      "url": "https://vimeo.com/312633429",
+      "source": "Vimeo",
+      "creator": "Ordinary Folk · Crossway",
+      "duration_s": 90,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "Minh hoạ giấy ấm · texture in",
+      "summary": "Minh hoạ kiểu sách tranh có texture in: rừng hoa văn, biển xanh, chim bồ câu, đoàn thú; bảng màu giấy ấm, xanh lá, đỏ son. Nhạc mở nhỏ rồi dâng thành nhịp đều.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "hand_drawn",
+            "collage"
+          ],
+          "note": "minh hoạ phẳng có texture in lụa, hoa văn dân gian"
+        },
+        "khong_khi": {
+          "tags": [
+            "thu_cong",
+            "dien_anh"
+          ],
+          "note": "trang trọng, kể sử thi"
+        },
+        "muc_dich": {
+          "tags": [
+            "trailer"
+          ],
+          "note": "trailer cho cuốn sách"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0-2 s: tiêu đề serif nhiều màu đứng yên trên nền giấy"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 18-33 s: 7 cú cắt, ~2,1 s/cảnh; 6% khung đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "mask_reveal"
+          ],
+          "note": "cắt theo nhạc, mảng hoa văn mở ra"
+        },
+        "chu": {
+          "tags": [
+            "serif"
+          ],
+          "note": "serif hoa văn nhiều màu, chỉ ở đầu và cuối"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "parallax"
+          ],
+          "note": "lớp hoa văn trượt, camera đi ngang"
+        },
+        "mau": {
+          "tags": [
+            "nen_sang",
+            "am"
+          ],
+          "note": "giấy #D9D8B7, xanh lá #467D57, đỏ son #A93146, xanh rêu đậm #19372B"
+        },
+        "bo_cuc": {
+          "tags": [
+            "nhieu_lop",
+            "full_bleed"
+          ],
+          "note": "hoa văn kín khung"
+        },
+        "hinh": {
+          "tags": [
+            "texture_hat",
+            "minh_hoa"
+          ],
+          "note": "texture in, mép giấy"
+        },
+        "am_thanh": {
+          "tags": [
+            "nhac_cinematic"
+          ],
+          "note": "đo: 15 s đầu nhỏ (-37 dB), từ giây 20 lên -14 dB và giữ đều tới cuối, beat rất rõ (độ đều 0,63), ~2,3 tiếng nhấn/s. Chưa chắc có giọng đọc"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "tren_60s",
+            "ke_chuyen"
+          ],
+          "note": "tiêu đề → các chương câu chuyện → tiêu đề cuối"
+        }
+      },
+      "rating": {
+        "overall": 5,
+        "categories": {
+          "hinh": 5,
+          "style": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r4s5",
+      "title": "Vipps – Santa's Workshop 2016",
+      "url": "https://vimeo.com/192255066",
+      "source": "Vimeo",
+      "creator": "The Line",
+      "duration_s": 60,
+      "format": "16:9",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "Hoạt hình kiểu 1930 · có màu",
+      "summary": "Xưởng của ông già Noel vẽ theo kiểu hoạt hình thập niên 30, có màu, lọc phim cũ; chú lùn đặt quà qua điện thoại; nhịp chậm, thẻ tiêu đề xanh mòng két. Mẫu đối chứng với luật cứng rubber hose đen trắng.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "retro",
+            "character_2d"
+          ],
+          "note": "hoạt hình cổ điển 1930s, nét viền, mặt người găng tay trắng"
+        },
+        "khong_khi": {
+          "tags": [
+            "hoai_co",
+            "vui_tuoi"
+          ],
+          "note": "Giáng sinh, hài nhẹ"
+        },
+        "muc_dich": {
+          "tags": [
+            "quang_cao"
+          ],
+          "note": "quảng cáo Giáng sinh của ví điện tử"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0-8 s: thẻ tiêu đề đứng yên"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 12-27 s: 3 cú cắt, ~5 s/cảnh"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang"
+          ],
+          "note": "cắt thường, iris tròn ở cuối"
+        },
+        "chu": {
+          "tags": [
+            "serif"
+          ],
+          "note": "chữ hoa kiểu thẻ phim câm"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "lo_xo_nay"
+          ],
+          "note": "nhân vật nảy kiểu cũ"
+        },
+        "mau": {
+          "tags": [
+            "toi",
+            "film_grade"
+          ],
+          "note": "xanh mòng két đậm #022325, #174E51, đỏ nâu #4C262D, xám xanh; độ bão hoà thấp, có vân phim"
+        },
+        "bo_cuc": {
+          "tags": [
+            "chinh_giua"
+          ],
+          "note": "sân khấu, camera cố định"
+        },
+        "hinh": {
+          "tags": [
+            "texture_hat"
+          ],
+          "note": "vân phim, mép ảnh mờ"
+        },
+        "am_thanh": {
+          "tags": [
+            "am_thanh_co",
+            "sfx_day"
+          ],
+          "note": "credit có sound design; đo: không có dải cao trên 6 kHz (lọc như đĩa than cũ), ~3 tiếng nhấn/s, nhịp đều ~119 BPM"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen",
+            "cta_ro"
+          ],
+          "note": "tiêu đề → xưởng → mua quà qua Vipps → Noel cười → CTA"
+        }
+      },
+      "rating": {
+        "overall": 3,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    }
+  ]
+}

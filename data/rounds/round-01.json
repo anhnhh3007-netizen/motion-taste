@@ -32,6 +32,12 @@
           ],
           "note": "tươi, rõ ràng, có tính giải thích"
         },
+        "muc_dich": {
+          "tags": [
+            "giai_thich"
+          ],
+          "note": "phim giải thích typography của Adobe"
+        },
         "hook": {
           "tags": [
             "chu_to",
@@ -137,6 +143,12 @@
           ],
           "note": "tối, lặng, hơi bí ẩn"
         },
+        "muc_dich": {
+          "tags": [
+            "video_nhac"
+          ],
+          "note": "lyric video cho bài hát"
+        },
         "hook": {
           "tags": [
             "tinh_roi_bung"
@@ -237,6 +249,12 @@
             "vui_tuoi"
           ],
           "note": "vintage, dí dỏm"
+        },
+        "muc_dich": {
+          "tags": [
+            "quang_cao"
+          ],
+          "note": "quảng cáo bia kể chuyện"
         },
         "hook": {
           "tags": [
@@ -342,6 +360,12 @@
           ],
           "note": "gọn, thương mại, công nghệ"
         },
+        "muc_dich": {
+          "tags": [
+            "gioi_thieu_san_pham"
+          ],
+          "note": "promo app bán xe đạp"
+        },
         "hook": {
           "tags": [
             "chu_to"
@@ -443,6 +467,12 @@
             "nghe_thuat"
           ],
           "note": "trầm, chiêm nghệm, nghệ thuật"
+        },
+        "muc_dich": {
+          "tags": [
+            "phim_ngan"
+          ],
+          "note": "phim ngắn nghệ thuật"
         },
         "hook": {
           "tags": [
@@ -550,6 +580,12 @@
           ],
           "note": "điện ảnh, kỳ ảo"
         },
+        "muc_dich": {
+          "tags": [
+            "phim_ngan"
+          ],
+          "note": "phim ngắn tốt nghiệp"
+        },
         "hook": {
           "tags": [
             "hinh_gay_soc"
@@ -651,6 +687,12 @@
           ],
           "note": "thủ công, ấm, thể nghiệm"
         },
+        "muc_dich": {
+          "tags": [
+            "ident_intro"
+          ],
+          "note": "intro mở màn lễ trao giải"
+        },
         "hook": {
           "tags": [
             "hinh_gay_soc"
@@ -744,6 +786,12 @@
             "sach_gon"
           ],
           "note": "gọn, thông tin"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich"
+          ],
+          "note": "infographic quy trình cà phê"
         },
         "hook": {
           "tags": [

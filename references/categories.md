@@ -1,10 +1,10 @@
-# 13 category và bộ tag chuẩn
+# 14 category và bộ tag chuẩn
 
 Mỗi mẫu được tách theo các category dưới đây. Mỗi category chọn **1-3 tag** mô tả rõ nhất mẫu, cộng một
 `note` bằng giá trị cụ thể. Tag là thứ script cộng điểm; note là thứ biến điểm thành rule dựng được. Thiếu note thì
 rule viết ra sẽ chung chung, nên note càng cụ thể càng tốt: giây, số shot, hex, nhóm font, kiểu easing, vị trí trên khung.
 
-Id category (dùng trong JSON) đứng trước dấu `-`. Hai category đầu (`style`, `khong_khi`) phân loại cả mẫu; 11 category
+Id category (dùng trong JSON) đứng trước dấu `-`. Ba category đầu (`style`, `khong_khi`, `muc_dich`) phân loại cả mẫu; 11 category
 còn lại tách ngữ pháp của nó. Kỹ thuật làm hình (2D, 3D, đất sét…) nằm ở category `hinh`.
 
 ## style - Style (phong cách tổng thể)
@@ -49,6 +49,23 @@ Cảm giác mẫu để lại. Chọn 1-2 tag.
 | `sach_gon` | Sạch, gọn, chuyên nghiệp |
 | `nghe_thuat` | Nghệ thuật, thể nghiệm |
 Note: một câu về cảm giác, dựa vào đâu.
+
+## muc_dich - Mục đích (video làm ra để làm gì)
+Chọn 1 tag chính, thêm 1 tag nếu video làm hai việc (ví dụ explainer cho một sản phẩm). Định nghĩa, cấu trúc mặc định
+và điều bắt buộc của từng mục đích ở `references/purposes.md`; tag ở đây phải trùng id trong file đó.
+| Tag | Nghĩa |
+|---|---|
+| `giai_thich` | Video giải thích (explainer): khái niệm, quy trình, cách một thứ hoạt động |
+| `gioi_thieu_san_pham` | Giới thiệu sản phẩm / app / tính năng / ra mắt bản mới |
+| `quang_cao` | Quảng cáo, chiến dịch: kể chuyện để bán, kết bằng slogan hoặc CTA |
+| `phim_thuong_hieu` | Phim thương hiệu / manifesto / rebrand: nói về giá trị, không bán một món cụ thể |
+| `ident_intro` | Ident, intro, mở màn sự kiện, title sequence, logo reveal |
+| `video_nhac` | Music video, lyric video, visual cho nhạc hoặc show |
+| `trailer` | Trailer, teaser, montage giới thiệu sách, phim, series, game |
+| `phim_ngan` | Phim ngắn kể chuyện, nghệ thuật hoặc thông điệp xã hội; không bán gì |
+| `noi_dung_mxh` | Nội dung mạng xã hội, doodle, loop, bài đăng theo dịp |
+| `showreel` | Showreel, demo kỹ thuật, demo font hay style |
+Note: video này dành cho ai, muốn người xem làm gì sau khi xem.
 
 ## hook - Hook (2-3 giây đầu)
 Điều gì giữ người xem ở lại.

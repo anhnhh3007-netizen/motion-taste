@@ -20,7 +20,7 @@ Cách tính:
 import argparse, datetime, json, math, os, re, sys
 
 CATS = [
-    ("style", "Style"), ("khong_khi", "Không khí"), ("hook", "Hook"), ("nhip", "Nhịp và cắt cảnh"), ("chuyen_canh", "Chuyển cảnh"), ("chu", "Chữ"),
+    ("style", "Style"), ("khong_khi", "Không khí"), ("muc_dich", "Mục đích"), ("hook", "Hook"), ("nhip", "Nhịp và cắt cảnh"), ("chuyen_canh", "Chuyển cảnh"), ("chu", "Chữ"),
     ("chuyen_dong", "Chuyển động"), ("mau", "Màu"), ("bo_cuc", "Bố cục"), ("hinh", "Kiểu hình"),
     ("am_thanh", "Âm thanh"), ("phu_de", "Phụ đề"), ("cau_truc", "Cấu trúc"),
 ]
@@ -382,15 +382,16 @@ def cmd_import(p, rounds, arg):
     print(f"Đã ghi điểm cho {changed} mẫu.")
 
 
-def cmd_style(p, rounds, arg):
-    """Không có arg: xếp hạng các style theo điểm người dùng. Có arg (id style): bằng chứng gu trong style đó."""
-    canon = canonical_tags(p).get("style", [])
+def cmd_style(p, rounds, arg, cat="style"):
+    """Không có arg: xếp hạng các style (hoặc mục đích) theo điểm người dùng. Có arg: bằng chứng gu bên trong nó."""
+    word = {"style": "style", "muc_dich": "mục đích"}[cat]
+    canon = canonical_tags(p).get(cat, [])
     warn = []
     stats, rated, _ = collect(rounds, warn)
     rows = summarize(stats)
-    style_rows = {r["tag"]: r for r in rows if r["category"] == "style"}
+    style_rows = {r["tag"]: r for r in rows if r["category"] == cat}
     if not arg:
-        print("# Style theo gu của bạn (điểm trung bình, số mẫu)")
+        print(f"# {word.capitalize()} theo gu của bạn (điểm trung bình, số mẫu)")
         for r in sorted(style_rows.values(), key=lambda r: -r["mean"]):
             print(f'- `{r["tag"]}`: {r["mean"]:.2f} ({r["n"]} mẫu, {r["status"]}, tin cậy {r["confidence"]})')
         untested = [t for t in canon if t not in style_rows]
@@ -398,48 +399,48 @@ def cmd_style(p, rounds, arg):
             print("\nChưa có mẫu nào được chấm: " + ", ".join(untested))
         return
     if canon and arg not in canon:
-        print(f"Không có style `{arg}`. Các style: " + ", ".join(canon))
+        print(f"Không có {word} `{arg}`. Các {word}: " + ", ".join(canon))
         sys.exit(1)
     sub = []
     for r in rounds:
-        ss = [s for s in r.get("samples", []) if arg in ((s.get("breakdown") or {}).get("style") or {}).get("tags", [])]
+        ss = [s for s in r.get("samples", []) if arg in ((s.get("breakdown") or {}).get(cat) or {}).get("tags", [])]
         if ss:
             sub.append({**r, "samples": ss})
-    print(f"# Style `{arg}`")
+    print(f"# {word.capitalize()} `{arg}`")
     sr = style_rows.get(arg)
     if sr:
-        print(f'Điểm của bạn cho style này: {sr["mean"]:.2f} ({sr["n"]} mẫu, {sr["status"]}, tin cậy {sr["confidence"]})')
+        print(f'Điểm của bạn cho {word} này: {sr["mean"]:.2f} ({sr["n"]} mẫu, {sr["status"]}, tin cậy {sr["confidence"]})')
         if sr["mean"] <= 2.0:
-            print("CẢNH BÁO: bạn đã chấm thấp style này - hỏi lại người dùng trước khi thiết kế theo nó.")
+            print(f"CẢNH BÁO: bạn đã chấm thấp {word} này - hỏi lại người dùng trước khi thiết kế theo nó.")
     else:
-        print("Chưa có mẫu nào của style này được chấm - chỉ dùng mặc định trong styles.md + rule chung.")
+        print(f"Chưa có mẫu nào của {word} này được chấm - chỉ dùng mặc định trong " + ("styles.md" if cat == "style" else "purposes.md") + " + rule chung.")
     for r in sub:
         for s in r["samples"]:
             rt = s.get("rating") or {}
             print(f'- {s["id"]} {s.get("title","")}: {rt.get("overall","chưa chấm")} {("· " + rt["note"]) if rt.get("note") else ""}')
     if sub:
         st2, _, _ = collect(sub, [])
-        inner = [r for r in summarize(st2) if r["category"] != "style"]
-        print("\n## Trong style này, bạn thích / ghét")
+        inner = [r for r in summarize(st2) if r["category"] != cat]
+        print(f"\n## Trong {word} này, bạn thích / ghét")
         for r in inner:
             if r["mean"] >= 4 or r["mean"] <= 2:
                 mark = "thích" if r["mean"] >= 4 else "ghét"
                 print(f'- {CAT_NAME[r["category"]]} `{r["tag"]}`: {r["mean"]:.2f} ({mark}, {r["n"]} mẫu)')
                 for nt in r["notes"][:2]:
                     print(f"    · {nt}")
-    print("\n## Rule chung (mọi style)")
+    print(f"\n## Rule chung (mọi {word})")
     hard = [h for r in rounds for h in r.get("hard_rules", [])]
     for h in hard:
         print(f"- LUẬT CỨNG: {h}")
     for r in rows:
-        if r["category"] != "style" and r["status"] in ("Nên", "Tránh") and r["confidence"] != "thấp":
+        if r["category"] != cat and r["status"] in ("Nên", "Tránh") and r["confidence"] != "thấp":
             print(f'- {r["status"]}: {CAT_NAME[r["category"]]} `{r["tag"]}` ({r["mean"]:.2f}, tin cậy {r["confidence"]})')
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["status", "new-round", "coverage", "audit", "export", "import-ratings", "style"])
-    ap.add_argument("arg", nargs="?", help="export: số vòng · import-ratings: file JSON điểm · style: id style (bỏ trống để xếp hạng)")
+    ap.add_argument("cmd", choices=["status", "new-round", "coverage", "audit", "export", "import-ratings", "style", "purpose"])
+    ap.add_argument("arg", nargs="?", help="export: số vòng · import-ratings: file JSON điểm · style/purpose: id (bỏ trống để xếp hạng)")
     ap.add_argument("--dir", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     a = ap.parse_args()
     p = paths(a.dir)
@@ -450,6 +451,8 @@ def main():
         return cmd_import(p, rounds, a.arg)
     if a.cmd == "style":
         return cmd_style(p, rounds, a.arg)
+    if a.cmd == "purpose":
+        return cmd_style(p, rounds, a.arg, "muc_dich")
     {"status": cmd_status, "new-round": cmd_new_round, "coverage": cmd_coverage, "audit": cmd_audit}[a.cmd](p, rounds)
 
 
