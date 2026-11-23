@@ -17,6 +17,7 @@ khi thiết kế video.
 | `SKILL.md` | Quy trình cho Claude: một vòng 5 bước, thiết kế theo style, định dạng dữ liệu |
 | `motion-taste.md` | Bộ rule gu hiện tại (luật cứng, yêu cầu trực tiếp, Nên/Tránh, bảng bằng chứng) |
 | `references/categories.md` | 14 category và bộ tag chuẩn |
+| `references/build-recipes.md` | Công thức dựng từng style bằng Remotion; mặc định `code_polished` |
 | `references/purposes.md` | 10 mục đích video: mục tiêu, khung 60-90 s, điều bắt buộc, gu |
 | `references/styles.md` | Thư viện 18 style: nhận diện, ngữ pháp mặc định, cách dựng, lỗi làm rẻ tiền |
 | `references/sourcing.md` | Tìm, lọc (≤ 90 s) và xem mẫu tiết kiệm token |

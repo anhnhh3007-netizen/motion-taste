@@ -30,6 +30,8 @@ Thư mục skill: `$T = ~/.claude/skills/motion-taste`.
   ident, video nhạc, trailer, phim ngắn, mạng xã hội, showreel): mục tiêu, khung 60-90 s, điều bắt buộc, gu của người
   dùng, và **style gợi ý** cho từng mục đích. Chỉ là gợi ý: không bắt buộc người dùng theo. **Đọc khi gắn nhãn mục đích
   và khi người dùng chưa chọn style.**
+- `references/build-recipes.md` - **công thức dựng** từng style bằng Remotion (tài sản cần, kỹ thuật, kiểm trước khi
+  giao, mức làm được). Mặc định luôn là `code_polished`; công thức khác chỉ dùng khi người dùng nói rõ style đó.
 - `references/styles.md` - thư viện style: nhận diện, ngữ pháp mặc định, cách dựng, lỗi làm rẻ tiền. **Đọc khi
   gắn nhãn style và khi thiết kế theo style.**
 - `references/sourcing.md` - tìm mẫu ở đâu, xem mẫu thế nào, chọn mẫu cho từng vòng. **Đọc trước khi tìm mẫu.**
@@ -134,7 +136,7 @@ style stop-motion", "video giới thiệu app theo gu của tôi":
    đã chấm thuộc style, những gì họ thích/ghét bên trong style, luật cứng và rule chung. `python3 $T/scripts/taste.py
    style` (không id) xếp hạng mọi style theo gu - dùng khi người dùng hỏi "tôi hợp style nào".
    Nếu script cảnh báo người dùng đã chấm thấp style này, nói ra và hỏi lại trước khi làm tiếp.
-3. **Đọc** mục style trong `styles.md` và toàn bộ `motion-taste.md`.
+3. **Đọc** mục style trong `styles.md`, công thức của style trong `build-recipes.md`, và toàn bộ `motion-taste.md`.
 4. **Ghép theo thứ tự ưu tiên:** luật cứng > yêu cầu trực tiếp > gu riêng trong style này > rule chung (Nên/Tránh) > mặc định của style.
    Chỗ gu đè lên mặc định của style thì ghi rõ trong brief ("style thường cắt nhanh, nhưng bạn thích nhịp chậm (r1s5)").
 5. **Viết style brief** (file `style-brief-<id>.md` trong thư mục dự án của người dùng, hoặc trong tin nhắn nếu chưa có
