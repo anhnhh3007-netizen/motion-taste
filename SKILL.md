@@ -21,7 +21,8 @@ Khung hình của mẫu là file tĩnh đăng kèm trang (`frames/<id>-1..3.jpg`
 đã dựng trang; khi thêm mẫu mới, đăng lại trang với `url` ở trên và thêm file khung hình mới vào `files`.
 
 Thư mục skill: `$T = ~/.claude/skills/motion-taste`.
-- `motion-taste.md` - bộ rule sống, cộng dồn qua các vòng (người dùng đọc file này).
+- `motion-taste.md` - bộ rule sống, cộng dồn qua các vòng (người dùng đọc file này). Mục "Bài học từ video Claude
+  làm" (từ thử nghiệm A/B mù, `data/own/`) có trọng số cao hơn rule rút từ mẫu tham khảo.
 - `data/rounds/round-NN.json` - mẫu, phần tách category và điểm chấm của từng vòng (bằng chứng).
 - `scripts/taste.py` - tính điểm từ mọi vòng, in audit, cập nhật bảng bằng chứng trong `motion-taste.md`.
 - `references/categories.md` - 13 category (gồm `style` và `khong_khi`) và bộ tag chuẩn. **Đọc trước mỗi vòng.**

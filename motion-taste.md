@@ -19,6 +19,26 @@ explainer liệt kê, UI sản phẩm, trừu tượng tối. 3D chưa phải nh
 - **Nhịp nhanh hơn 3-4 s/cảnh:** mục tiêu khoảng **1-2 s/cảnh**, với 60-90 s là khoảng 35-60 cú cắt hoặc đổi trạng
   thái lớn. (vòng 1, trả lời câu hỏi audit)
 
+## Bài học từ video Claude làm (trọng số cao)
+Rút từ video **do Claude dựng** rồi bạn chấm mù, nên phản ánh đúng cái Claude làm được. Xếp ngay sau "Yêu cầu trực
+tiếp", trên mọi rule rút từ mẫu tham khảo. Chi tiết: `data/own/`.
+- **Hoàn thiện và chuyên nghiệp trước, style sau.** Thử nghiệm AB1: bản theo gu (giấy kem phẳng, nét rung giả vẽ tay
+  bằng code, mặt cười trên mọi vật, em bé hình que, Marker Felt) bị chấm **Không thích (2)**, vì "trông nghiệp dư, trẻ
+  con". Bản mặc định (không gian xanh than `#0E1430`, Mặt Trời phát sáng, gradient, chiều sâu, Avenir Next Heavy) được
+  **Thích (4)**, vì "trông chuyên nghiệp, đẹp". · cả hai
+  - Khi chỉ dựng bằng code: **không giả vẽ tay bằng nét nguệch ngoạc**. Dùng hình vector sạch có ánh sáng, gradient,
+    phát sáng, nhiều lớp sâu. Không gắn mắt/mặt cười lên mọi vật; tối đa một nhân vật có mặt.
+  - Rule "vẽ tay", "collage" trong phần Nên là gu về **mẫu do studio vẽ thật**. Chỉ áp dụng khi có tài sản hình chất
+    lượng (ảnh sinh, hình vẽ sẵn, ảnh cắt), không áp bằng hiệu ứng code.
+  - Font tay kiểu Marker Felt / Chalkboard: không dùng.
+- **Giải thích phải rõ:** mỗi lúc một ý, một hình chủ thể. Tránh nhiều vệt, nhiều đường chồng chéo trên màn hình
+  (đoạn tia xanh nảy 8 lần của AB1-A "rối, khó hiểu"). Thêm thông tin thật làm điểm tựa (con số, nhãn ngắn), như
+  "8 phút 20 giây", "sóng ngắn → tán xạ mạnh" của AB1-B. · cả hai
+- **Camera bám theo vật và chuyển cảnh thông minh:** match cut (chấm → Mặt Trời), whip theo hướng chuyển động, camera
+  đẩy vào chi tiết ở điểm va chạm. Bạn nêu đích danh đây là điểm thích ở AB1-B. · cả hai
+- Nền tối không gian xanh than với vật phát sáng cam/xanh được thích (AB1-B), khớp rule cũ: nền tối ổn khi có màu nhấn
+  rực và năng lượng; chỉ tránh tối bí ẩn, trừu tượng không có chủ thể.
+
 ## Luật cứng
 - **Không** làm video trừu tượng tối: nền gần như đen, hình mờ trôi chậm, chữ rất nhỏ, gần như không có nội dung để
   đọc. (vòng 1, r1s2 "Không bao giờ")
@@ -119,6 +139,7 @@ Mục đích có ít bằng chứng (1 mẫu): gợi ý style theo gu chung (v�
 ## Lịch sử thay đổi
 | Vòng | Thay đổi |
 |---|---|
+| AB1 | (2026-11-23) Thử nghiệm A/B mù đầu tiên: bản theo gu 2, bản mặc định 4. Thêm mục "Bài học từ video Claude làm" (trọng số cao): hoàn thiện trước style, không giả vẽ tay bằng code, giải thích rõ, camera bám vật + match cut. Rule vẽ tay/collage chỉ áp khi có tài sản hình. |
 | 4 | Thêm category `muc_dich` (10 mục đích) và `references/purposes.md`; gắn mục đích cho cả 29 mẫu; thêm mục "Theo mục đích". Quảng cáo là mục đích được thích nhất (4,3, tin cậy cao). Theo ý bạn (vòng 4): mục đích chỉ để gợi ý style, không bắt buộc. |
 | 4 | 28 mẫu (r4s2 chưa chấm). Mở rộng Nên: collage gồm cả minh hoạ in lụa giấy ấm (r4s4), hand_drawn mảng phẳng theo nhạc (r4s1). Rule nhịp thêm ngoại lệ: cảnh dài tới ~4 s được nếu hình biến liên tục theo phách. Làm rõ luật cứng rubber hose: chỉ đen trắng (r4s5 có màu "Bình thường"). Âm thanh vẫn Đang theo dõi vì chưa có điểm category. |
 | 1 | Bộ rule đầu tiên từ 8 mẫu; 2 luật cứng; 3D đánh dấu "chưa có nhu cầu". |

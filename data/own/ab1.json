@@ -1,0 +1,14 @@
+{
+  "test": "AB1",
+  "date": "2026-11-23",
+  "brief": "Video giải thích kể chuyện 'Vì sao bầu trời màu xanh?', 16:9, 20 s, nhạc tổng hợp, không giọng đọc, chỉ dựng bằng code (không sinh ảnh)",
+  "versions": {
+    "A": {"made_by": "Claude theo motion-taste", "dir": "ab-test/sky-taste", "rating": 2, "choice": "Không thích",
+          "design": "giấy kem #F7F0E3 phẳng, nét rung giả vẽ tay (feTurbulence 12 hình/s), nhân vật có mắt trên mọi vật, Bodoni 72 + Marker Felt, tia xanh nảy 8 lần để lại nhiều vệt chồng nhau, em bé hình que",
+          "why_user": ["Trông nghiệp dư, trẻ con", "Rối, khó hiểu"]},
+    "B": {"made_by": "agent mặc định, không đọc motion-taste", "dir": "ab-test/sky-default", "rating": 4, "choice": "Thích",
+          "design": "không gian xanh than #0E1430, Mặt Trời phát sáng, Trái Đất, Avenir Next Heavy + Menlo, nhãn thông tin thật (8 phút 20 giây, sóng ngắn/dài), match cut chấm → Mặt Trời, whip, camera đẩy vào phân tử, bầu trời gradient",
+          "why_user": ["Lia cam theo vật, có chuyển cảnh thông minh", "Trông chuyên nghiệp, đẹp"]}
+  },
+  "weight": "cao: video do Claude dựng, phản ánh đúng cái Claude làm được"
+}
