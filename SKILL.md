@@ -27,7 +27,8 @@ Thư mục skill: `$T = ~/.claude/skills/motion-taste`.
 - `references/categories.md` - 13 category (gồm `style` và `khong_khi`) và bộ tag chuẩn. **Đọc trước mỗi vòng.**
 - `references/purposes.md` - thư viện mục đích video (giải thích, giới thiệu sản phẩm, quảng cáo, phim thương hiệu,
   ident, video nhạc, trailer, phim ngắn, mạng xã hội, showreel): mục tiêu, khung 60-90 s, điều bắt buộc, gu của người
-  dùng. **Đọc khi gắn nhãn mục đích và khi thiết kế một video.**
+  dùng, và **style gợi ý** cho từng mục đích. Chỉ là gợi ý: không bắt buộc người dùng theo. **Đọc khi gắn nhãn mục đích
+  và khi người dùng chưa chọn style.**
 - `references/styles.md` - thư viện style: nhận diện, ngữ pháp mặc định, cách dựng, lỗi làm rẻ tiền. **Đọc khi
   gắn nhãn style và khi thiết kế theo style.**
 - `references/sourcing.md` - tìm mẫu ở đâu, xem mẫu thế nào, chọn mẫu cho từng vòng. **Đọc trước khi tìm mẫu.**
@@ -126,21 +127,21 @@ style stop-motion", "video giới thiệu app theo gu của tôi":
 1. **Xác định style.** Ánh xạ lời người dùng sang một id trong `references/styles.md`. Lời mơ hồ ("kiểu nghệ thuật",
    "giống Apple") thì đưa 2-3 style gần nhất kèm một dòng mô tả và để người dùng chọn. Không có trong thư viện thì
    thêm style mới vào `styles.md` trước.
-2. **Lấy bằng chứng gu:** xác định luôn **mục đích** của video (id trong `references/purposes.md`; hỏi người dùng nếu
-   chưa rõ) và chạy `python3 $T/scripts/taste.py purpose <id>` để xem gu bên trong mục đích đó (`purpose` không id xếp
-   hạng mọi mục đích). Rồi `python3 $T/scripts/taste.py style <id>` in ra điểm của người dùng cho style đó, các mẫu
+2. **Lấy bằng chứng gu:** nếu người dùng chưa chọn style, hỏi mục đích video rồi đưa 2-3 "Style gợi ý" của mục đích đó
+   trong `references/purposes.md` (kèm `python3 $T/scripts/taste.py purpose <id>`) để họ chọn. Đây chỉ là gợi ý; người
+   dùng đã chọn style thì giữ nguyên. Rồi `python3 $T/scripts/taste.py style <id>` in ra điểm của người dùng cho style đó, các mẫu
    đã chấm thuộc style, những gì họ thích/ghét bên trong style, luật cứng và rule chung. `python3 $T/scripts/taste.py
    style` (không id) xếp hạng mọi style theo gu - dùng khi người dùng hỏi "tôi hợp style nào".
    Nếu script cảnh báo người dùng đã chấm thấp style này, nói ra và hỏi lại trước khi làm tiếp.
 3. **Đọc** mục style trong `styles.md` và toàn bộ `motion-taste.md`.
-4. **Ghép theo thứ tự ưu tiên:** luật cứng > yêu cầu trực tiếp > điều bắt buộc của mục đích (`purposes.md`) > gu riêng trong style này > rule chung (Nên/Tránh) > mặc định của style.
+4. **Ghép theo thứ tự ưu tiên:** luật cứng > yêu cầu trực tiếp > gu riêng trong style này > rule chung (Nên/Tránh) > mặc định của style.
    Chỗ gu đè lên mặc định của style thì ghi rõ trong brief ("style thường cắt nhanh, nhưng bạn thích nhịp chậm (r1s5)").
 5. **Viết style brief** (file `style-brief-<id>.md` trong thư mục dự án của người dùng, hoặc trong tin nhắn nếu chưa có
    dự án) theo khung dưới. Mọi dòng là giá trị dựng được, không phải tính từ.
 
 ```markdown
 # Style brief: <style> cho <video/chủ đề>
-Mục đích: <id> · Style: <id> (+ style phụ nếu có) · Không khí: <tag> · Khổ: <16:9 / 9:16> · Thời lượng: <s>
+Mục đích: <id> (nếu có) · Style: <id> (+ style phụ nếu có) · Không khí: <tag> · Khổ: <16:9 / 9:16> · Thời lượng: <s>
 Dựa trên: purposes.md#<mục đích> + styles.md#<id> + motion-taste.md (vòng 1-N, <số> mẫu) · Độ tin cậy gu trong style này: <cao/vừa/thấp/chưa có>
 
 ## Luật cứng áp dụng

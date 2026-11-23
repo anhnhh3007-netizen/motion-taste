@@ -30,8 +30,9 @@ explainer liệt kê, UI sản phẩm, trừu tượng tối. 3D chưa phải nh
   "Không bao giờ")
 
 ## Theo mục đích video
-Chi tiết, khung 60-90 s và điều bắt buộc của từng mục đích: `references/purposes.md`. Điểm theo mục đích chủ yếu phản
-ánh style của các mẫu, nên đọc "thích khi / ghét khi", đừng đọc riêng con số.
+Dùng để **gợi ý style** khi bạn chưa chọn, không bắt buộc: bạn chọn style nào cũng được. Khung 60-90 s và style gợi ý
+của từng mục đích: `references/purposes.md`. Điểm theo mục đích chủ yếu phản ánh style của các mẫu, nên đọc "thích khi /
+ghét khi", đừng đọc riêng con số.
 | Mục đích | Điểm (mẫu) | Thích khi | Ghét khi |
 |---|---|---|---|
 | **Quảng cáo, chiến dịch** | **4,3 (6) · Nên, tin cậy cao** | Collage giấy cắt, 2D nhân vật cá tính đi qua nhiều thế giới, retro game, vui tươi (r1s3, r2s3, r3s1, r3s2) | Kiểu cổ nhịp chậm màu tối (r4s5) |
@@ -45,8 +46,7 @@ Chi tiết, khung 60-90 s và điều bắt buộc của từng mục đích: `r
 | Video nhạc | 2,0 (3) · Tránh | (Salsa r4s1 cho thấy nhạc dẫn hình vẫn được khi có nhân vật màu rực) | Trừu tượng tối, chữ trắng đen không hình |
 | Showreel | 2,0 (2) · Tránh | - | Chuỗi cảnh rời không mạch kể |
 
-Khi làm một video cho mục đích có ít bằng chứng (1 mẫu), dùng khung trong `purposes.md` + gu của mục đích gần nhất
-(quảng cáo) + rule chung.
+Mục đích có ít bằng chứng (1 mẫu): gợi ý style theo gu chung (vẽ tay, collage, 2D nhân vật có cá tính, isometric).
 
 ## Nên
 ### Style
@@ -119,7 +119,7 @@ Khi làm một video cho mục đích có ít bằng chứng (1 mẫu), dùng kh
 ## Lịch sử thay đổi
 | Vòng | Thay đổi |
 |---|---|
-| 4 | Thêm category `muc_dich` (10 mục đích) và `references/purposes.md`; gắn mục đích cho cả 29 mẫu; thêm mục "Theo mục đích". Quảng cáo là mục đích được thích nhất (4,3, tin cậy cao). |
+| 4 | Thêm category `muc_dich` (10 mục đích) và `references/purposes.md`; gắn mục đích cho cả 29 mẫu; thêm mục "Theo mục đích". Quảng cáo là mục đích được thích nhất (4,3, tin cậy cao). Theo ý bạn (vòng 4): mục đích chỉ để gợi ý style, không bắt buộc. |
 | 4 | 28 mẫu (r4s2 chưa chấm). Mở rộng Nên: collage gồm cả minh hoạ in lụa giấy ấm (r4s4), hand_drawn mảng phẳng theo nhạc (r4s1). Rule nhịp thêm ngoại lệ: cảnh dài tới ~4 s được nếu hình biến liên tục theo phách. Làm rõ luật cứng rubber hose: chỉ đen trắng (r4s5 có màu "Bình thường"). Âm thanh vẫn Đang theo dõi vì chưa có điểm category. |
 | 1 | Bộ rule đầu tiên từ 8 mẫu; 2 luật cứng; 3D đánh dấu "chưa có nhu cầu". |
 | 1 | Mẫu tham khảo từ vòng 2 chỉ lấy video dài dưới 1,5 phút (≤ 90 s). |
