@@ -18,14 +18,6 @@ explainer liệt kê, UI sản phẩm, trừu tượng tối. 3D chưa phải nh
   (vòng 1, trả lời câu hỏi audit)
 - **Nhịp nhanh hơn 3-4 s/cảnh:** mục tiêu khoảng **1-2 s/cảnh**, với 60-90 s là khoảng 35-60 cú cắt hoặc đổi trạng
   thái lớn. (vòng 1, trả lời câu hỏi audit)
-- **Không giọng đọc, không phụ đề.** Nhạc và chữ trên hình dẫn dắt câu chuyện, giống Salsa (r4s1) và The Biggest Story
-  (r4s4). Vì vậy chữ trên hình phải tự kể được mạch: câu ngắn 2-5 từ, to, nằm trong bố cục. (2026-11-23, trả lời trực tiếp)
-- **Nếu một brief cụ thể bắt buộc phải có phụ đề** (Claude đề xuất, bạn đồng ý để mình chọn): 2-4 từ một lần, chữ to
-  đậm đặt trong bố cục như một phần của hình, không phải dòng nhỏ ở đáy; đổi theo nhịp câu. (2026-11-23)
-- **Màu mặc định theo mục đích khi brief không nói:** bảng **rực bão hoà** (tím than `#2B1B4E`, hồng `#E8508A`, cam
-  `#F59A3C`, vàng `#FFE23A`) cho quảng cáo, nội dung mạng xã hội, video nhạc, giới thiệu sản phẩm; bảng **giấy ấm**
-  (kem `#F7F0E3`, giấy be `#E9DCC0`, đỏ son `#A93146`, xanh lá `#467D57`, nhấn cam `#F26B4F`) cho trailer, phim thương
-  hiệu, video giải thích, phim ngắn. (2026-11-23, trả lời trực tiếp)
 
 ## Luật cứng
 - **Không** làm video trừu tượng tối: nền gần như đen, hình mờ trôi chậm, chữ rất nhỏ, gần như không có nội dung để
@@ -114,10 +106,11 @@ Mục đích có ít bằng chứng (1 mẫu): gợi ý style theo gu chung (v�
 - Anime game màu xanh ngọc tím, khổ vuông, ~1,7 s/cảnh (Pokimane r4s3): "Thích".
 - Flat vector 3,0 trên 6 mẫu: chỉ ổn khi có cá tính và nhịp nhanh.
 - AGES (r3s7, hình học không nhân vật) "Bình thường".
-- **Âm thanh** (đã có yêu cầu trực tiếp: không giọng đọc, nhạc dẫn dắt; phần dưới là chi tiết nhạc, chưa thành rule): hai mẫu "Rất thích" đều **không dựa vào giọng đọc**: nhạc salsa dày tiếng nhấn dẫn cả phim (r4s1) và nhạc cinematic mở nhỏ rồi dâng lên, beat rõ (r4s4). Mẫu có giọng đọc + SFX dày, âm nén đều được "Thích" (r4s3). Tiếng lọc cổ kiểu đĩa than "Bình thường" (r4s5). Giả thuyết: nhạc có nhịp rõ dẫn dắt hình > giọng đọc. Cần bạn chấm riêng category Âm thanh để thành rule.
-- **Phụ đề:** theo yêu cầu trực tiếp, mặc định không dùng.
+- **Âm thanh** (vòng 4, chưa có điểm riêng cho âm thanh, chỉ suy từ điểm tổng): hai mẫu "Rất thích" đều **không dựa vào giọng đọc**: nhạc salsa dày tiếng nhấn dẫn cả phim (r4s1) và nhạc cinematic mở nhỏ rồi dâng lên, beat rõ (r4s4). Mẫu có giọng đọc + SFX dày, âm nén đều được "Thích" (r4s3). Tiếng lọc cổ kiểu đĩa than "Bình thường" (r4s5). Giả thuyết: nhạc có nhịp rõ dẫn dắt hình > giọng đọc. Cần bạn chấm riêng category Âm thanh để thành rule.
+- **Phụ đề:** chưa có dữ liệu.
 
 ## Câu hỏi còn mở
+3. Video của bạn có **giọng đọc** không, và có **phụ đề** không? Nếu có phụ đề, bạn thích kiểu nào (hiện từng từ, chữ to giữa khung, một dòng nhỏ)? Đây là yêu cầu trực tiếp, trả lời một lần là đủ.
 4. The Bystanders (r4s2) chưa được chấm: bỏ qua cố ý hay quên?
 1. Dancing on Osees (r2s4): bạn chấm + cho style, màu và nhịp nhưng tổng chỉ "Bình thường". Điều gì kéo nó xuống?
 2. Pipedrive (r3s4) "Thích" nhưng bạn bấm − cho style và kiểu hình. Bạn thích riêng chuyển cảnh và chuyển động của nó
@@ -126,7 +119,6 @@ Mục đích có ít bằng chứng (1 mẫu): gợi ý style theo gu chung (v�
 ## Lịch sử thay đổi
 | Vòng | Thay đổi |
 |---|---|
-| 4 | (2026-11-23) Yêu cầu trực tiếp mới: không giọng đọc, không phụ đề (nếu buộc phải có thì chữ to 2-4 từ trong bố cục); màu mặc định theo mục đích (rực / giấy ấm). |
 | 4 | Thêm category `muc_dich` (10 mục đích) và `references/purposes.md`; gắn mục đích cho cả 29 mẫu; thêm mục "Theo mục đích". Quảng cáo là mục đích được thích nhất (4,3, tin cậy cao). Theo ý bạn (vòng 4): mục đích chỉ để gợi ý style, không bắt buộc. |
 | 4 | 28 mẫu (r4s2 chưa chấm). Mở rộng Nên: collage gồm cả minh hoạ in lụa giấy ấm (r4s4), hand_drawn mảng phẳng theo nhạc (r4s1). Rule nhịp thêm ngoại lệ: cảnh dài tới ~4 s được nếu hình biến liên tục theo phách. Làm rõ luật cứng rubber hose: chỉ đen trắng (r4s5 có màu "Bình thường"). Âm thanh vẫn Đang theo dõi vì chưa có điểm category. |
 | 1 | Bộ rule đầu tiên từ 8 mẫu; 2 luật cứng; 3D đánh dấu "chưa có nhu cầu". |
