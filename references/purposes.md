@@ -16,7 +16,7 @@ Lưu ý khi đọc điểm theo mục đích: điểm của một mục đích p
 explainer chỉ được 3,0 vì có cả mẫu chữ slide (1 điểm) lẫn mẫu Adobe kinetic type (5 điểm). Không kết luận "bạn ghét
 explainer". Đọc phần "thích khi / ghét khi" bên dưới.
 
-Cách dùng: khi người dùng chưa chọn style, dựng theo mặc định `code_polished` (`build-recipes.md`). Chỉ đưa "Style gợi ý"
+Cách dùng: khi người dùng chưa chọn style, dựng theo mặc định `code_polished` (`motion-styles/code_polished/`). Chỉ đưa "Style gợi ý"
 khi người dùng hỏi nên dùng style nào. Khi người dùng đã chọn
 style, không đổi theo file này. Thứ tự ưu tiên khi ghép brief vẫn là: luật cứng > yêu cầu trực tiếp > gu trong style >
 rule chung > mặc định của style; mục đích chỉ góp ý ở bước chọn style và khung kịch bản.

@@ -19,8 +19,8 @@ explainer liệt kê, UI sản phẩm, trừu tượng tối. 3D chưa phải nh
 - **Nhịp nhanh hơn 3-4 s/cảnh:** mục tiêu khoảng **1-2 s/cảnh**, với 60-90 s là khoảng 35-60 cú cắt hoặc đổi trạng
   thái lớn. (vòng 1, trả lời câu hỏi audit)
 
-- **Style mặc định: dựng bằng code hoàn thiện** (`code_polished` trong `references/build-recipes.md`). Bạn sẽ nói rõ
-  khi muốn style khác (vẽ tay, collage…); khi đó dùng công thức của style đó trong `build-recipes.md`. Không tự đổi
+- **Style mặc định: dựng bằng code hoàn thiện** (`code_polished`, skill `motion-styles`). Bạn sẽ nói rõ
+  khi muốn style khác (vẽ tay, collage…); khi đó dùng thư mục của style đó trong `motion-styles` (luật riêng + công thức dựng). Không tự đổi
   sang style khác vì gu chấm cao. (2026-11-23, trả lời trực tiếp)
 
 ## Bài học từ video Claude làm (trọng số cao)
