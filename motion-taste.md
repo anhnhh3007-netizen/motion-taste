@@ -3,7 +3,7 @@
 Bộ rule rút từ các vòng chấm mẫu (skill `motion-taste`). Mỗi rule ghi phạm vi áp dụng: `motion` (motion graphics dựng
 bằng code), `animation` (phim hoạt hình) hoặc `cả hai`, kèm độ tin cậy và mẫu dẫn chứng.
 
-Trạng thái: **4 vòng · 28 mẫu đã chấm (2026-11-22).** Độ nhất quán: mẫu chiếu lại lệch 1 điểm (đạt).
+Trạng thái: **5 vòng · 33 mẫu đã chấm (2026-11-26).** Độ nhất quán: mẫu chiếu lại lệch 1 điểm (đạt).
 
 ## Tóm tắt gu
 Sau 4 vòng (28 mẫu), điều bạn thích rõ nhất là **2D có cá tính và năng lượng**: cartoon cel màu rực kể chuyện nhanh
@@ -143,6 +143,7 @@ Mục đích có ít bằng chứng (1 mẫu): gợi ý style theo gu chung (v�
 ## Lịch sử thay đổi
 | Vòng | Thay đổi |
 |---|---|
+| 5 | (2026-11-26) Vòng tập trung vox (4/5 mẫu vox/collage). Thích: hồ sơ điều tra báo cũ + dây đỏ + con dấu (r5s2, 4, + chữ/chuyển cảnh/hình/màu/style); collage ảnh người cắt trên trời mây, camera bay xuyên, nhịp ~2,5 s (r5s3, 4). Không thích: giấy cũ + ảnh sepia gần đơn sắc, trang đứng ~5 s (r5s1, 2) — củng cố Tránh đơn sắc và nhịp chậm. Đề xuất luật riêng cho vox/collage ở `motion-styles/<style>/taste-proposals.md`. |
 | 26/11 | (2026-11-26) Yêu cầu trực tiếp: chỉ dùng 2 style `collage` và `vox`, không có mặc định, hỏi mỗi lần. Các thư mục style khác vẫn trên đĩa nhưng bị bỏ qua (`motion-styles/ACTIVE`). Bài học AB1 về hoàn thiện, không giả vẽ tay bằng code vẫn giữ. |
 | AB1 | (2026-11-23) Yêu cầu trực tiếp: style mặc định là `code_polished`; vẽ tay/collage chỉ khi bạn yêu cầu. Thêm `references/build-recipes.md` (công thức dựng từng style). |
 | AB1 | (2026-11-23) Thử nghiệm A/B mù đầu tiên: bản theo gu 2, bản mặc định 4. Thêm mục "Bài học từ video Claude làm" (trọng số cao): hoàn thiện trước style, không giả vẽ tay bằng code, giải thích rõ, camera bám vật + match cut. Rule vẽ tay/collage chỉ áp khi có tài sản hình. |
@@ -156,19 +157,21 @@ Mục đích có ít bằng chứng (1 mẫu): gợi ý style theo gu chung (v�
 
 <!-- AUTO:EVIDENCE START - phần dưới đây do scripts/taste.py audit viết lại, đừng sửa tay -->
 ## Bảng bằng chứng
-Cập nhật 2026-11-22 · 4 vòng · 28 mẫu đã chấm. Điểm = trung bình có trọng số (điểm riêng của category x1.0, điểm tổng của mẫu x0.6).
+Cập nhật 2026-11-26 · 5 vòng · 33 mẫu đã chấm. Điểm = trung bình có trọng số (điểm riêng của category x1.0, điểm tổng của mẫu x0.6).
 
 | Category | Tag | Điểm | Lệch | Số mẫu | Trạng thái | Tin cậy | Phạm vi | Mẫu |
 |---|---|---|---|---|---|---|---|---|
 | Style | `isometric` | 4.62 | 0.48 | 2 | Nên | vừa | cả hai | r1s8, r2s2 |
 | Style | `hand_drawn` | 4.61 | 1.18 | 7 | Nên | vừa | cả hai | r1s5, r2s4, r3s2, r3s5, r3s6, r4s1, r4s4 |
-| Style | `collage` | 4.44 | 1.17 | 4 | Nên | vừa | cả hai | r1s3, r1s7, r2s3, r4s4 |
-| Style | `character_2d` | 4.00 | 1.55 | 12 | Mâu thuẫn | thấp | cả hai | r1s5, r2s3, r2s4, r2s5, r3s1, r3s2, r3s3, r3s4, r3s5, r4s1, r4s3, r4s5 |
+| Style | `collage` | 4.11 | 1.29 | 7 | Nên | thấp | cả hai | r1s3, r1s7, r2s3, r4s4, r5s1, r5s2, r5s4 |
+| Style | `cg_stylized` | 4.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r5s3 |
+| Style | `character_2d` | 3.94 | 1.52 | 13 | Mâu thuẫn | thấp | cả hai | r1s5, r2s3, r2s4, r2s5, r3s1, r3s2, r3s3, r3s4, r3s5, r4s1, r4s3, r4s5, r5s5 |
 | Style | `infographic` | 3.88 | 1.45 | 2 | Đang theo dõi | thấp | cả hai | r1s8, r2s7 |
+| Style | `vox` | 3.71 | 1.16 | 4 | Đang theo dõi | vừa | motion | r5s1, r5s2, r5s3, r5s4 |
 | Style | `retro` | 3.50 | 1.50 | 4 | Mâu thuẫn | thấp | animation | r3s1, r3s5, r4s3, r4s5 |
 | Style | `kinetic_type` | 3.24 | 1.70 | 5 | Mâu thuẫn | thấp | motion | r1s1, r2s1, r2s6, r2s8, r3s6 |
 | Style | `cg_realistic` | 3.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r1s6 |
-| Style | `flat_vector` | 3.00 | 1.62 | 6 | Mâu thuẫn | thấp | cả hai | r1s1, r2s5, r2s7, r3s3, r3s4, r3s7 |
+| Style | `flat_vector` | 3.00 | 1.52 | 7 | Mâu thuẫn | thấp | cả hai | r1s1, r2s5, r2s7, r3s3, r3s4, r3s7, r5s5 |
 | Style | `abstract` | 2.00 | 1.00 | 2 | Tránh | vừa | motion | r1s2, r3s7 |
 | Style | `brutalist` | 2.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r2s6 |
 | Style | `pixel_art` | 2.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r2s8 |
@@ -176,88 +179,90 @@ Cập nhật 2026-11-22 · 4 vòng · 28 mẫu đã chấm. Điểm = trung bìn
 | Style | `product_3d` | 1.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r1s4 |
 | Style | `swiss_minimal` | 1.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r2s1 |
 | Style | `ui_promo` | 1.00 | 0.00 | 2 | Tránh | vừa | motion | r1s4, r3s4 |
-| Không khí | `nang_dong` | 4.32 | 1.02 | 6 | Nên | vừa | cả hai | r2s6, r3s1, r3s2, r3s6, r4s1, r4s3 |
-| Không khí | `dien_anh` | 4.00 | 0.82 | 3 | Nên | vừa | animation | r1s6, r2s5, r4s4 |
+| Không khí | `nang_dong` | 4.28 | 0.96 | 7 | Nên | cao | cả hai | r2s6, r3s1, r3s2, r3s6, r4s1, r4s3, r5s3 |
 | Không khí | `vui_tuoi` | 3.95 | 1.31 | 11 | Đang theo dõi | thấp | cả hai | r1s1, r1s3, r2s3, r2s4, r3s1, r3s2, r3s3, r3s5, r4s1, r4s3, r4s5 |
 | Không khí | `nghe_thuat` | 3.76 | 1.21 | 5 | Đang theo dõi | thấp | cả hai | r1s5, r1s7, r2s4, r3s6, r3s7 |
-| Không khí | `hoai_co` | 3.71 | 1.62 | 4 | Mâu thuẫn | thấp | cả hai | r1s3, r2s3, r3s5, r4s5 |
+| Không khí | `dien_anh` | 3.50 | 0.87 | 8 | Đang theo dõi | cao | cả hai | r1s6, r2s5, r4s4, r5s1, r5s2, r5s3, r5s4, r5s5 |
+| Không khí | `hoai_co` | 3.41 | 1.61 | 5 | Mâu thuẫn | thấp | cả hai | r1s3, r2s3, r3s5, r4s5, r5s1 |
 | Không khí | `thu_cong` | 3.33 | 1.25 | 3 | Đang theo dõi | thấp | animation | r1s7, r2s4, r4s4 |
 | Không khí | `tram_lang` | 3.25 | 1.48 | 4 | Đang theo dõi | thấp | cả hai | r1s2, r1s5, r2s5, r3s7 |
 | Không khí | `cong_nghe` | 3.09 | 1.78 | 3 | Mâu thuẫn | thấp | motion | r1s4, r2s2, r2s8 |
 | Không khí | `ky_ao` | 3.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r1s6 |
 | Không khí | `sach_gon` | 2.92 | 1.62 | 8 | Mâu thuẫn | thấp | cả hai | r1s1, r1s4, r1s8, r2s1, r2s2, r2s7, r3s3, r3s4 |
-| Không khí | `toi_bi_an` | 1.50 | 0.50 | 2 | Tránh | vừa | motion | r1s2, r2s8 |
-| Mục đích | `noi_dung_mxh` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r4s1 |
+| Không khí | `toi_bi_an` | 2.50 | 1.12 | 4 | Đang theo dõi | vừa | cả hai | r1s2, r2s8, r5s2, r5s5 |
 | Mục đích | `phim_thuong_hieu` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r3s6 |
-| Mục đích | `trailer` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r4s4 |
 | Mục đích | `quang_cao` | 4.33 | 0.75 | 6 | Nên | cao | cả hai | r1s3, r2s3, r3s1, r3s2, r4s3, r4s5 |
+| Mục đích | `trailer` | 4.00 | 1.00 | 2 | Nên | vừa | cả hai | r4s4, r5s4 |
+| Mục đích | `noi_dung_mxh` | 3.50 | 1.12 | 4 | Đang theo dõi | vừa | cả hai | r4s1, r5s1, r5s3, r5s5 |
 | Mục đích | `phim_ngan` | 3.25 | 1.48 | 4 | Đang theo dõi | thấp | animation | r1s5, r1s6, r2s5, r3s5 |
-| Mục đích | `giai_thich` | 3.00 | 1.31 | 7 | Đang theo dõi | thấp | cả hai | r1s1, r1s8, r2s1, r2s2, r2s7, r3s4, r3s7 |
+| Mục đích | `giai_thich` | 3.09 | 1.16 | 11 | Đang theo dõi | vừa | cả hai | r1s1, r1s8, r2s1, r2s2, r2s7, r3s4, r3s7, r5s1, r5s2, r5s3, r5s5 |
 | Mục đích | `gioi_thieu_san_pham` | 3.00 | 1.58 | 4 | Mâu thuẫn | thấp | motion | r1s4, r2s7, r3s4, r3s6 |
+| Mục đích | `showreel` | 2.33 | 0.47 | 3 | Đang theo dõi | vừa | cả hai | r2s8, r3s3, r5s4 |
 | Mục đích | `ident_intro` | 2.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r1s7 |
-| Mục đích | `showreel` | 2.00 | 0.00 | 2 | Tránh | vừa | cả hai | r2s8, r3s3 |
 | Mục đích | `video_nhac` | 2.00 | 0.82 | 3 | Tránh | vừa | cả hai | r1s2, r2s4, r2s6 |
-| Hook | `chuyen_dong_manh` | 4.22 | 1.10 | 7 | Nên | vừa | cả hai | r1s1, r2s4, r2s6, r3s1, r3s2, r3s6, r4s1 |
-| Hook | `tinh_roi_bung` | 3.43 | 1.40 | 7 | Đang theo dõi | thấp | cả hai | r1s2, r1s3, r1s5, r2s5, r2s8, r3s4, r3s7 |
+| Hook | `chuyen_dong_manh` | 4.19 | 1.04 | 8 | Nên | vừa | cả hai | r1s1, r2s4, r2s6, r3s1, r3s2, r3s6, r4s1, r5s3 |
+| Hook | `tinh_roi_bung` | 3.50 | 1.32 | 8 | Đang theo dõi | thấp | cả hai | r1s2, r1s3, r1s5, r2s5, r2s8, r3s4, r3s7, r5s2 |
 | Hook | `hinh_gay_soc` | 3.33 | 1.11 | 6 | Đang theo dõi | vừa | cả hai | r1s6, r1s7, r2s2, r2s3, r2s7, r3s2 |
-| Hook | `chu_to` | 3.17 | 1.62 | 12 | Mâu thuẫn | thấp | cả hai | r1s1, r1s4, r2s1, r2s6, r3s1, r3s3, r3s4, r3s5, r3s6, r4s3, r4s4, r4s5 |
+| Hook | `chu_to` | 3.07 | 1.48 | 15 | Đang theo dõi | thấp | cả hai | r1s1, r1s4, r2s1, r2s6, r3s1, r3s3, r3s4, r3s5, r3s6, r4s3, r4s4, r4s5, r5s1, r5s4, r5s5 |
 | Hook | `ket_qua_truoc` | 2.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r1s8 |
 | Nhịp và cắt cảnh | `co_khoang_lang` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r1s5 |
-| Nhịp và cắt cảnh | `vua` | 4.77 | 0.42 | 3 | Nên | vừa | animation | r2s3, r3s2, r4s1 |
-| Nhịp và cắt cảnh | `nhanh` | 4.40 | 1.07 | 6 | Nên | vừa | cả hai | r2s4, r2s6, r3s1, r3s6, r4s3, r4s4 |
+| Nhịp và cắt cảnh | `vua` | 4.44 | 0.79 | 4 | Nên | cao | animation | r2s3, r3s2, r4s1, r5s5 |
+| Nhịp và cắt cảnh | `nhanh` | 4.19 | 1.04 | 8 | Nên | vừa | cả hai | r2s4, r2s6, r3s1, r3s6, r4s3, r4s4, r5s3, r5s4 |
 | Nhịp và cắt cảnh | `tang_dan` | 4.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r3s2 |
 | Nhịp và cắt cảnh | `khop_beat` | 3.88 | 1.45 | 2 | Đang theo dõi | thấp | cả hai | r2s6, r4s1 |
-| Nhịp và cắt cảnh | `cham` | 2.79 | 1.55 | 18 | Mâu thuẫn | thấp | cả hai | r1s1, r1s2, r1s3, r1s4, r1s5, r1s6, r1s7, r1s8, r2s1, r2s2, r2s5, r2s7, r2s8, r3s3, r3s4, r3s5, r3s7, r4s5 |
+| Nhịp và cắt cảnh | `cham` | 2.81 | 1.51 | 20 | Mâu thuẫn | thấp | cả hai | r1s1, r1s2, r1s3, r1s4, r1s5, r1s6, r1s7, r1s8, r2s1, r2s2, r2s5, r2s7, r2s8, r3s3, r3s4, r3s5, r3s7, r4s5, r5s1, r5s2 |
 | Chuyển cảnh | `whip_pan` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r3s1 |
-| Chuyển cảnh | `push` | 4.04 | 1.48 | 7 | Nên | thấp | cả hai | r1s1, r1s3, r1s4, r2s2, r2s3, r3s3, r3s4 |
-| Chuyển cảnh | `mask_reveal` | 4.00 | 1.41 | 3 | Nên | thấp | cả hai | r1s3, r1s7, r4s4 |
+| Chuyển cảnh | `push` | 4.31 | 1.33 | 9 | Nên | thấp | cả hai | r1s1, r1s3, r1s4, r2s2, r2s3, r3s3, r3s4, r5s2, r5s3 |
+| Chuyển cảnh | `zoom_xuyen` | 3.91 | 1.35 | 6 | Đang theo dõi | thấp | cả hai | r1s4, r2s2, r3s2, r4s3, r5s3, r5s5 |
+| Chuyển cảnh | `mask_reveal` | 3.75 | 1.30 | 4 | Đang theo dõi | thấp | cả hai | r1s3, r1s7, r4s4, r5s4 |
 | Chuyển cảnh | `morph` | 3.72 | 1.54 | 12 | Mâu thuẫn | thấp | cả hai | r1s1, r1s5, r1s7, r1s8, r2s4, r2s6, r2s7, r3s2, r3s4, r3s6, r3s7, r4s1 |
-| Chuyển cảnh | `zoom_xuyen` | 3.71 | 1.48 | 4 | Đang theo dõi | thấp | cả hai | r1s4, r2s2, r3s2, r4s3 |
-| Chuyển cảnh | `cat_thang` | 3.47 | 1.46 | 15 | Đang theo dõi | thấp | cả hai | r1s5, r1s6, r2s1, r2s3, r2s5, r2s6, r2s8, r3s1, r3s3, r3s5, r3s6, r3s7, r4s3, r4s4, r4s5 |
+| Chuyển cảnh | `cat_thang` | 3.48 | 1.40 | 19 | Đang theo dõi | thấp | cả hai | r1s5, r1s6, r2s1, r2s3, r2s5, r2s6, r2s8, r3s1, r3s3, r3s5, r3s6, r3s7, r4s3, r4s4, r4s5, r5s1, r5s2, r5s4, r5s5 |
 | Chuyển cảnh | `glitch` | 2.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r2s8 |
 | Chuyển cảnh | `hoa_tan` | 1.67 | 0.94 | 3 | Tránh | vừa | cả hai | r1s2, r1s6, r2s1 |
-| Chữ | `serif` | 4.20 | 0.98 | 5 | Nên | cao | cả hai | r1s1, r1s6, r3s6, r4s4, r4s5 |
+| Chữ | `go_chu` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r5s2 |
+| Chữ | `serif` | 4.08 | 1.00 | 8 | Nên | cao | cả hai | r1s1, r1s6, r3s6, r4s4, r4s5, r5s3, r5s4, r5s5 |
 | Chữ | `viet_tay` | 3.83 | 1.46 | 6 | Đang theo dõi | thấp | cả hai | r1s5, r2s3, r2s4, r3s2, r3s5, r3s6 |
-| Chữ | `chu_to_full` | 3.67 | 1.49 | 9 | Đang theo dõi | thấp | cả hai | r1s1, r2s3, r2s6, r2s8, r3s1, r3s2, r3s5, r3s6, r4s3 |
-| Chữ | `sans_grotesk` | 2.80 | 1.47 | 5 | Đang theo dõi | thấp | cả hai | r1s1, r2s1, r2s5, r2s6, r3s3 |
+| Chữ | `chu_to_full` | 3.71 | 1.48 | 11 | Đang theo dõi | thấp | cả hai | r1s1, r2s3, r2s6, r2s8, r3s1, r3s2, r3s5, r3s6, r4s3, r5s1, r5s3 |
+| Chữ | `condensed` | 3.00 | 1.71 | 8 | Mâu thuẫn | thấp | cả hai | r1s2, r1s3, r1s8, r2s6, r3s1, r5s1, r5s2, r5s5 |
+| Chữ | `sans_grotesk` | 2.83 | 1.34 | 6 | Đang theo dõi | thấp | cả hai | r1s1, r2s1, r2s5, r2s6, r3s3, r5s4 |
 | Chữ | `sans_hinh_hoc` | 2.75 | 1.30 | 4 | Đang theo dõi | thấp | motion | r1s4, r2s2, r2s7, r3s4 |
-| Chữ | `condensed` | 2.59 | 1.82 | 5 | Mâu thuẫn | thấp | cả hai | r1s2, r1s3, r1s8, r2s6, r3s1 |
 | Chữ | `chu_nho_tinh` | 2.24 | 1.35 | 5 | Đang theo dõi | thấp | cả hai | r1s2, r1s8, r2s2, r2s5, r2s7 |
 | Chữ | `kinetic_tung_tu` | 2.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r2s6 |
 | Chữ | `mono` | 2.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r2s8 |
-| Chuyển động | `parallax` | 5.00 | 0.00 | 3 | Nên | vừa | cả hai | r1s3, r2s3, r4s4 |
-| Chuyển động | `camera_dong` | 4.31 | 1.19 | 9 | Nên | vừa | cả hai | r1s3, r1s4, r1s6, r2s2, r2s5, r3s1, r3s6, r4s1, r4s3 |
+| Chuyển động | `parallax` | 4.68 | 0.73 | 5 | Nên | cao | cả hai | r1s3, r2s3, r4s4, r5s3, r5s4 |
+| Chuyển động | `camera_dong` | 4.28 | 1.12 | 12 | Nên | vừa | cả hai | r1s3, r1s4, r1s6, r2s2, r2s5, r3s1, r3s6, r4s1, r4s3, r5s2, r5s3, r5s4 |
 | Chuyển động | `lo_xo_nay` | 4.21 | 1.20 | 10 | Nên | vừa | cả hai | r1s1, r2s3, r2s4, r3s1, r3s2, r3s4, r3s5, r4s1, r4s3, r4s5 |
 | Chuyển động | `motion_blur` | 3.50 | 1.94 | 2 | Mâu thuẫn | thấp | cả hai | r1s2, r3s1 |
-| Chuyển động | `ease_muot` | 3.35 | 1.54 | 12 | Mâu thuẫn | thấp | cả hai | r1s1, r1s3, r1s4, r1s6, r1s8, r2s1, r2s2, r2s5, r2s7, r3s3, r3s4, r3s7 |
+| Chuyển động | `ease_muot` | 3.33 | 1.49 | 13 | Đang theo dõi | thấp | cả hai | r1s1, r1s3, r1s4, r1s6, r1s8, r2s1, r2s2, r2s5, r2s7, r3s3, r3s4, r3s7, r5s5 |
 | Chuyển động | `giat_nhanh` | 3.20 | 1.25 | 6 | Đang theo dõi | thấp | cả hai | r1s7, r2s4, r2s6, r2s8, r3s2, r3s6 |
 | Chuyển động | `cham_chill` | 3.00 | 1.41 | 4 | Đang theo dõi | thấp | cả hai | r1s2, r1s5, r1s6, r3s7 |
-| Chuyển động | `tinh` | 2.50 | 1.50 | 4 | Mâu thuẫn | thấp | cả hai | r1s5, r1s7, r1s8, r2s1 |
-| Màu | `am` | 4.16 | 1.20 | 10 | Nên | thấp | cả hai | r1s3, r1s6, r1s7, r2s3, r2s4, r3s1, r3s2, r3s3, r4s1, r4s4 |
-| Màu | `tuong_phan_cao` | 4.06 | 1.17 | 10 | Nên | vừa | cả hai | r1s1, r2s4, r2s6, r2s8, r3s1, r3s2, r3s6, r3s7, r4s1, r4s3 |
+| Chuyển động | `tinh` | 2.40 | 1.36 | 5 | Đang theo dõi | thấp | cả hai | r1s5, r1s7, r1s8, r2s1, r5s1 |
+| Màu | `tuong_phan_cao` | 4.09 | 1.10 | 13 | Nên | vừa | cả hai | r1s1, r2s4, r2s6, r2s8, r3s1, r3s2, r3s6, r3s7, r4s1, r4s3, r5s2, r5s3, r5s4 |
+| Màu | `am` | 4.02 | 1.25 | 13 | Nên | thấp | cả hai | r1s3, r1s6, r1s7, r2s3, r2s4, r3s1, r3s2, r3s3, r4s1, r4s4, r5s1, r5s2, r5s5 |
 | Màu | `pastel` | 3.50 | 1.50 | 4 | Mâu thuẫn | thấp | cả hai | r1s5, r1s7, r2s3, r2s7 |
 | Màu | `film_grade` | 3.40 | 1.50 | 5 | Đang theo dõi | thấp | cả hai | r1s3, r1s6, r2s3, r3s5, r4s5 |
 | Màu | `nen_sang` | 3.22 | 1.60 | 10 | Mâu thuẫn | thấp | cả hai | r1s1, r1s4, r1s8, r2s1, r2s4, r2s7, r3s2, r3s3, r3s4, r4s4 |
-| Màu | `lanh` | 3.00 | 1.53 | 6 | Mâu thuẫn | thấp | cả hai | r1s2, r1s4, r1s5, r2s2, r2s5, r3s7 |
-| Màu | `nen_toi` | 3.00 | 1.41 | 6 | Đang theo dõi | thấp | cả hai | r1s2, r2s2, r2s5, r2s6, r2s8, r3s6 |
+| Màu | `lanh` | 3.14 | 1.46 | 7 | Đang theo dõi | thấp | cả hai | r1s2, r1s4, r1s5, r2s2, r2s5, r3s7, r5s3 |
+| Màu | `nen_toi` | 3.00 | 1.22 | 8 | Đang theo dõi | thấp | cả hai | r1s2, r2s2, r2s5, r2s6, r2s8, r3s6, r5s4, r5s5 |
 | Màu | `toi` | 3.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r4s5 |
 | Màu | `trung_tinh` | 2.71 | 1.48 | 7 | Đang theo dõi | thấp | cả hai | r1s3, r1s7, r1s8, r2s1, r2s5, r3s4, r3s5 |
-| Màu | `don_sac` | 2.60 | 1.62 | 5 | Mâu thuẫn | thấp | cả hai | r1s2, r1s5, r2s2, r2s6, r3s5 |
-| Bố cục | `nhieu_lop` | 4.57 | 0.94 | 8 | Nên | cao | cả hai | r1s1, r1s3, r1s8, r2s2, r2s3, r3s2, r4s1, r4s4 |
-| Bố cục | `full_bleed` | 4.47 | 1.14 | 5 | Nên | vừa | cả hai | r2s6, r3s1, r3s2, r4s1, r4s4 |
+| Màu | `don_sac` | 2.50 | 1.50 | 6 | Mâu thuẫn | thấp | cả hai | r1s2, r1s5, r2s2, r2s6, r3s5, r5s1 |
+| Bố cục | `full_bleed` | 4.40 | 1.07 | 6 | Nên | vừa | cả hai | r2s6, r3s1, r3s2, r4s1, r4s4, r5s2 |
+| Bố cục | `nhieu_lop` | 4.18 | 1.09 | 12 | Nên | vừa | cả hai | r1s1, r1s3, r1s8, r2s2, r2s3, r3s2, r4s1, r4s4, r5s1, r5s2, r5s3, r5s4 |
 | Bố cục | `bat_doi_xung` | 3.40 | 1.62 | 5 | Mâu thuẫn | thấp | cả hai | r1s2, r1s5, r1s7, r2s5, r3s1 |
-| Bố cục | `ngang_16_9` | 3.33 | 1.49 | 22 | Đang theo dõi | thấp | cả hai | r1s1, r1s2, r1s3, r1s4, r1s5, r1s6, r1s7, r1s8, r2s1, r2s2, r2s3, r2s4, r2s5, r2s6, r2s7, r2s8, r3s1, r3s2, r3s3, r3s4, r3s6, r3s7 |
+| Bố cục | `ngang_16_9` | 3.32 | 1.46 | 23 | Đang theo dõi | thấp | cả hai | r1s1, r1s2, r1s3, r1s4, r1s5, r1s6, r1s7, r1s8, r2s1, r2s2, r2s3, r2s4, r2s5, r2s6, r2s7, r2s8, r3s1, r3s2, r3s3, r3s4, r3s6, r3s7, r5s4 |
 | Bố cục | `luoi_swiss` | 3.20 | 1.17 | 5 | Đang theo dõi | vừa | cả hai | r1s1, r1s8, r2s2, r2s8, r3s7 |
-| Bố cục | `chinh_giua` | 2.95 | 1.45 | 14 | Đang theo dõi | thấp | cả hai | r1s3, r1s4, r1s6, r2s1, r2s3, r2s4, r2s6, r2s7, r3s3, r3s5, r3s6, r3s7, r4s3, r4s5 |
+| Bố cục | `doc_9_16` | 3.00 | 0.82 | 3 | Đang theo dõi | vừa | cả hai | r5s1, r5s3, r5s5 |
+| Bố cục | `chinh_giua` | 2.96 | 1.40 | 15 | Đang theo dõi | thấp | cả hai | r1s3, r1s4, r1s6, r2s1, r2s3, r2s4, r2s6, r2s7, r3s3, r3s5, r3s6, r3s7, r4s3, r4s5, r5s5 |
 | Bố cục | `nhieu_khoang_trong` | 2.57 | 1.40 | 7 | Đang theo dõi | thấp | cả hai | r1s2, r1s5, r2s1, r2s4, r2s7, r3s3, r3s4 |
 | Bố cục | `vuong` | 2.50 | 1.50 | 2 | Mâu thuẫn | thấp | animation | r3s5, r4s3 |
-| Kiểu hình | `minh_hoa` | 4.17 | 1.26 | 14 | Nên | thấp | cả hai | r1s5, r1s8, r2s2, r2s3, r2s4, r2s5, r3s1, r3s2, r3s3, r3s5, r3s6, r4s1, r4s3, r4s4 |
-| Kiểu hình | `collage` | 4.12 | 1.23 | 5 | Nên | thấp | cả hai | r1s1, r1s3, r1s7, r2s3, r2s4 |
-| Kiểu hình | `2d_phang` | 3.73 | 1.45 | 13 | Đang theo dõi | thấp | cả hai | r1s1, r1s5, r1s8, r2s2, r2s5, r2s7, r3s1, r3s2, r3s3, r3s4, r3s7, r4s1, r4s3 |
-| Kiểu hình | `texture_hat` | 3.66 | 1.57 | 13 | Mâu thuẫn | thấp | cả hai | r1s1, r1s2, r1s3, r1s5, r1s7, r2s3, r2s4, r2s8, r3s1, r3s3, r3s5, r4s4, r4s5 |
+| Kiểu hình | `minh_hoa` | 4.11 | 1.25 | 15 | Nên | thấp | cả hai | r1s5, r1s8, r2s2, r2s3, r2s4, r2s5, r3s1, r3s2, r3s3, r3s5, r3s6, r4s1, r4s3, r4s4, r5s5 |
+| Kiểu hình | `collage` | 4.09 | 1.24 | 9 | Nên | thấp | cả hai | r1s1, r1s3, r1s7, r2s3, r2s4, r5s1, r5s2, r5s3, r5s4 |
+| Kiểu hình | `2d_phang` | 3.69 | 1.42 | 14 | Đang theo dõi | thấp | cả hai | r1s1, r1s5, r1s8, r2s2, r2s5, r2s7, r3s1, r3s2, r3s3, r3s4, r3s7, r4s1, r4s3, r5s5 |
+| Kiểu hình | `texture_hat` | 3.69 | 1.56 | 15 | Mâu thuẫn | thấp | cả hai | r1s1, r1s2, r1s3, r1s5, r1s7, r2s3, r2s4, r2s8, r3s1, r3s3, r3s5, r4s4, r4s5, r5s1, r5s2 |
+| Kiểu hình | `3d_render` | 3.36 | 1.67 | 3 | Mâu thuẫn | thấp | cả hai | r1s4, r1s6, r5s3 |
 | Kiểu hình | `typography_only` | 2.50 | 1.50 | 4 | Mâu thuẫn | thấp | motion | r2s1, r2s6, r2s8, r3s6 |
-| Kiểu hình | `3d_render` | 2.00 | 1.00 | 2 | Tránh | vừa | cả hai | r1s4, r1s6 |
-| Kiểu hình | `footage_that` | 1.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r1s2 |
+| Kiểu hình | `footage_that` | 2.00 | 1.00 | 2 | Tránh | vừa | motion | r1s2, r5s4 |
 | Kiểu hình | `ui_san_pham` | 1.00 | 0.00 | 2 | Tránh | vừa | motion | r1s4, r3s4 |
 | Âm thanh | `nhac_cinematic` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r4s4 |
 | Âm thanh | `nhac_nhay` | 5.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r4s1 |
@@ -265,15 +270,17 @@ Cập nhật 2026-11-22 · 4 vòng · 28 mẫu đã chấm. Điểm = trung bìn
 | Âm thanh | `voice_over` | 4.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r4s3 |
 | Âm thanh | `sfx_day` | 3.50 | 0.50 | 2 | Đang theo dõi | vừa | animation | r4s3, r4s5 |
 | Âm thanh | `am_thanh_co` | 3.00 | 0.00 | 1 | Đang theo dõi | thấp | animation | r4s5 |
-| Phụ đề | `khong_co` | 3.35 | 1.41 | 26 | Đang theo dõi | thấp | cả hai | r1s1, r1s3, r1s4, r1s5, r1s6, r1s7, r1s8, r2s1, r2s2, r2s3, r2s4, r2s5, r2s6, r2s7, r2s8, r3s1, r3s2, r3s3, r3s4, r3s5, r3s6, r3s7, r4s1, r4s3, r4s4, r4s5 |
+| Phụ đề | `khong_co` | 3.38 | 1.35 | 29 | Đang theo dõi | thấp | cả hai | r1s1, r1s3, r1s4, r1s5, r1s6, r1s7, r1s8, r2s1, r2s2, r2s3, r2s4, r2s5, r2s6, r2s7, r2s8, r3s1, r3s2, r3s3, r3s4, r3s5, r3s6, r3s7, r4s1, r4s3, r4s4, r4s5, r5s2, r5s3, r5s4 |
+| Phụ đề | `highlight_tu` | 2.50 | 0.50 | 2 | Đang theo dõi | vừa | cả hai | r5s1, r5s5 |
+| Phụ đề | `phu_de_lon_giua` | 2.50 | 0.50 | 2 | Đang theo dõi | vừa | cả hai | r5s1, r5s5 |
 | Phụ đề | `gian_don` | 1.00 | 0.00 | 1 | Đang theo dõi | thấp | motion | r1s2 |
-| Cấu trúc | `tren_60s` | 4.60 | 0.80 | 5 | Nên | cao | cả hai | r1s1, r1s3, r1s5, r1s6, r4s4 |
-| Cấu trúc | `ke_chuyen` | 4.07 | 1.12 | 15 | Nên | vừa | cả hai | r1s1, r1s3, r1s5, r1s6, r2s2, r2s3, r2s5, r3s1, r3s2, r3s5, r3s7, r4s1, r4s3, r4s4, r4s5 |
+| Cấu trúc | `tren_60s` | 4.14 | 0.99 | 7 | Nên | cao | cả hai | r1s1, r1s3, r1s5, r1s6, r4s4, r5s4, r5s5 |
+| Cấu trúc | `ke_chuyen` | 3.89 | 1.12 | 19 | Đang theo dõi | vừa | cả hai | r1s1, r1s3, r1s5, r1s6, r2s2, r2s3, r2s5, r3s1, r3s2, r3s5, r3s7, r4s1, r4s3, r4s4, r4s5, r5s1, r5s2, r5s3, r5s5 |
 | Cấu trúc | `15_30s` | 3.60 | 1.36 | 5 | Đang theo dõi | thấp | cả hai | r1s8, r2s3, r2s6, r3s1, r3s2 |
 | Cấu trúc | `cta_ro` | 3.45 | 1.44 | 11 | Đang theo dõi | thấp | cả hai | r1s4, r2s1, r2s2, r2s3, r2s7, r3s1, r3s2, r3s4, r3s6, r4s3, r4s5 |
-| Cấu trúc | `30_60s` | 2.76 | 1.35 | 17 | Đang theo dõi | thấp | cả hai | r1s2, r1s4, r1s7, r2s1, r2s2, r2s4, r2s5, r2s7, r2s8, r3s3, r3s4, r3s5, r3s6, r3s7, r4s1, r4s3, r4s5 |
+| Cấu trúc | `30_60s` | 2.85 | 1.31 | 20 | Đang theo dõi | thấp | cả hai | r1s2, r1s4, r1s7, r2s1, r2s2, r2s4, r2s5, r2s7, r2s8, r3s3, r3s4, r3s5, r3s6, r3s7, r4s1, r4s3, r4s5, r5s1, r5s2, r5s3 |
 | Cấu trúc | `loop` | 2.33 | 0.47 | 3 | Đang theo dõi | vừa | cả hai | r1s8, r2s4, r2s6 |
-| Cấu trúc | `liet_ke` | 2.00 | 0.93 | 7 | Tránh | cao | cả hai | r1s4, r1s8, r2s1, r2s7, r2s8, r3s3, r3s4 |
+| Cấu trúc | `liet_ke` | 2.12 | 0.93 | 8 | Đang theo dõi | cao | cả hai | r1s4, r1s8, r2s1, r2s7, r2s8, r3s3, r3s4, r5s4 |
 
 Kiểm tra nhất quán: r3s8 (chiếu lại r2s5): 4 rồi 3
 <!-- AUTO:EVIDENCE END -->

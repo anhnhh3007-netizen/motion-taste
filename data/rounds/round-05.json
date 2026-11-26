@@ -1,0 +1,560 @@
+{
+  "round": 5,
+  "date": "2026-11-26",
+  "focus": "vox style (≥4/5 mẫu vox/collage) · ≤ 90 s",
+  "hard_rules": [],
+  "samples": [
+    {
+      "id": "r5s1",
+      "title": "VOX STYLE: Atlantis",
+      "url": "https://www.youtube.com/shorts/Wvxf1GfCLS0",
+      "source": "YouTube",
+      "creator": "kênh YouTube (shorts)",
+      "duration_s": 52,
+      "format": "9:16",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Vox C · giấy cũ, ảnh sepia xé",
+      "summary": "Giải thích kiểu Vox khổ dọc: trang giấy cũ cố định, ảnh tư liệu sepia mép xé chồng lên nhau, nhãn giấy dán ('WHAT IF?', '2,000 YEARS AGO', 'NO PROOF'), phụ đề chữ hoa với từ khoá xanh chanh.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "vox",
+            "collage"
+          ],
+          "note": "biến thể C paper collage: giấy cũ + ảnh tư liệu sepia xé + nhãn giấy dán"
+        },
+        "khong_khi": {
+          "tags": [
+            "dien_anh",
+            "hoai_co"
+          ],
+          "note": "bí ẩn, tò mò"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich",
+            "noi_dung_mxh"
+          ],
+          "note": "giải thích huyền thoại cho Shorts"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0 s: nhãn 'WHAT IF?' trên giấy trống, ảnh trồi vào từ 1 s"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 10-25 s: 3 cú cắt, ~5 s/trang, 50% khung đứng yên; trang mới chồng dần ảnh"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang"
+          ],
+          "note": "trang giấy trống rồi ảnh mới đặt lên; có trang trống ở 23-29 s"
+        },
+        "chu": {
+          "tags": [
+            "condensed",
+            "chu_to_full"
+          ],
+          "note": "nhãn chữ hoa đen đậm trên giấy dán; phụ đề sans hoa trắng ở y ~75%, từ khoá xanh chanh #B6E35A"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "tinh"
+          ],
+          "note": "ảnh trượt/trồi vào rồi đứng; camera gần như đứng yên"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "don_sac"
+          ],
+          "note": "giấy #B5A68F/#A3947C, mực #231F19; ảnh sepia gần đơn sắc; nhấn duy nhất là chữ xanh chanh"
+        },
+        "bo_cuc": {
+          "tags": [
+            "doc_9_16",
+            "nhieu_lop"
+          ],
+          "note": "ảnh chồng lớp giữa khung, nhãn góc trên, phụ đề y ~75%"
+        },
+        "hinh": {
+          "tags": [
+            "collage",
+            "texture_hat"
+          ],
+          "note": "ảnh minh hoạ sepia (có vẻ ảnh AI) mép xé, vân giấy"
+        },
+        "phu_de": {
+          "tags": [
+            "highlight_tu",
+            "phu_de_lon_giua"
+          ],
+          "note": "1-3 từ chữ hoa, từ khoá đổi màu xanh chanh"
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "câu hỏi → nguồn gốc → giả thuyết → câu hỏi mở"
+        }
+      },
+      "rating": {
+        "overall": 2,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r5s2",
+      "title": "29 November (Vox-style collage)",
+      "url": "https://www.youtube.com/shorts/tSMvp-WXq3U",
+      "source": "YouTube",
+      "creator": "kênh YouTube (shorts)",
+      "duration_s": 50,
+      "format": "16:9 trong khung 9:16",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Vox C · collage báo cũ, dây đỏ",
+      "summary": "Collage báo cũ và giấy kraft: lịch xé '29 NOVEMBER' khoanh đỏ, sơ đồ nối dây đỏ, bản đồ có đường đỏ, toà nhà cắt rời, con dấu đỏ 'THREE DAYS', băng dính vàng. Video ngang đặt trong khung dọc (2 s đầu là màn 'xoay điện thoại').",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "vox",
+            "collage"
+          ],
+          "note": "collage báo cũ kiểu hồ sơ điều tra, dây đỏ nối, con dấu"
+        },
+        "khong_khi": {
+          "tags": [
+            "dien_anh",
+            "toi_bi_an"
+          ],
+          "note": "điều tra, căng"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich"
+          ],
+          "note": "tóm tắt một sự kiện"
+        },
+        "hook": {
+          "tags": [
+            "tinh_roi_bung"
+          ],
+          "note": "0-2 s: màn đen 'please rotate your phone', vào nội dung ở ~3 s"
+        },
+        "nhip": {
+          "tags": [
+            "cham"
+          ],
+          "note": "đo 10-25 s: 3 cú cắt, ~5 s/cảnh nhưng 31% đứng yên; vật trượt vào liên tục"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "push"
+          ],
+          "note": "giấy xé lộ lớp sau, trang mới trượt vào"
+        },
+        "chu": {
+          "tags": [
+            "condensed",
+            "go_chu"
+          ],
+          "note": "chữ đóng dấu đỏ, nhãn đánh máy"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong"
+          ],
+          "note": "camera trôi trên mặt bàn hồ sơ, đường đỏ vẽ ra"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "tuong_phan_cao"
+          ],
+          "note": "giấy kraft #CEBFA3/#DBD0BA, mực #23201D, đỏ dây/dấu, vàng băng dính"
+        },
+        "bo_cuc": {
+          "tags": [
+            "nhieu_lop",
+            "full_bleed"
+          ],
+          "note": "bàn hồ sơ kín khung"
+        },
+        "hinh": {
+          "tags": [
+            "collage",
+            "texture_hat"
+          ],
+          "note": "báo cũ, giấy xé, ảnh B&W cắt, băng dính"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "ngày → mạng lưới → hành trình → địa điểm → nhân vật → kết"
+        }
+      },
+      "rating": {
+        "overall": 4,
+        "categories": {
+          "chu": 5,
+          "chuyen_canh": 5,
+          "hinh": 5,
+          "mau": 5,
+          "style": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r5s3",
+      "title": "Apple 1997 (Vox-style, After Effects)",
+      "url": "https://www.youtube.com/shorts/86yk2hEQA88",
+      "source": "YouTube",
+      "creator": "kênh YouTube (shorts)",
+      "duration_s": 53,
+      "format": "9:16",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Vox lai 3D · ảnh người thật trên mây",
+      "summary": "Ảnh người thật cắt nền dựng như tượng/đất nặn trên nền trời mây, chữ to tiêu đề báo, tờ giấy viết tay cầm trên tay, toà nhà, quả địa cầu. Nhịp nhanh, nhiều chuyển động.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "vox",
+            "cg_stylized"
+          ],
+          "note": "collage ảnh cắt + hiệu ứng 3D/đất nặn, trời mây"
+        },
+        "khong_khi": {
+          "tags": [
+            "nang_dong",
+            "dien_anh"
+          ],
+          "note": "kịch tính, kể chuyện kinh doanh"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich",
+            "noi_dung_mxh"
+          ],
+          "note": "câu chuyện Apple-Microsoft"
+        },
+        "hook": {
+          "tags": [
+            "chuyen_dong_manh"
+          ],
+          "note": "0-1 s: số '1997' bay vào giữa trời mây, chim bay"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 10-25 s: 6 cú cắt, ~2,5 s/cảnh, chỉ 6% đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "zoom_xuyen",
+            "push"
+          ],
+          "note": "camera lao xuyên mây/toà nhà"
+        },
+        "chu": {
+          "tags": [
+            "chu_to_full",
+            "serif"
+          ],
+          "note": "tiêu đề kiểu báo, chữ đỏ/vàng to, chữ viết tay trên giấy"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "parallax"
+          ],
+          "note": "parallax mây nhiều lớp, camera bay"
+        },
+        "mau": {
+          "tags": [
+            "lanh",
+            "tuong_phan_cao"
+          ],
+          "note": "trời xanh #7898B4, xám #B8BBBB, nhấn đỏ/vàng chữ"
+        },
+        "bo_cuc": {
+          "tags": [
+            "doc_9_16",
+            "nhieu_lop"
+          ],
+          "note": "chủ thể giữa khung, chữ trên"
+        },
+        "hinh": {
+          "tags": [
+            "3d_render",
+            "collage"
+          ],
+          "note": "người thật cắt nền làm như tượng, giả 3D"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "30_60s",
+            "ke_chuyen"
+          ],
+          "note": "bối cảnh → khủng hoảng → cứu → thành công"
+        }
+      },
+      "rating": {
+        "overall": 4,
+        "categories": {
+          "chu": 5,
+          "chuyen_canh": 5,
+          "chuyen_dong": 5,
+          "hinh": 5
+        },
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r5s4",
+      "title": "History in Motion (collage documentary series)",
+      "url": "https://www.youtube.com/watch?v=DPwaLvnpx0s",
+      "source": "YouTube",
+      "creator": "kênh YouTube",
+      "duration_s": 81,
+      "format": "16:9",
+      "kind": "motion",
+      "viewed": "frames",
+      "family": "Vox B/A · collage tư liệu khổ ngang",
+      "summary": "Reel phim tài liệu lịch sử: tiêu đề serif mảnh trên nền ảnh khắc mờ, bản đồ vệ tinh có nhãn và ảnh tư liệu, chân dung cắt rời trên nền đỏ đen, đội bóng, tượng đài, cá voi trong collage; nhịp nhanh.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "vox",
+            "collage"
+          ],
+          "note": "collage tư liệu kiểu phim tài liệu: ảnh cắt, bản đồ, tiêu đề serif"
+        },
+        "khong_khi": {
+          "tags": [
+            "dien_anh"
+          ],
+          "note": "trang trọng, sử thi"
+        },
+        "muc_dich": {
+          "tags": [
+            "showreel",
+            "trailer"
+          ],
+          "note": "reel giới thiệu series phim tài liệu"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0-1 s: chữ 'HISTORY IN MOTION' serif hiện trên nền ảnh khắc"
+        },
+        "nhip": {
+          "tags": [
+            "nhanh"
+          ],
+          "note": "đo 16-31 s: 7 cú cắt, ~2,1 s/cảnh, 2% đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "mask_reveal"
+          ],
+          "note": "cắt nhanh, lớp ảnh mở ra"
+        },
+        "chu": {
+          "tags": [
+            "serif",
+            "sans_grotesk"
+          ],
+          "note": "serif mảnh chữ hoa cho tiêu đề; grotesk đậm hoa cho tên người"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "camera_dong",
+            "parallax"
+          ],
+          "note": "camera trôi trên bản đồ, lớp ảnh parallax"
+        },
+        "mau": {
+          "tags": [
+            "nen_toi",
+            "tuong_phan_cao"
+          ],
+          "note": "đen #171817, xám #5D5C56, kem #E9E7E3, nhấn đỏ (cảnh chân dung)"
+        },
+        "bo_cuc": {
+          "tags": [
+            "ngang_16_9",
+            "nhieu_lop"
+          ],
+          "note": "ảnh cắt + bản đồ + nhãn"
+        },
+        "hinh": {
+          "tags": [
+            "collage",
+            "footage_that"
+          ],
+          "note": "ảnh tư liệu + một ít cảnh quay thật (bóng đá, xe)"
+        },
+        "phu_de": {
+          "tags": [
+            "khong_co"
+          ],
+          "note": ""
+        },
+        "cau_truc": {
+          "tags": [
+            "tren_60s",
+            "liet_ke"
+          ],
+          "note": "chuỗi tập phim nối nhau, không một mạch kể"
+        }
+      },
+      "rating": {
+        "overall": 3,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    },
+    {
+      "id": "r5s5",
+      "title": "The Newspaper Mistake That Created the Nobel Prize",
+      "url": "https://www.youtube.com/shorts/wfZ5Of_GV98",
+      "source": "YouTube",
+      "creator": "kênh YouTube (shorts)",
+      "duration_s": 79,
+      "format": "9:16",
+      "kind": "animation",
+      "viewed": "frames",
+      "family": "Đối chứng · minh hoạ phẳng + báo cũ",
+      "summary": "Minh hoạ vector phẳng có shading: tờ báo 'The Merchant of Death is Dead', Nobel đọc báo, lọ nitroglycerin, kính hiển vi, đoàn tàu, di chúc; phụ đề chữ hoa từ khoá vàng. Có yếu tố Vox (tờ báo, nhãn) nhưng là hoạt hình minh hoạ, không phải collage ảnh.",
+      "breakdown": {
+        "style": {
+          "tags": [
+            "flat_vector",
+            "character_2d"
+          ],
+          "note": "minh hoạ vector phẳng có shading, không ảnh tư liệu"
+        },
+        "khong_khi": {
+          "tags": [
+            "dien_anh",
+            "toi_bi_an"
+          ],
+          "note": "kịch tính lịch sử"
+        },
+        "muc_dich": {
+          "tags": [
+            "giai_thich",
+            "noi_dung_mxh"
+          ],
+          "note": "chuyện lịch sử cho Shorts"
+        },
+        "hook": {
+          "tags": [
+            "chu_to"
+          ],
+          "note": "0-2 s: tờ báo cũ tiêu đề đỏ 'THE MERCHANT OF DEATH IS DEAD'"
+        },
+        "nhip": {
+          "tags": [
+            "vua"
+          ],
+          "note": "đo 16-31 s: 3 cú cắt, ~5 s/cảnh, chỉ 11% đứng yên"
+        },
+        "chuyen_canh": {
+          "tags": [
+            "cat_thang",
+            "zoom_xuyen"
+          ],
+          "note": "cắt cảnh, zoom vào vật"
+        },
+        "chu": {
+          "tags": [
+            "serif",
+            "condensed"
+          ],
+          "note": "serif cổ trên báo; phụ đề sans hoa trắng từ khoá vàng"
+        },
+        "chuyen_dong": {
+          "tags": [
+            "ease_muot"
+          ],
+          "note": "vật trượt, zoom mượt"
+        },
+        "mau": {
+          "tags": [
+            "am",
+            "nen_toi"
+          ],
+          "note": "nâu gỗ #3E2215, kem báo #EDDBB5, đen #0B0C12, đỏ tiêu đề, vàng nhấn"
+        },
+        "bo_cuc": {
+          "tags": [
+            "doc_9_16",
+            "chinh_giua"
+          ],
+          "note": "vật chính giữa, phụ đề y ~80%"
+        },
+        "hinh": {
+          "tags": [
+            "2d_phang",
+            "minh_hoa"
+          ],
+          "note": "vector phẳng có bóng"
+        },
+        "phu_de": {
+          "tags": [
+            "highlight_tu",
+            "phu_de_lon_giua"
+          ],
+          "note": "1-3 từ chữ hoa, từ khoá vàng"
+        },
+        "cau_truc": {
+          "tags": [
+            "tren_60s",
+            "ke_chuyen"
+          ],
+          "note": "tin nhầm → quá khứ → phát minh → di chúc → giải thưởng"
+        }
+      },
+      "rating": {
+        "overall": 3,
+        "categories": {},
+        "note": ""
+      },
+      "repeat_of": null
+    }
+  ]
+}

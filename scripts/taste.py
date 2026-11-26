@@ -480,12 +480,12 @@ def cmd_style_feedback(p, rounds, arg):
                 line = f'- {CAT_NAME.get(c, c)}: {b.get("note") or ", ".join(b.get("tags", []))} ({sid}, {CAT_NAME.get(c, c)} {"+" if sc >= 4 else "-"}, tổng {rt.get("overall")})' + (" · mẫu này đã được dẫn trong rules.md" if known else "")
                 (like if sc >= 4 else avoid if sc <= 2 else []).append(line)
             ov = rt.get("overall")
-            if ov in (5, 1) or note:
+            if (valid_score(ov) and (ov >= 5 or ov <= 2)) or note:
                 whole.append(f'- {sid} "{s.get("title","")}" · tổng {ov}' + (f' · ghi chú: "{note}"' if note else "") + f' · {s.get("summary","")}' + (" · mẫu này đã được dẫn trong rules.md" if known else ""))
         out = [f"# Đề xuất từ motion-taste cho style `{st}` (chờ duyệt)", f"Tạo {today} bởi `taste.py style-feedback`. Duyệt từng dòng rồi mới ghi vào `rules.md` (nguồn: mã mẫu motion-taste).", "",
                "## Đặc điểm bạn thích (category +) → ứng viên Nên", *(like or ["- (chưa có)"]), "",
                "## Đặc điểm bạn không thích (category -) → ứng viên Tránh", *(avoid or ["- (chưa có)"]), "",
-               "## Mẫu Rất thích / Không bao giờ / có ghi chú → ngữ cảnh", *(whole or ["- (chưa có)"]), ""]
+               "## Mẫu Rất thích / Không thích / Không bao giờ / có ghi chú → ngữ cảnh (≤ 2 điểm là ứng viên Tránh cả mẫu)", *(whole or ["- (chưa có)"]), ""]
         with open(os.path.join(STYLES_DIR, st, "taste-proposals.md"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(out))
         new = sum(1 for l in like + avoid if "đã được dẫn" not in l)
