@@ -109,6 +109,15 @@ Ghi bản tóm tắt lên trang để người dùng xem ở tab "Rule & audit" 
 - `meta/profile` = `{updated, summary, hard: [chuỗi], should: [{cat, text, conf, scope}], avoid: [{cat, text, conf, scope}], watching: [chuỗi]}`
 - `meta/audit` = `{round, rated, total, rounds, consistency, newRules: [], reinforced: [], conflicts: [], missing: [], next: []}`
 
+**Đặc điểm theo style → motion-styles.** Chạy `python3 $T/scripts/taste.py style-feedback <N>` (vòng vừa chấm; bỏ `<N>`
+để quét mọi vòng). Script gom các category người dùng bấm **+ / -** và các mẫu "Rất thích" / "Không bao giờ" / có ghi
+chú, theo tag `style` của mẫu, rồi ghi đề xuất vào `~/.claude/skills/motion-styles/<style>/taste-proposals.md` (không sửa
+`rules.md`). Trong báo cáo audit, thêm mục **"Gợi ý cho từng style"**: mỗi style có đặc điểm mới, liệt kê 1-3 dòng đáng
+ghi nhất và hỏi người dùng có ghi vào `motion-styles/<style>/rules.md` không. Được duyệt thì ghi vào đúng mục (Nên /
+Tránh / luật cứng riêng nếu là "Không bao giờ"), nguồn ghi mã mẫu motion-taste (vd `r4s1`), thêm dòng "Lịch sử", và cập
+nhật `STYLE.md` của style nếu điều đó đúng với mọi video. Style có mẫu nhưng chưa có thư mục: hỏi người dùng có muốn tạo
+(`styles.py new <id>`) không, đừng tự tạo.
+
 Rồi gửi **báo cáo audit** cho người dùng, theo đúng khung này:
 
 ```
@@ -119,6 +128,7 @@ Rồi gửi **báo cáo audit** cho người dùng, theo đúng khung này:
 - Mâu thuẫn cần làm rõ: … (kèm câu hỏi cụ thể cho người dùng)
 - Còn thiếu dữ liệu: … (category nào)
 - Vòng sau sẽ thử: … (giả thuyết, vì sao)
+- Gợi ý cho từng style: … (style → đặc điểm bạn thích/không thích, hỏi có ghi vào motion-styles không)
 ```
 
 Kết thúc audit bằng câu hỏi có làm vòng tiếp không. Khi mọi category đã có ít nhất một rule độ tin cậy "vừa" trở lên,
@@ -137,7 +147,7 @@ style stop-motion", "video giới thiệu app theo gu của tôi":
    đã chấm thuộc style, những gì họ thích/ghét bên trong style, luật cứng và rule chung. `python3 $T/scripts/taste.py
    style` (không id) xếp hạng mọi style theo gu - dùng khi người dùng hỏi "tôi hợp style nào".
    Nếu script cảnh báo người dùng đã chấm thấp style này, nói ra và hỏi lại trước khi làm tiếp.
-3. **Đọc** mục style trong `styles.md`, `motion-styles/<id>/rules.md` + `recipe.md` (chạy `python3 ~/.claude/skills/motion-styles/scripts/styles.py show <id>`), và toàn bộ `motion-taste.md`.
+3. **Đọc** mục style trong `styles.md`, `motion-styles/<id>/STYLE.md` + `rules.md` + `recipe.md` (chạy `python3 ~/.claude/skills/motion-styles/scripts/styles.py show <id>`), và toàn bộ `motion-taste.md`.
 4. **Ghép theo thứ tự ưu tiên:** luật cứng > yêu cầu trực tiếp > gu riêng trong style này > rule chung (Nên/Tránh) > mặc định của style.
    Chỗ gu đè lên mặc định của style thì ghi rõ trong brief ("style thường cắt nhanh, nhưng bạn thích nhịp chậm (r1s5)").
 5. **Viết style brief** (file `style-brief-<id>.md` trong thư mục dự án của người dùng, hoặc trong tin nhắn nếu chưa có

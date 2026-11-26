@@ -136,4 +136,6 @@ cg_stylized · product_3d · ui_promo · isometric · infographic · abstract ·
 
 ## Thêm style mới
 Khi gặp mẫu không vừa style nào: thêm một mục mới ở đây theo đúng khung trên (id viết thường, nối `_`), thêm tag cùng
-id vào category `style` trong `categories.md`, và nói với người dùng là đã thêm style mới.
+id vào category `style` trong `categories.md`, và nói với người dùng là đã thêm style mới. Khi style được dùng để
+dựng, tạo thư mục của nó trong `motion-styles` bằng `styles.py new <id>` và viết `STYLE.md` theo khung cố định 11 mục
+(`motion-styles/SKILL.md`, mục "Khung cố định").

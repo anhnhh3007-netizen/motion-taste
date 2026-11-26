@@ -437,9 +437,64 @@ def cmd_style(p, rounds, arg, cat="style"):
             print(f'- {r["status"]}: {CAT_NAME[r["category"]]} `{r["tag"]}` ({r["mean"]:.2f}, tin cậy {r["confidence"]})')
 
 
+STYLES_DIR = os.path.expanduser("~/.claude/skills/motion-styles")
+
+
+def cmd_style_feedback(p, rounds, arg):
+    """Đặc điểm người dùng thích/ghét trong từng style (từ điểm chấm) -> đề xuất luật riêng cho motion-styles/<style>/.
+
+    Chỉ dùng điểm riêng theo category (+ / - trên trang chấm) và mẫu "Rất thích" / "Không bao giờ". Ghi đề xuất vào
+    motion-styles/<style>/taste-proposals.md để người dùng duyệt; KHÔNG sửa rules.md.
+    """
+    only = int(arg) if arg and str(arg).isdigit() else None
+    have = set(d for d in os.listdir(STYLES_DIR) if os.path.exists(os.path.join(STYLES_DIR, d, "rules.md"))) if os.path.isdir(STYLES_DIR) else set()
+    per, missing = {}, {}
+    for r in rounds:
+        if only and r.get("round") != only:
+            continue
+        for s in r.get("samples", []):
+            rt = s.get("rating") or {}
+            if not valid_score(rt.get("overall")) and not rt.get("categories"):
+                continue
+            bd = s.get("breakdown") or {}
+            for st in (bd.get("style") or {}).get("tags", []):
+                target = per if st in have else missing
+                target.setdefault(st, []).append((r.get("round"), s, rt))
+    today = datetime.date.today().isoformat()
+    print(f"# Đặc điểm theo style từ điểm chấm motion-taste" + (f" (vòng {only})" if only else " (mọi vòng)"))
+    for st, items in sorted(per.items()):
+        rules = open(os.path.join(STYLES_DIR, st, "rules.md"), encoding="utf-8").read()
+        like, avoid, whole = [], [], []
+        for rnd, s, rt in items:
+            sid, cats, note = s["id"], rt.get("categories") or {}, rt.get("note") or ""
+            known = sid in rules
+            for c, v in cats.items():
+                sc = norm_score(v)
+                if sc is None or c not in (s.get("breakdown") or {}):
+                    continue
+                b = s["breakdown"][c]
+                line = f'- {CAT_NAME.get(c, c)}: {b.get("note") or ", ".join(b.get("tags", []))} ({sid}, {CAT_NAME.get(c, c)} {"+" if sc >= 4 else "-"}, tổng {rt.get("overall")})' + (" · mẫu này đã được dẫn trong rules.md" if known else "")
+                (like if sc >= 4 else avoid if sc <= 2 else []).append(line)
+            ov = rt.get("overall")
+            if ov in (5, 1) or note:
+                whole.append(f'- {sid} "{s.get("title","")}" · tổng {ov}' + (f' · ghi chú: "{note}"' if note else "") + f' · {s.get("summary","")}' + (" · mẫu này đã được dẫn trong rules.md" if known else ""))
+        out = [f"# Đề xuất từ motion-taste cho style `{st}` (chờ duyệt)", f"Tạo {today} bởi `taste.py style-feedback`. Duyệt từng dòng rồi mới ghi vào `rules.md` (nguồn: mã mẫu motion-taste).", "",
+               "## Đặc điểm bạn thích (category +) → ứng viên Nên", *(like or ["- (chưa có)"]), "",
+               "## Đặc điểm bạn không thích (category -) → ứng viên Tránh", *(avoid or ["- (chưa có)"]), "",
+               "## Mẫu Rất thích / Không bao giờ / có ghi chú → ngữ cảnh", *(whole or ["- (chưa có)"]), ""]
+        with open(os.path.join(STYLES_DIR, st, "taste-proposals.md"), "w", encoding="utf-8") as fh:
+            fh.write("\n".join(out))
+        new = sum(1 for l in like + avoid if "đã được dẫn" not in l)
+        print(f"- `{st}`: {len(items)} mẫu · {len(like)} đặc điểm thích, {len(avoid)} không thích ({new} mới) → motion-styles/{st}/taste-proposals.md")
+    if missing:
+        print("\nStyle có mẫu chấm nhưng chưa có thư mục trong motion-styles (tạo bằng `styles.py new <id>` nếu muốn):")
+        for st, items in sorted(missing.items()):
+            print(f"- `{st}`: {len(items)} mẫu ({', '.join(s['id'] for _, s, _ in items)})")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["status", "new-round", "coverage", "audit", "export", "import-ratings", "style", "purpose"])
+    ap.add_argument("cmd", choices=["status", "new-round", "coverage", "audit", "export", "import-ratings", "style", "purpose", "style-feedback"])
     ap.add_argument("arg", nargs="?", help="export: số vòng · import-ratings: file JSON điểm · style/purpose: id (bỏ trống để xếp hạng)")
     ap.add_argument("--dir", default=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     a = ap.parse_args()
@@ -451,6 +506,8 @@ def main():
         return cmd_import(p, rounds, a.arg)
     if a.cmd == "style":
         return cmd_style(p, rounds, a.arg)
+    if a.cmd == "style-feedback":
+        return cmd_style_feedback(p, rounds, a.arg)
     if a.cmd == "purpose":
         return cmd_style(p, rounds, a.arg, "muc_dich")
     {"status": cmd_status, "new-round": cmd_new_round, "coverage": cmd_coverage, "audit": cmd_audit}[a.cmd](p, rounds)
