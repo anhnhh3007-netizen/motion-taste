@@ -447,7 +447,11 @@ def cmd_style_feedback(p, rounds, arg):
     motion-styles/<style>/taste-proposals.md để người dùng duyệt; KHÔNG sửa rules.md.
     """
     only = int(arg) if arg and str(arg).isdigit() else None
-    have = set(d for d in os.listdir(STYLES_DIR) if os.path.exists(os.path.join(STYLES_DIR, d, "rules.md"))) if os.path.isdir(STYLES_DIR) else set()
+    have = set()
+    if os.path.isdir(STYLES_DIR):
+        act = os.path.join(STYLES_DIR, "ACTIVE")  # chỉ style đang dùng (motion-styles/ACTIVE)
+        ids = [l.strip() for l in open(act, encoding="utf-8") if l.strip() and not l.startswith("#")] if os.path.exists(act) else os.listdir(STYLES_DIR)
+        have = set(d for d in ids if os.path.exists(os.path.join(STYLES_DIR, d, "rules.md")))
     per, missing = {}, {}
     for r in rounds:
         if only and r.get("round") != only:
@@ -487,7 +491,7 @@ def cmd_style_feedback(p, rounds, arg):
         new = sum(1 for l in like + avoid if "đã được dẫn" not in l)
         print(f"- `{st}`: {len(items)} mẫu · {len(like)} đặc điểm thích, {len(avoid)} không thích ({new} mới) → motion-styles/{st}/taste-proposals.md")
     if missing:
-        print("\nStyle có mẫu chấm nhưng chưa có thư mục trong motion-styles (tạo bằng `styles.py new <id>` nếu muốn):")
+        print("\nStyle có mẫu chấm nhưng không nằm trong các style đang dùng của motion-styles (bỏ qua; chỉ tạo/bật khi người dùng muốn):")
         for st, items in sorted(missing.items()):
             print(f"- `{st}`: {len(items)} mẫu ({', '.join(s['id'] for _, s, _ in items)})")
 

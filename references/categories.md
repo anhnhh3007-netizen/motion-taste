@@ -30,6 +30,7 @@ của từng style ở `references/styles.md`; tag ở đây phải trùng id tr
 | `retro` | Retro / Y2K / VHS / phim cũ |
 | `pixel_art` | Pixel art |
 | `brutalist` | Brutalist: khối thô, chữ cực to, màu gắt |
+| `vox` | Giải thích kiểu Vox: ảnh tư liệu cắt rời, tài liệu tô dạ quang, nhãn và nét chú thích vẽ tay |
 Note: vì sao xếp vào style này (2-3 dấu hiệu nhìn thấy được).
 
 ## khong_khi - Không khí (mood)

@@ -1,5 +1,8 @@
 # Thư viện style motion & animation
 
+**Đang dùng để dựng (skill `motion-styles`, file `ACTIVE`): `collage` và `vox`.** Các style khác ở đây chỉ để nhận diện
+và gắn nhãn mẫu khi chấm gu.
+
 Mỗi style có id (trùng tag của category `style` trong `categories.md`), cách nhận diện, ngữ pháp mặc định theo các
 category, cách dựng, và những lỗi làm nó trông rẻ. Đây là **mặc định của style**, không phải gu của người dùng: khi
 thiết kế, gu trong `motion-taste.md` luôn đè lên mặc định ở đây (xem SKILL.md, "Thiết kế theo một style").
@@ -131,6 +134,18 @@ cg_stylized · product_3d · ui_promo · isometric · infographic · abstract ·
 - **Ngữ pháp:** cắt cứng, nhanh; chữ grotesk/condensed siêu đậm tràn khung; không ease (giật); 2 màu gắt + đen.
 - **Dựng:** dễ.
 - **Rẻ tiền khi:** thô mà không có hệ thống; chữ khó đọc.
+
+## vox - Video giải thích kiểu Vox (tư liệu + tài liệu + đồ hoạ chú thích)
+- **Nhận diện:** ảnh tư liệu đen trắng/sepia cắt rời đặt trên nền giấy kem, đen than, màu đất phẳng hoặc xám; vệt dạ
+  quang vàng tô chữ trong tài liệu; nhãn chữ hoa và nét khoanh/X/mũi tên vẽ tay đỏ hoặc vàng; bản đồ cổ, sơ đồ biến đổi.
+  Ba biến thể: A flat cutout, B archive screen, C paper collage (chi tiết `motion-styles/vox/README.md`).
+- **Ngữ pháp:** chữ vào theo đơn vị lời, không có hoạt cảnh ra; không dissolve, nối cảnh bằng wipe khối màu, push,
+  blob-zoom, match cut hoặc cắt cứng; camera ảo zoom/pan trên ảnh tĩnh; một màu nhấn theo chức năng (vàng tô, đỏ cảnh
+  báo); A/B chạy bậc 12/10 fps không vượt, C mượt có spring vượt.
+- **Dựng:** vừa. Đồ hoạ, nhãn, chữ, texture làm được bằng code; ảnh tư liệu là tài sản cần có. Luật riêng, bộ file
+  hướng dẫn và component ở `~/.claude/skills/motion-styles/vox/`.
+- **Rẻ tiền khi:** font thiếu dấu tiếng Việt; vệt tô và nét vẽ tay xuất hiện vô cớ, không theo lời; cả khung đen trắng
+  không có màu nhấn; dùng logo/giao diện thương hiệu thật; khung đứng yên quá 1 s.
 
 ---
 

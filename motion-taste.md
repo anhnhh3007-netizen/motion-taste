@@ -19,9 +19,9 @@ explainer liệt kê, UI sản phẩm, trừu tượng tối. 3D chưa phải nh
 - **Nhịp nhanh hơn 3-4 s/cảnh:** mục tiêu khoảng **1-2 s/cảnh**, với 60-90 s là khoảng 35-60 cú cắt hoặc đổi trạng
   thái lớn. (vòng 1, trả lời câu hỏi audit)
 
-- **Style mặc định: dựng bằng code hoàn thiện** (`code_polished`, skill `motion-styles`). Bạn sẽ nói rõ
-  khi muốn style khác (vẽ tay, collage…); khi đó dùng thư mục của style đó trong `motion-styles` (luật riêng + công thức dựng). Không tự đổi
-  sang style khác vì gu chấm cao. (2026-11-23, trả lời trực tiếp)
+- **Style: chỉ dùng `collage` hoặc `vox`** (hai style đang dùng của skill `motion-styles`). Không có mặc định: brief
+  không nêu style thì hỏi bạn chọn một trong hai. Không tự chọn hay đổi style vì gu chấm cao. (2026-11-26, trả lời trực
+  tiếp; thay quy ước cũ "mặc định `code_polished`" ngày 2026-11-23)
 
 ## Bài học từ video Claude làm (trọng số cao)
 Rút từ video **do Claude dựng** rồi bạn chấm mù, nên phản ánh đúng cái Claude làm được. Xếp ngay sau "Yêu cầu trực
@@ -143,6 +143,7 @@ Mục đích có ít bằng chứng (1 mẫu): gợi ý style theo gu chung (v�
 ## Lịch sử thay đổi
 | Vòng | Thay đổi |
 |---|---|
+| 26/11 | (2026-11-26) Yêu cầu trực tiếp: chỉ dùng 2 style `collage` và `vox`, không có mặc định, hỏi mỗi lần. Các thư mục style khác vẫn trên đĩa nhưng bị bỏ qua (`motion-styles/ACTIVE`). Bài học AB1 về hoàn thiện, không giả vẽ tay bằng code vẫn giữ. |
 | AB1 | (2026-11-23) Yêu cầu trực tiếp: style mặc định là `code_polished`; vẽ tay/collage chỉ khi bạn yêu cầu. Thêm `references/build-recipes.md` (công thức dựng từng style). |
 | AB1 | (2026-11-23) Thử nghiệm A/B mù đầu tiên: bản theo gu 2, bản mặc định 4. Thêm mục "Bài học từ video Claude làm" (trọng số cao): hoàn thiện trước style, không giả vẽ tay bằng code, giải thích rõ, camera bám vật + match cut. Rule vẽ tay/collage chỉ áp khi có tài sản hình. |
 | 4 | Thêm category `muc_dich` (10 mục đích) và `references/purposes.md`; gắn mục đích cho cả 29 mẫu; thêm mục "Theo mục đích". Quảng cáo là mục đích được thích nhất (4,3, tin cậy cao). Theo ý bạn (vòng 4): mục đích chỉ để gợi ý style, không bắt buộc. |

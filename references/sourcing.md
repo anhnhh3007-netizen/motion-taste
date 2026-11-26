@@ -71,6 +71,11 @@ Chạy `python3 $T/scripts/taste.py coverage`, rồi chia mẫu theo tỉ lệ:
 Cứ 3 vòng một lần, thêm **1 mẫu chiếu lại** từ vòng cũ (`repeat_of` = id cũ), không nói trước đó là mẫu cũ. Mục đích là
 kiểm tra người dùng chấm có nhất quán không. Nếu người dùng nhận ra, cứ nói thật.
 
+### Tập trung vào style đang dùng (từ 2026-11-26)
+Người dùng chỉ dựng theo `collage` và `vox`. Từ vòng 5, **ít nhất 2/3 mẫu mỗi vòng thuộc một trong hai style này**
+(gắn tag `style` = `collage` hoặc `vox`), phần còn lại để đối chứng. Mục đích: mỗi dấu + / - người dùng bấm đi thẳng vào
+luật riêng của hai style qua `taste.py style-feedback`.
+
 ### Cân bằng
 Giữ tỉ lệ `motion` và `animation` gần đều, trừ khi người dùng nói chỉ quan tâm một loại. Không chọn 2 mẫu cùng tác giả
 trong một vòng.

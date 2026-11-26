@@ -31,8 +31,8 @@ Thư mục skill: `$T = ~/.claude/skills/motion-taste`.
   dùng, và **style gợi ý** cho từng mục đích. Chỉ là gợi ý: không bắt buộc người dùng theo. **Đọc khi gắn nhãn mục đích
   và khi người dùng chưa chọn style.**
 - Skill **`motion-styles`** (`~/.claude/skills/motion-styles/`): mỗi style một thư mục với luật cứng riêng, Nên/Tránh
-  riêng học từ ref, công thức dựng (`recipe.md`) và component. Mặc định luôn là `code_polished`; style khác chỉ dùng
-  khi người dùng nói rõ. Luật chung ở file này vẫn đứng trên luật riêng của style.
+  riêng học từ ref, công thức dựng (`recipe.md`) và component. Chỉ dùng hai style đang dùng **`collage`** và **`vox`**
+  (danh sách ở `motion-styles/ACTIVE`); không có mặc định, brief không nêu thì hỏi chọn một trong hai. Luật chung ở file này vẫn đứng trên luật riêng của style.
 - `references/styles.md` - thư viện style: nhận diện, ngữ pháp mặc định, cách dựng, lỗi làm rẻ tiền. **Đọc khi
   gắn nhãn style và khi thiết kế theo style.**
 - `references/sourcing.md` - tìm mẫu ở đâu, xem mẫu thế nào, chọn mẫu cho từng vòng. **Đọc trước khi tìm mẫu.**
